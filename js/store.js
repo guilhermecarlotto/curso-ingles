@@ -12,8 +12,19 @@
   /* perfis: o principal (seu progresso real) e o de teste (para experimentar mudanças sem afetar nada) */
   const PKEY = 'ingles.profile', MAIN_KEY = 'ingles.v2';
   EN.profile = (() => { try { return localStorage.getItem(PKEY) === 'teste' ? 'teste' : 'main'; } catch (e) { return 'main'; } })();
-  const KEY = EN.profile === 'teste' ? MAIN_KEY + '.teste' : MAIN_KEY;
-  EN.setProfile = p => { try { localStorage.setItem(PKEY, p === 'teste' ? 'teste' : 'main'); } catch (e) { } location.reload(); };
+  const TKEY = MAIN_KEY + '.teste', LIVE = 'ingles.teste.live';
+  const KEY = EN.profile === 'teste' ? TKEY : MAIN_KEY;
+  /* o perfil de teste é uma "caixa de areia": a cada vez que é fechado (troca para o principal, ou fecha-se a aba/o app) ele começa zerado, como no primeiro acesso.
+     sessionStorage diz se esta aba já abriu o teste; recarregar a página não zera, fechar e abrir de novo, sim. */
+  if (EN.profile === 'teste') { try { if (!sessionStorage.getItem(LIVE)) { localStorage.removeItem(TKEY); sessionStorage.setItem(LIVE, '1'); } } catch (e) { } }
+  EN.setProfile = p => {
+    try {
+      localStorage.removeItem(TKEY); /* entrar no teste ou sair dele: o teste sempre recomeça do zero */
+      if (p === 'teste') sessionStorage.setItem(LIVE, '1'); else sessionStorage.removeItem(LIVE);
+      localStorage.setItem(PKEY, p === 'teste' ? 'teste' : 'main');
+    } catch (e) { }
+    location.reload();
+  };
   EN.mainRaw = () => { try { return localStorage.getItem(MAIN_KEY); } catch (e) { return null; } };
   document.documentElement.dataset.profile = EN.profile;
   EN.storeOk = true;
@@ -33,12 +44,13 @@
   };
   const DEF = () => ({
     v: 2,
-    settings: { theme: 'auto', name: '', goal: 40, slow: false, deck: '', showPT: false, train: true, trainDef: 2, srsSpeak: true, srsNew: 10, srsDir: 'en', gameSound: true, gameSpeak: true },
+    settings: { theme: 'auto', name: '', goal: 40, slow: false, deck: '', showPT: false, train: true, trainDef: 2, srsSpeak: false, srsNew: 10, srsDir: 'en', gameSound: true, gameSpeak: true, speakDef: 1, convMode: 'opts' },
     srs: { cards: {}, stats: {}, decks: [], susp: {} },
     ex: {}, ptOpens: {}, video: {}, prod: {}, rot: {}, notes: {}, done: {}, last: null,
     bank: [], hist: {}, lastExport: null,
     log: {}, badges: {}, xpOnce: {},
-    c: { correct: 0, firstTry: 0, idk: 0, plays: 0, anki: 0, maps: 0, gRounds: 0, gCorrect: 0, gPerfect: 0, gCombo: 0, gTypes: 0, gMastered: 0, gMissions: 0, gCenX: 0, gCenM: 0 },
+    c: { correct: 0, firstTry: 0, idk: 0, plays: 0, anki: 0, maps: 0, gRounds: 0, gCorrect: 0, gPerfect: 0, gCombo: 0, gTypes: 0, gMastered: 0, gMissions: 0, gCenX: 0, gCenM: 0, conv: 0 },
+    conv: {},   /* diálogos da área "Conversar": { id: { n: vezes concluídas, best: menos erros, at } } */
     game: GDEF(),
     maps: [], created: new Date().toISOString(), lastBackup: null, snooze: null,
     rv: {}, rev: {}, plan: { crit: {} }, lastSync: null,
@@ -49,7 +61,9 @@
     o = o || {}; const d = DEF(), r = Object.assign(d, o);
     r.settings = Object.assign(DEF().settings, o.settings || {});
     if (o.settings && o.settings.trainDef !== 2) { r.settings.train = true; r.settings.trainDef = 2; } /* "Modo treino" passou a vir ligado por padrão; quem desligar depois continua desligado */
+    if (o.settings && o.settings.speakDef !== 1) { r.settings.srsSpeak = false; r.settings.speakDef = 1; } /* "Falar a palavra automaticamente" passou a vir desligado por padrão; quem ligar depois continua ligado */
     r.pos = (o.pos && typeof o.pos === 'object') ? o.pos : {};
+    r.conv = (o.conv && typeof o.conv === 'object') ? o.conv : {};
     r.game = gameFix(o.game);
     r.c = Object.assign(DEF().c, o.c || {});
     r.plan = Object.assign({ crit: {} }, o.plan || {}); r.plan.crit = r.plan.crit || {};
@@ -102,6 +116,7 @@
     Object.keys(B.hist).forEach(k => { const a = R.hist[k], b = B.hist[k]; R.hist[k] = !a ? b : { front: a.front, count: Math.max(a.count, b.count), first: earlier(a.first, b.first), last: later(a.last, b.last) }; });
     if (B.lastExport && (!R.lastExport || B.lastExport.at > R.lastExport.at)) R.lastExport = B.lastExport;
     Object.keys(B.log).forEach(k => { const a = R.log[k], b = B.log[k]; R.log[k] = !a ? b : { xp: Math.max(a.xp || 0, b.xp || 0), ses: Array.from(new Set((a.ses || []).concat(b.ses || []))), manual: !!(a.manual || b.manual) }; });
+    Object.keys(B.conv).forEach(k => { const a = R.conv[k], b = B.conv[k]; R.conv[k] = !a ? b : { n: Math.max(a.n || 0, b.n || 0), best: Math.min(a.best == null ? 99 : a.best, b.best == null ? 99 : b.best), at: later(a.at, b.at) }; });
     Object.keys(B.badges).forEach(k => { R.badges[k] = earlier(R.badges[k], B.badges[k]); });
     Object.keys(B.xpOnce).forEach(k => { R.xpOnce[k] = 1; });
     Object.keys(B.c).forEach(k => { R.c[k] = Math.max(R.c[k] || 0, B.c[k] || 0); });

@@ -15,7 +15,8 @@ window.MATERIAL_ARQUIVOS = [
   'm09.js',
   'pronuncia.js',
   'imagens-jogo.js',
-  'cenarios.js'
+  'cenarios.js',
+  'dialogos.js'
 ];
 window.MATERIAL_IMAGENS = [
   'imagens/aeroporto.svg',

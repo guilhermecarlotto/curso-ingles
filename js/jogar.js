@@ -477,7 +477,7 @@
   const praise = ['Isso aí!', 'Perfeito!', 'Mandou bem!', 'Excelente!', 'Muito bem!', 'Correto!', 'Show!', 'Arrasou!'];
   const comfort = ['Quase! Vamos rever.', 'Errar faz parte: agora você sabe.', 'Boa tentativa! Olhe a resposta.', 'Sem problema, essa volta mais tarde.'];
   const sayBtns = (t, extra) => `<button class="gm-ib" data-gm="say" data-t="${esc(t)}" title="Ouvir" aria-label="Ouvir" ${extra || ''}>🔊</button><button class="gm-ib" data-gm="say" data-t="${esc(t)}" data-slow="1" title="Ouvir devagar" aria-label="Ouvir devagar">🐢</button>`;
-  const speakSoon = (t, ms, slow) => { if (S.settings.gameSpeak === false || !t || !AUDIO_OK) return; const id = L && L.id; setTimeout(() => { if (L && L.id === id && !ov.hidden) C.speak(t, !!slow); }, ms == null ? 180 : ms); };
+  const speakSoon = (t, ms, slow) => { if (S.settings.gameSpeak === false || !t || !AUDIO_OK || (L && L.opts && L.opts.rapid)) return; const id = L && L.id; setTimeout(() => { if (L && L.id === id && !ov.hidden) C.speak(t, !!slow); }, ms == null ? 180 : ms); };
   const gapHTML = (q) => { const parts = q.text.split('___'); return esc(parts[0]) + `<span class="gm-gap ${q.sel >= 0 ? 'on' : ''}">${q.sel >= 0 ? esc(q.opts[q.sel]) : '&nbsp;'}</span>` + esc(parts.slice(1).join('___')); };
   const learnLine = it => it && it.en && it.pt ? `<div class="gm-learn"><b>${esc(it.en)}</b> = ${esc(it.pt)}${it.pron ? ` <small>(${esc(it.pron)})</small>` : ''} ${sayBtns(it.en)}</div>` : '';
 
@@ -782,7 +782,7 @@
   /* ── painel para trocar os tipos durante a rodada ── */
   function openPanel() {
     const p = $('#gmPanel', ov); p.hidden = false;
-    p.innerHTML = `<div class="gm-sheet"><h3>Tipos de exercício</h3><p class="small muted">Marque quantos quiser. A mudança vale a partir da próxima pergunta.</p><div class="gm-tg">${TYPES.map(t => { const dis = (t.audio && !AUDIO_OK) || blocked(t.id); return `<button class="gm-chk ${typesNow().has(t.id) ? 'on' : ''} ${dis ? 'off' : ''} ${blocked(t.id) ? 'blk' : ''}" data-gm="tg" data-id="${t.id}" ${dis ? 'disabled' : ''} ${blocked(t.id) ? 'title="Bloqueado: você marcou que não pode usar este recurso"' : ''}><span>${t.ic}</span><b>${esc(t.n)}</b></button>`; }).join('')}</div><label class="gm-row"><input type="checkbox" ${S.settings.gameSpeak !== false ? 'checked' : ''} data-gm="spk"> Falar as palavras em inglês automaticamente</label><div class="gm-sheet-b"><button class="gm-btn pri" data-gm="closepanel">Pronto</button></div></div>`;
+    p.innerHTML = `<div class="gm-sheet"><h3>Tipos de exercício</h3><p class="small muted">Marque quantos quiser. A mudança vale a partir da próxima pergunta.</p><div class="gm-tg">${TYPES.map(t => { const dis = (t.audio && !AUDIO_OK) || blocked(t.id) || (L && L.opts && L.opts.rapid && t.audio); return `<button class="gm-chk ${typesNow().has(t.id) ? 'on' : ''} ${dis ? 'off' : ''} ${blocked(t.id) ? 'blk' : ''}" data-gm="tg" data-id="${t.id}" ${dis ? 'disabled' : ''} ${blocked(t.id) ? 'title="Bloqueado: você marcou que não pode usar este recurso"' : ''}><span>${t.ic}</span><b>${esc(t.n)}</b></button>`; }).join('')}</div><label class="gm-row"><input type="checkbox" ${S.settings.gameSpeak !== false ? 'checked' : ''} data-gm="spk"> Falar as palavras em inglês automaticamente</label><div class="gm-sheet-b"><button class="gm-btn pri" data-gm="closepanel">Pronto</button></div></div>`;
   }
   function closePanel() { $('#gmPanel', ov).hidden = true; applyTypeChange(); }
   function toggleType(id, fromPanel) {
@@ -835,16 +835,29 @@
   }
 
   /* ───────────── abrir / fechar ───────────── */
+  /* "Rapidinha": rodada curta para quando há pouco tempo. Nunca usa exercícios de ouvir nem de falar (dá para jogar no silêncio) e começa pelos erros, se houver */
+  const RAPID_N = 6;
+  function rapidPick(types) {
+    for (const s of ['erros', 'estudado', 'tudo']) { const pool = poolFor(s, ''); const items = pickItems(pool, types, RAPID_N, s); if (items.length >= 3) return { source: s, pool, items }; }
+    return { source: 'tudo', pool: [], items: [] };
+  }
   function startRound(o) {
     o = o || {};
-    const types = typesNow(), source = src(), n = roundN();
     if (!C.ORDER.length) { EN.toast('O curso ainda não carregou.'); return; }
-    const pool = poolFor(source, ST.mod || (C.course.modulos[0] || {}).id);
-    const items = pickItems(pool, types, n, source);
+    const rapid = !!o.rapid;
+    let types = typesNow(), source = src(), n = roundN(), pool, items;
+    if (rapid) {
+      types = new Set(TYPES.filter(t => !t.audio).map(t => t.id)); n = RAPID_N;
+      const r = rapidPick(types); source = r.source; pool = r.pool; items = r.items;
+    } else {
+      pool = poolFor(source, ST.mod || (C.course.modulos[0] || {}).id);
+      items = pickItems(pool, types, n, source);
+    }
     if (items.length < 3) {
       C.ask(`<h3>Pouco conteúdo para jogar</h3><p>${source === 'erros' ? 'Você ainda não tem erros para reforçar. 🎉 Escolha outra origem do conteúdo.' : 'Com esses tipos de exercício e essa origem, só há ' + items.length + ' item(ns) compatível(is). Marque mais tipos ou escolha “Tudo do curso”.'}</p>`, [{ label: 'Ok', cls: 'pri' }]);
       return;
     }
+    if (rapid) { if (!ST.rapidSaved) ST.rapidSaved = { types: ST.types }; ST.types = types; }
     buildOv();
     const slots = items.map(it => ({ item: it, tries: 0 }));
     L = { id: Date.now(), slots, queue: slots.slice(), total: slots.length, done: 0, correct: 0, wrong: 0, answered: 0, combo: 0, best: 0, xp: 0, start: Date.now(), pool, source, studied: studiedSids(), introduced: new Set(), intros: 0, used: {}, usedTypes: new Set(), lastType: '', missed: [], q: null, phase: 'ask', opts: o };
@@ -853,6 +866,7 @@
   }
   function closeGame() {
     stopRec(); try { if (AUDIO_OK) speechSynthesis.cancel(); } catch (e) { }
+    if (ST.rapidSaved) { ST.types = ST.rapidSaved.types; ST.rapidSaved = null; } /* a rapidinha não mexe nas suas escolhas */
     if (ov) ov.hidden = true; document.body.classList.remove('srs-open', 'gm-open'); L = null;
     if (location.hash.indexOf('#/jogar') === 0 && EN.rerender) EN.rerender();
   }
@@ -906,7 +920,7 @@
     const img = sid => { const b = (C.SES[sid].s.blocos || []).find(x => x.t === 'image' && x.src); return b ? `<img class="gm-thumb" src="${esc(b.src)}" alt="" loading="lazy">` : ''; };
     const warn = cnt.ok < 3 ? `<div class="callout warn"><div class="ci">⚠️</div><div>Poucos itens compatíveis (${cnt.ok}). ${s === 'erros' ? 'Você ainda não tem erros para reforçar.' : 'Marque mais tipos ou mude a origem do conteúdo.'}</div></div>` : '';
     return `<h1 class="pgtitle">🎮 Jogar</h1>
-      <div class="hero gm-hero"><div class="gm-hero-m">${mascot('happy', 118)}</div><div><div class="small" style="opacity:.8">Rodadas rápidas, sem corações nem ranking</div><h1>Treine jogando</h1><p>Misture os tipos de exercício, ganhe XP, mantenha a sequência e cumpra as missões. O XP vai para o seu nível e para a meta do dia, como no curso.</p>${capsHTML()}</div></div>
+      <div class="hero gm-hero"><div class="gm-hero-m">${mascot('happy', 118)}</div><div><div class="small" style="opacity:.8">Rodadas rápidas, sem corações nem ranking</div><h1>Treine jogando</h1><p>Misture os tipos de exercício, ganhe XP, mantenha a sequência e cumpra as missões. O XP vai para o seu nível e para a meta do dia, como no curso.</p><button class="btn lg gm-rapid" data-g="rapid"><span class="gm-rapid-i">⚡</span><span><b>Rapidinha</b><small>${RAPID_N} perguntas · sem áudio e sem fala · começa pelos seus erros</small></span></button>${capsHTML()}</div></div>
       <div class="grid g2 gm-top2" style="margin-top:16px"><div>
       <div class="sectitle" style="margin-top:6px">1 · Tipos de exercício <span class="sp"><a href="#" data-g="all">marcar todos</a> · <a href="#" data-g="none">só um</a></span></div>
       <div class="gm-types">${TYPES.map(t => { const dis = t.audio && !AUDIO_OK, bl = blocked(t.id); return `<button class="gm-type ${types.has(t.id) ? 'on' : ''} ${bl ? 'blk' : ''}" data-g="type" data-id="${t.id}" aria-pressed="${types.has(t.id)}" ${dis ? 'disabled title="Este navegador não tem voz embutida"' : ''}><span class="gm-ti">${t.ic}</span><span><b>${esc(t.n)}</b><small>${bl ? 'Bloqueado: você marcou que não pode ' + (t.id === 'falar' ? 'falar' : 'ouvir') : esc(t.d) + (t.id === 'falar' && !SR ? ' (sem microfone aqui: você marca “consegui”)' : '')}</small></span><i class="gm-ck">${bl ? '🚫' : types.has(t.id) ? '✓' : ''}</i></button>`; }).join('')}</div>
@@ -929,6 +943,7 @@
   view.addEventListener('click', e => {
     if (!onHub()) return; const b = e.target.closest('[data-g]'); if (!b) return; e.preventDefault(); const a = b.dataset.g;
     if (a === 'cap') { capClick(b.dataset.k); return; }
+    if (a === 'rapid') { Snd.play('tap'); startRound({ rapid: true }); return; }
     if (a === 'type') { const s = typesNow(), id = b.dataset.id; if (blocked(id)) { EN.toast('Bloqueado: toque em "Posso ' + (id === 'falar' ? 'falar' : 'ouvir') + '" até voltar ao normal.'); return; } if (s.has(id)) { if (s.size <= 1) { EN.toast('Deixe pelo menos um tipo marcado.'); return; } s.delete(id); } else s.add(id); Snd.play('tap'); refreshHub(); }
     else if (a === 'all') { ST.types = new Set(TYPES.filter(t => (!t.audio || AUDIO_OK) && !blocked(t.id)).map(t => t.id)); Snd.play('tap'); refreshHub(); }
     else if (a === 'none') { const f = Array.from(typesNow())[0] || 'lacunas'; ST.types = new Set([f]); refreshHub(); }

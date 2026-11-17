@@ -34,7 +34,7 @@
     if (sy.onChange) { try { sy.onChange(); } catch (e) { } }
   }
   sy.label = () => ({
-    off: 'nuvem não configurada', teste: 'perfil de teste (não sincroniza)',
+    off: 'nuvem não configurada', teste: sy.user ? 'conectado · perfil de teste (não sincroniza)' : 'perfil de teste (não sincroniza)',
     carregando: 'conectando…', deslogado: 'não conectado', sincronizando: 'sincronizando…', ok: 'sincronizado', offline: 'sem conexão', erro: 'erro na sincronização'
   }[sy.status] || sy.status);
   /* houve sincronização neste aparelho nos últimos n dias? (usado para não cobrar a exportação manual) */
@@ -143,7 +143,7 @@
 
   /* lê a nuvem, mescla com o estado local e grava o resultado */
   async function run() {
-    if (!sy.user || sy.disabled || !cfg()) return;
+    if (!sy.user || sy.disabled || !cfg() || EN.profile === 'teste') return; /* o perfil de teste continua conectado, mas nada é lido nem gravado na nuvem */
     if (busy) { again = true; return; }
     busy = true; clearTimeout(tm); tm = null; clearTimeout(retry); set('sincronizando');
     try {
@@ -179,7 +179,7 @@
 
   /* qualquer salvamento local agenda uma sincronização (no máximo uma a cada WAIT ms) */
   EN.onSave = () => {
-    if (applying || !sy.user || sy.disabled || tm) return;
+    if (applying || !sy.user || sy.disabled || tm || EN.profile === 'teste') return;
     tm = setTimeout(() => { tm = null; run(); }, WAIT);
   };
 
@@ -196,7 +196,7 @@
       const d = await post(authUrl(path), { email: c.email, password: c.pass, returnSecureToken: true });
       tok = { id: d.idToken, exp: Date.now() + (+d.expiresIn || 3600) * 1000, refresh: d.refreshToken };
       sy.user = { uid: d.localId, email: d.email || c.email }; saveAuth();
-      run();
+      if (EN.profile === 'teste') set('teste'); else run();
     } catch (e) { set('deslogado', friendly(e)); }
   }
   sy.login = (email, pass) => enter('signInWithPassword', email, pass);
@@ -220,17 +220,16 @@
   /* início: sem configuração, fica desligado; com sessão guardada, sincroniza; senão, pede o login */
   sy.init = () => {
     if (!cfg()) return set('off');
-    if (EN.profile === 'teste') return set('teste');
     let saved = null; try { saved = JSON.parse(localStorage.getItem(AUTHK) || 'null'); } catch (e) { }
     if (saved && saved.uid && saved.refresh) {
       tok = { id: null, exp: 0, refresh: saved.refresh }; sy.user = { uid: saved.uid, email: saved.email };
-      run();
+      if (EN.profile === 'teste') set('teste'); else run(); /* no perfil de teste a conta fica conectada, mas sem sincronizar */
     } else set('deslogado');
   };
 
   addEventListener('online', () => { if (sy.user && (sy.status === 'offline' || sy.status === 'erro')) run(); });
   document.addEventListener('visibilitychange', () => {
-    if (!sy.user || sy.disabled) return;
+    if (!sy.user || sy.disabled || EN.profile === 'teste') return;
     if (document.visibilityState === 'hidden') { if (tm) run(); }
     else if (!sy.last || Date.now() - new Date(sy.last) > 3 * 60000) run();
   });

@@ -233,3 +233,17 @@ Os problemas são listados no console do navegador, com o caminho (`modulos[0].s
 ## Pedido-modelo para a IA (novos módulos)
 
 > Gere o **módulo N** do curso no formato de `material/LEIA-ME.md`, como `material/m0N.js` (e acrescente o arquivo em `material/indice.js`). Não mexa em `index.html`, `css/` nem `js/`. Mantenha os ids estáveis (`m{N}`, `m{N}-s{k}`…). Considere o relatório que enviei: reforce os pontos fracos. Inclua roteiro, explicações curtas com caixas EN/PT, vocabulário com pronúncia, exemplos, `listen`, ditado, exercícios com `why`, `revisao` em toda sessão, vídeo, produção e, na última sessão, mini-teste **sem gabarito** (o gabarito fica só com a IA).
+
+## Diálogos da área "Conversar" (`dialogos.js`)
+
+`window.CURSO_DIALOGOS` é uma lista de diálogos guiados (um por cenário de `cenarios.js`, com o mesmo `id`). Cada turno:
+
+```js
+{ n: 'Hi! Welcome. Table for one?',        // fala do personagem (inglês)
+  np: 'Oi! Bem-vindo. Mesa para um?',      // tradução
+  r: ['Yes, please.', 'Yes, a table for one, please.'], // respostas aceitas (a 1ª é o modelo)
+  rp: 'Sim, por favor.',                   // o modelo em português (dica no modo "escrever")
+  x: ['My name is Tom.', 'No, I like chicken.'] }       // respostas erradas (opções do modo "escolher")
+```
+
+`npc` e `eu` (em português, ex.: "um garçom" / "um cliente") dizem quem é quem e também entram no prompt que o botão **💬 Conversar sobre isto com o ChatGPT** copia. O prompt de cada **sessão** é montado sozinho a partir do título, do resumo, dos tópicos "3.x" e das frases de vocabulário dela; não precisa escrever nada no material.
