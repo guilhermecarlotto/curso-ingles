@@ -770,9 +770,15 @@
         {
           "t": "video",
           "id": "m8-s4-vid",
+          "licoes": [
+            {"titulo":"Level 2 · Lição 13: Save the Bees!","url":"https://learningenglish.voanews.com/a/4145716.html","embed":"https://learningenglish.voanews.com/embed/player/article/4145716.html"},
+            {"titulo":"Level 2 · Lição 14: Made for Each Other","url":"https://learningenglish.voanews.com/a/4159000.html","embed":"https://learningenglish.voanews.com/embed/player/article/4159000.html"},
+            {"titulo":"Level 2 · Lição 15: Before and After","url":"https://learningenglish.voanews.com/a/4159057.html","embed":"https://learningenglish.voanews.com/embed/player/article/4159057.html"},
+            {"titulo":"Level 2 · Lição 16: Find Your Joy!","url":"https://learningenglish.voanews.com/a/4198066.html","embed":"https://learningenglish.voanews.com/embed/player/article/4198066.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 2, lições 13 a 16",
           "passos": [
-            "Escolha uma lição da sequência (se a lição indicada não existir, siga para a próxima da lista) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases com -ing ou going to e repita em voz alta."
           ]

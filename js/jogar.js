@@ -42,11 +42,14 @@
   ];
 
   /* escolhas desta visita ao jogo: ficam enquanto você está no jogo e voltam ao padrão quando você sai e volta */
-  const ST = { types: null, mod: '', cen: null };
+  const ST = { types: null, mod: '', cen: null, cap: { ouvir: 0, falar: 0 } };
+  /* "Posso ouvir" / "Posso falar": 0 = neutro · 1 = posso (marca os tipos que usam esse recurso) · 2 = não posso (vermelho: tipos bloqueados) */
+  const CAPT = { ouvir: ['ouvir', 'ditado'], falar: ['falar'] };
+  const blocked = id => Object.keys(CAPT).some(k => ST.cap[k] === 2 && CAPT[k].includes(id));
   /* cenários (lugares e situações): vêm de material/cenarios.js */
   const CENS = () => Array.isArray(window.CURSO_CENARIOS) ? window.CURSO_CENARIOS.filter(c => c && c.id && Array.isArray(c.itens) && c.itens.length) : [];
   const cenSel = () => { if (!ST.cen) ST.cen = new Set(CENS().slice(0, 1).map(c => c.id)); return ST.cen; };
-  const defTypes = () => new Set(TYPES.filter(t => t.id !== 'falar' && (!t.audio || AUDIO_OK)).map(t => t.id));
+  const defTypes = () => new Set(TYPES.filter(t => t.id !== 'falar' && (!t.audio || AUDIO_OK) && !blocked(t.id)).map(t => t.id));
   const typesNow = () => { if (!ST.types) ST.types = defTypes(); return ST.types; };
   const src = () => S.settings.gameSrc || 'estudado';
   const roundN = () => [6, 10, 15].includes(+S.settings.gameN) ? +S.settings.gameN : 10;
@@ -478,11 +481,14 @@
   const gapHTML = (q) => { const parts = q.text.split('___'); return esc(parts[0]) + `<span class="gm-gap ${q.sel >= 0 ? 'on' : ''}">${q.sel >= 0 ? esc(q.opts[q.sel]) : '&nbsp;'}</span>` + esc(parts.slice(1).join('___')); };
   const learnLine = it => it && it.en && it.pt ? `<div class="gm-learn"><b>${esc(it.en)}</b> = ${esc(it.pt)}${it.pron ? ` <small>(${esc(it.pron)})</small>` : ''} ${sayBtns(it.en)}</div>` : '';
 
+  const typeAct = () => L && L.phase === 'ask' ? '<div class="gm-inact"><button class="gm-btn ghost" data-gm="idk">Não sei</button><button class="gm-btn pri" data-gm="check" id="gmCheck" disabled>Verificar</button></div>' : '';
+  const isTyping = q => q && (q.type === 'ditado' || q.type === 'digitar');
   const R = {
     traduzir: q => `<h2 class="gm-q">${q.dir === 'en2pt' ? 'Como se diz em português?' : 'Como se diz em inglês?'}</h2><div class="gm-prompt">${q.dir === 'en2pt' && q.item.emoji ? `<span class="gm-emo">${q.item.emoji}</span>` : ''}<span class="gm-sent">${esc(q.dir === 'en2pt' ? q.item.en : q.item.pt)}</span>${q.dir === 'en2pt' ? sayBtns(q.item.en) : ''}</div>${optsHTML(q)}`,
     ouvir: q => `<h2 class="gm-q">Toque no que você ouviu</h2><div class="gm-prompt center"><button class="gm-big" data-gm="say" data-t="${esc(q.say)}" aria-label="Ouvir">🔊</button><button class="gm-big sm" data-gm="say" data-slow="1" data-t="${esc(q.say)}" aria-label="Ouvir devagar">🐢</button></div>${optsHTML(q)}`,
-    ditado: q => `<h2 class="gm-q">Escreva o que você ouviu</h2><div class="gm-prompt center"><button class="gm-big" data-gm="say" data-t="${esc(q.say)}" aria-label="Ouvir">🔊</button><button class="gm-big sm" data-gm="say" data-slow="1" data-t="${esc(q.say)}" aria-label="Ouvir devagar">🐢</button></div><input class="gm-in" id="gmIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Escreva em inglês" value="${esc(q.val)}">`,
-    digitar: q => `<h2 class="gm-q">Escreva em inglês</h2><div class="gm-prompt">${q.item.emoji ? `<span class="gm-emo">${q.item.emoji}</span>` : ''}<span class="gm-sent">${esc(q.item.pt)}</span></div><input class="gm-in" id="gmIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Escreva em inglês" value="${esc(q.val)}">`,
+    /* nos exercícios de digitar o "Verificar" fica logo abaixo do campo (o teclado do celular cobriria o rodapé) */
+    ditado: q => `<h2 class="gm-q">Escreva o que você ouviu</h2><div class="gm-prompt center"><button class="gm-big" data-gm="say" data-t="${esc(q.say)}" aria-label="Ouvir">🔊</button><button class="gm-big sm" data-gm="say" data-slow="1" data-t="${esc(q.say)}" aria-label="Ouvir devagar">🐢</button></div><input class="gm-in" id="gmIn" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="Escreva em inglês" value="${esc(q.val)}">${typeAct()}`,
+    digitar: q => `<h2 class="gm-q">Escreva em inglês</h2><div class="gm-prompt">${q.item.emoji ? `<span class="gm-emo">${q.item.emoji}</span>` : ''}<span class="gm-sent">${esc(q.item.pt)}</span></div><input class="gm-in" id="gmIn" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="Escreva em inglês" value="${esc(q.val)}">${typeAct()}`,
     montar: q => {
       const chosen = q.chosen.map(id => q.tiles.find(t => t.id === id)), free = q.tiles.filter(t => !q.chosen.includes(t.id));
       return `<h2 class="gm-q">Monte a frase em inglês</h2><div class="gm-prompt"><span class="gm-sent">${esc(q.item.pt)}</span></div><div class="gm-ans">${chosen.map(t => `<button class="gm-tile" data-gm="untile" data-id="${t.id}">${esc(t.t)}</button>`).join('') || '<span class="gm-hint">Toque nas palavras abaixo</span>'}</div><div class="gm-bank">${q.tiles.map(t => q.chosen.includes(t.id) ? `<span class="gm-tile ghost">${esc(t.t)}</span>` : `<button class="gm-tile" data-gm="tile" data-id="${t.id}">${esc(t.t)}</button>`).join('')}</div>`;
@@ -512,7 +518,16 @@
     ov.addEventListener('input', e => { if (e.target.id === 'gmIn' && L && L.q) { L.q.val = e.target.value; setReady(!!e.target.value.trim()); } });
     ov.addEventListener('keydown', e => { if (e.target.id === 'gmIn' && e.key === 'Enter') { e.preventDefault(); e.stopPropagation(); primary(); } });
     document.addEventListener('keydown', onKey);
+    /* teclado do celular: a tela do jogo acompanha a área realmente visível (acima do teclado) e não "rola" */
+    const vv = window.visualViewport;
+    if (vv) { vv.addEventListener('resize', fitVV); vv.addEventListener('scroll', fitVV); }
     return ov;
+  }
+  function fitVV() {
+    if (!ov || ov.hidden) return; const vv = window.visualViewport; if (!vv) return;
+    ov.style.setProperty('--vvh', Math.round(vv.height) + 'px'); ov.style.setProperty('--vvt', Math.round(vv.offsetTop) + 'px');
+    const a = document.activeElement;
+    if (a && a.id === 'gmIn') setTimeout(() => { const b = $('#gmCheck', ov); (b || a).scrollIntoView({ block: 'nearest' }); }, 60);
   }
   function onKey(e) {
     if (!ov || ov.hidden || !L || e.ctrlKey || e.metaKey || e.altKey) return;
@@ -549,7 +564,8 @@
   function drawQ(keepFocus) {
     const q = L.q; L.phase = L.phase === 'fb' ? 'fb' : 'ask';
     stage().innerHTML = `<div class="gm-card ${q.type} ${keepFocus ? 'still' : ''}">${R[q.type](q)}</div>`;   /* só a pergunta nova entra com animação */
-    if (L.phase === 'ask' && q.type !== 'parear') { footAsk(true); setReady(readyNow()); }
+    if (L.phase === 'ask' && isTyping(q)) { foot().className = 'gm-foot gone'; foot().innerHTML = ''; setReady(readyNow()); }
+    else if (L.phase === 'ask' && q.type !== 'parear') { footAsk(true); setReady(readyNow()); }
     if (q.type === 'parear' && L.phase === 'ask') { foot().className = 'gm-foot'; foot().innerHTML = '<div class="gm-fi"><span class="gm-hint">Toque em uma palavra e depois na tradução dela</span></div>'; }
     const inp = $('#gmIn', ov); if (inp && !keepFocus) setTimeout(() => inp.focus(), 60);
   }
@@ -622,7 +638,10 @@
     if (q.type === 'falar' && q.state === 'listening') return;
     const res = idk ? { ok: false, ans: answerOf(q), idk: true } : evaluate(q);
     resolve(res.ok, res); L.phase = 'fb';
-    if (q.type === 'ditado' || q.type === 'digitar') { const inp = $('#gmIn', ov); if (inp) { inp.disabled = true; inp.classList.add(res.ok ? 'good' : 'bad'); } }
+    if (isTyping(q)) {
+      const inp = $('#gmIn', ov); if (inp) { inp.blur(); inp.disabled = true; inp.classList.add(res.ok ? 'good' : 'bad'); }   /* fecha o teclado para o aviso de acerto/erro aparecer inteiro */
+      const row = $('.gm-inact', ov); if (row) row.remove();
+    }
     markOpts(q, res);
     showFb(q, res);
   }
@@ -763,7 +782,7 @@
   /* ── painel para trocar os tipos durante a rodada ── */
   function openPanel() {
     const p = $('#gmPanel', ov); p.hidden = false;
-    p.innerHTML = `<div class="gm-sheet"><h3>Tipos de exercício</h3><p class="small muted">Marque quantos quiser. A mudança vale a partir da próxima pergunta.</p><div class="gm-tg">${TYPES.map(t => { const dis = t.audio && !AUDIO_OK; return `<button class="gm-chk ${typesNow().has(t.id) ? 'on' : ''} ${dis ? 'off' : ''}" data-gm="tg" data-id="${t.id}" ${dis ? 'disabled' : ''}><span>${t.ic}</span><b>${esc(t.n)}</b></button>`; }).join('')}</div><label class="gm-row"><input type="checkbox" ${S.settings.gameSpeak !== false ? 'checked' : ''} data-gm="spk"> Falar as palavras em inglês automaticamente</label><div class="gm-sheet-b"><button class="gm-btn pri" data-gm="closepanel">Pronto</button></div></div>`;
+    p.innerHTML = `<div class="gm-sheet"><h3>Tipos de exercício</h3><p class="small muted">Marque quantos quiser. A mudança vale a partir da próxima pergunta.</p><div class="gm-tg">${TYPES.map(t => { const dis = (t.audio && !AUDIO_OK) || blocked(t.id); return `<button class="gm-chk ${typesNow().has(t.id) ? 'on' : ''} ${dis ? 'off' : ''} ${blocked(t.id) ? 'blk' : ''}" data-gm="tg" data-id="${t.id}" ${dis ? 'disabled' : ''} ${blocked(t.id) ? 'title="Bloqueado: você marcou que não pode usar este recurso"' : ''}><span>${t.ic}</span><b>${esc(t.n)}</b></button>`; }).join('')}</div><label class="gm-row"><input type="checkbox" ${S.settings.gameSpeak !== false ? 'checked' : ''} data-gm="spk"> Falar as palavras em inglês automaticamente</label><div class="gm-sheet-b"><button class="gm-btn pri" data-gm="closepanel">Pronto</button></div></div>`;
   }
   function closePanel() { $('#gmPanel', ov).hidden = true; applyTypeChange(); }
   function toggleType(id, fromPanel) {
@@ -829,7 +848,7 @@
     buildOv();
     const slots = items.map(it => ({ item: it, tries: 0 }));
     L = { id: Date.now(), slots, queue: slots.slice(), total: slots.length, done: 0, correct: 0, wrong: 0, answered: 0, combo: 0, best: 0, xp: 0, start: Date.now(), pool, source, studied: studiedSids(), introduced: new Set(), intros: 0, used: {}, usedTypes: new Set(), lastType: '', missed: [], q: null, phase: 'ask', opts: o };
-    D(); document.body.classList.add('srs-open', 'gm-open'); ov.hidden = false; $('#gmPanel', ov).hidden = true;
+    D(); document.body.classList.add('srs-open', 'gm-open'); ov.hidden = false; $('#gmPanel', ov).hidden = true; fitVV();
     Snd.play('start'); nextStep();
   }
   function closeGame() {
@@ -859,6 +878,21 @@
       (weak.length ? `<div class="sectitle">Para reforçar <span class="sp muted">${weak.length} de ${P.items.filter(it => isWeak(it, es)).length}</span></div><div class="card">${weak.map(it => `<div class="gm-learn"><b>${esc(it.en)}</b>${it.pt ? ' = ' + esc(it.pt) : ''} ${sayHub(it.en)}</div>`).join('')}</div>` : '');
   }
   const sayHub = t => `<button class="spk" data-g="say" data-t="${esc(t)}" title="Ouvir">🔊</button>`;
+  function capsHTML() {
+    const row = (k, ic, nome, txt) => { const v = ST.cap[k], cls = v === 1 ? 'on' : v === 2 ? 'no' : '', say = v === 1 ? txt.on : v === 2 ? txt.no : txt.off; return `<button class="gm-cap ${cls}" data-g="cap" data-k="${k}" aria-pressed="${v === 1}" ${k === 'ouvir' && !AUDIO_OK ? 'disabled' : ''}><span class="gm-cap-i">${ic}</span><span><b>${nome}</b><small>${say}</small></span></button>`; };
+    return `<div class="gm-caps">${row('ouvir', '🎧', 'Posso ouvir', { off: 'Toque para marcar os exercícios de áudio', on: 'Marcados: ouvir e escolher, ouvir e escrever', no: 'Sem áudio: esses exercícios ficam bloqueados' })}${row('falar', '🎤', 'Posso falar', { off: 'Toque para marcar o exercício de falar', on: 'Marcado: falar em voz alta (usa o microfone)', no: 'Sem fala: esse exercício fica bloqueado' })}</div><p class="small gm-caps-h">Toque uma vez para marcar, de novo para bloquear (vermelho) e outra vez para voltar ao normal. Isso monta a sua pré-seleção abaixo.</p>`;
+  }
+  function capClick(k) {
+    const s = typesNow(), g = CAPT[k], v = ST.cap[k];
+    if (v === 0) {
+      if (k === 'ouvir' && !AUDIO_OK) { EN.toast('Este navegador não tem voz embutida.'); return; }
+      ST.cap[k] = 1; g.forEach(id => { if (!blocked(id)) s.add(id); });
+    } else if (v === 1) {
+      ST.cap[k] = 2; g.forEach(id => s.delete(id));
+      if (!s.size) s.add(TYPES.find(t => !blocked(t.id) && !(t.audio && !AUDIO_OK)).id);
+    } else ST.cap[k] = 0;
+    Snd.play('tap'); refreshHub();
+  }
   function cenPickHTML() {
     const cs = cenStats(), sel = cenSel();
     if (!cs.list.length) return '<p class="small muted" style="margin:8px 0 0">Nenhum cenário encontrado em material/cenarios.js.</p>';
@@ -872,10 +906,10 @@
     const img = sid => { const b = (C.SES[sid].s.blocos || []).find(x => x.t === 'image' && x.src); return b ? `<img class="gm-thumb" src="${esc(b.src)}" alt="" loading="lazy">` : ''; };
     const warn = cnt.ok < 3 ? `<div class="callout warn"><div class="ci">⚠️</div><div>Poucos itens compatíveis (${cnt.ok}). ${s === 'erros' ? 'Você ainda não tem erros para reforçar.' : 'Marque mais tipos ou mude a origem do conteúdo.'}</div></div>` : '';
     return `<h1 class="pgtitle">🎮 Jogar</h1>
-      <div class="hero gm-hero"><div class="gm-hero-m">${mascot('happy', 118)}</div><div><div class="small" style="opacity:.8">Rodadas rápidas, sem corações nem ranking</div><h1>Treine jogando</h1><p>Misture os tipos de exercício, ganhe XP, mantenha a sequência e cumpra as missões. O XP vai para o seu nível e para a meta do dia, como no curso.</p><div class="gm-hero-s"><span class="chip">⭐ Nv ${lv.L}</span><span class="chip">🔥 ${st.current} ${st.current === 1 ? 'dia' : 'dias'}</span><span class="chip">🎯 ${EN.dayXP(today())}/${S.settings.goal} XP hoje</span><span class="chip">🎮 ${d.xp}/${CAP} XP de rodadas</span><span class="chip">🏅 combo recorde ${g.stats.bestCombo || 0}</span></div></div></div>
+      <div class="hero gm-hero"><div class="gm-hero-m">${mascot('happy', 118)}</div><div><div class="small" style="opacity:.8">Rodadas rápidas, sem corações nem ranking</div><h1>Treine jogando</h1><p>Misture os tipos de exercício, ganhe XP, mantenha a sequência e cumpra as missões. O XP vai para o seu nível e para a meta do dia, como no curso.</p>${capsHTML()}</div></div>
       <div class="grid g2 gm-top2" style="margin-top:16px"><div>
       <div class="sectitle" style="margin-top:6px">1 · Tipos de exercício <span class="sp"><a href="#" data-g="all">marcar todos</a> · <a href="#" data-g="none">só um</a></span></div>
-      <div class="gm-types">${TYPES.map(t => { const dis = t.audio && !AUDIO_OK; return `<button class="gm-type ${types.has(t.id) ? 'on' : ''}" data-g="type" data-id="${t.id}" aria-pressed="${types.has(t.id)}" ${dis ? 'disabled title="Este navegador não tem voz embutida"' : ''}><span class="gm-ti">${t.ic}</span><span><b>${esc(t.n)}</b><small>${esc(t.d)}${t.id === 'falar' && !SR ? ' (sem microfone aqui: você marca “consegui”)' : ''}</small></span><i class="gm-ck">${types.has(t.id) ? '✓' : ''}</i></button>`; }).join('')}</div>
+      <div class="gm-types">${TYPES.map(t => { const dis = t.audio && !AUDIO_OK, bl = blocked(t.id); return `<button class="gm-type ${types.has(t.id) ? 'on' : ''} ${bl ? 'blk' : ''}" data-g="type" data-id="${t.id}" aria-pressed="${types.has(t.id)}" ${dis ? 'disabled title="Este navegador não tem voz embutida"' : ''}><span class="gm-ti">${t.ic}</span><span><b>${esc(t.n)}</b><small>${bl ? 'Bloqueado: você marcou que não pode ' + (t.id === 'falar' ? 'falar' : 'ouvir') : esc(t.d) + (t.id === 'falar' && !SR ? ' (sem microfone aqui: você marca “consegui”)' : '')}</small></span><i class="gm-ck">${bl ? '🚫' : types.has(t.id) ? '✓' : ''}</i></button>`; }).join('')}</div>
       <p class="small muted" style="margin:8px 0 0">Suas escolhas ficam marcadas enquanto você estiver no jogo (e também dá para mudar durante a rodada, no ⚙️).</p></div>
       <div><div class="sectitle" style="margin-top:6px">2 · O que praticar</div><div class="gm-srcs">${SOURCES.map(x => `<button class="gm-src ${s === x.id ? 'on' : ''}" data-g="src" data-id="${x.id}" aria-pressed="${s === x.id}"><span class="gm-ti">${x.ic}</span><span><b>${esc(x.n)}</b><small>${esc(x.d)}</small></span>${x.id === 'novo' ? (nx.map(n => img(n.s.id)).find(Boolean) || '') : ''}</button>`).join('')}</div>
       ${s === 'modulo' ? `<label class="row" style="margin-top:8px">Módulo: <select id="gMod">${mods.map(m => `<option value="${esc(m.id)}" ${(ST.mod || mods[0].id) === m.id ? 'selected' : ''}>${esc(modName(m))}</option>`).join('')}</select></label>` : ''}
@@ -894,8 +928,9 @@
   function refreshHub() { const y = scrollY; view.innerHTML = pageHTML(); window.scrollTo({ top: y, behavior: 'instant' }); }
   view.addEventListener('click', e => {
     if (!onHub()) return; const b = e.target.closest('[data-g]'); if (!b) return; e.preventDefault(); const a = b.dataset.g;
-    if (a === 'type') { const s = typesNow(), id = b.dataset.id; if (s.has(id)) { if (s.size <= 1) { EN.toast('Deixe pelo menos um tipo marcado.'); return; } s.delete(id); } else s.add(id); Snd.play('tap'); refreshHub(); }
-    else if (a === 'all') { ST.types = new Set(TYPES.filter(t => !t.audio || AUDIO_OK).map(t => t.id)); Snd.play('tap'); refreshHub(); }
+    if (a === 'cap') { capClick(b.dataset.k); return; }
+    if (a === 'type') { const s = typesNow(), id = b.dataset.id; if (blocked(id)) { EN.toast('Bloqueado: toque em "Posso ' + (id === 'falar' ? 'falar' : 'ouvir') + '" até voltar ao normal.'); return; } if (s.has(id)) { if (s.size <= 1) { EN.toast('Deixe pelo menos um tipo marcado.'); return; } s.delete(id); } else s.add(id); Snd.play('tap'); refreshHub(); }
+    else if (a === 'all') { ST.types = new Set(TYPES.filter(t => (!t.audio || AUDIO_OK) && !blocked(t.id)).map(t => t.id)); Snd.play('tap'); refreshHub(); }
     else if (a === 'none') { const f = Array.from(typesNow())[0] || 'lacunas'; ST.types = new Set([f]); refreshHub(); }
     else if (a === 'src') { S.settings.gameSrc = b.dataset.id; save(); Snd.play('tap'); refreshHub(); }
     else if (a === 'cen') { const s = cenSel(), id = b.dataset.id; if (s.has(id)) { if (s.size <= 1) { EN.toast('Deixe pelo menos um lugar marcado.'); return; } s.delete(id); } else s.add(id); Snd.play('tap'); refreshHub(); }
@@ -911,7 +946,7 @@
   /* ───────────── ligações com o resto do app ───────────── */
   EN.game = {
     pageHTML,
-    leave(route) { if (route !== 'jogar' && (!ov || ov.hidden)) { ST.types = null; ST.mod = ''; ST.cen = null; } },
+    leave(route) { if (route !== 'jogar' && (!ov || ov.hidden)) { ST.types = null; ST.mod = ''; ST.cen = null; ST.cap = { ouvir: 0, falar: 0 }; } },
     open: startRound,
     missionsDone: () => { const d = D(); return todaysMissions().filter(id => d.claimed[id]).length; },
     missionsPending: () => { const d = D(); return todaysMissions().filter(id => !d.claimed[id] && MIS[id].get(d) >= MIS[id].g).length; },

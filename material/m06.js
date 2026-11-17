@@ -774,9 +774,15 @@
         {
           "t": "video",
           "id": "m6-s4-vid",
+          "licoes": [
+            {"titulo":"Level 2 · Lição 5: Greatest Vacation of All Time","url":"https://learningenglish.voanews.com/a/4035571.html","embed":"https://learningenglish.voanews.com/embed/player/article/4035571.html"},
+            {"titulo":"Level 2 · Lição 6: Will It Float?","url":"https://learningenglish.voanews.com/a/4064553.html","embed":"https://learningenglish.voanews.com/embed/player/article/4064553.html"},
+            {"titulo":"Level 2 · Lição 7: Tip Your Tour Guide","url":"https://learningenglish.voanews.com/a/4064769.html","embed":"https://learningenglish.voanews.com/embed/player/article/4064769.html"},
+            {"titulo":"Level 2 · Lição 8: The Best Barbecue","url":"https://learningenglish.voanews.com/a/4073994.html","embed":"https://learningenglish.voanews.com/embed/player/article/4073994.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 2, lições 5 a 8",
           "passos": [
-            "Escolha uma lição da sequência (se a lição indicada não existir, siga para a próxima da lista) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases com verbos irregulares e repita em voz alta."
           ]

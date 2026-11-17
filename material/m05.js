@@ -751,9 +751,15 @@
         {
           "t": "video",
           "id": "m5-s4-vid",
+          "licoes": [
+            {"titulo":"Level 2 · Lição 1: Budget Cuts","url":"https://learningenglish.voanews.com/a/3960391.html","embed":"https://learningenglish.voanews.com/embed/player/article/3960391.html"},
+            {"titulo":"Level 2 · Lição 2: The Interview","url":"https://learningenglish.voanews.com/a/3960471.html","embed":"https://learningenglish.voanews.com/embed/player/article/3960471.html"},
+            {"titulo":"Level 2 · Lição 3: He Said - She Said","url":"https://learningenglish.voanews.com/a/4027340.html","embed":"https://learningenglish.voanews.com/embed/player/article/4027340.html"},
+            {"titulo":"Level 2 · Lição 4: Run Away With the Circus!","url":"https://learningenglish.voanews.com/a/4034187.html","embed":"https://learningenglish.voanews.com/embed/player/article/4034187.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 2, lições 1 a 4",
           "passos": [
-            "Escolha uma lição da sequência (se a lição indicada não existir, siga para a próxima da lista) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases no passado e repita em voz alta."
           ]

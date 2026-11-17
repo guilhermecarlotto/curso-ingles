@@ -779,9 +779,15 @@
         {
           "t": "video",
           "id": "m4-s4-vid",
+          "licoes": [
+            {"titulo":"Level 1 · Lição 14: How About This?","url":"https://learningenglish.voanews.com/a/5780974.html","embed":"https://learningenglish.voanews.com/embed/player/article/5780974.html"},
+            {"titulo":"Level 1 · Lição 15: I Love People Watching!","url":"https://learningenglish.voanews.com/a/5780968.html","embed":"https://learningenglish.voanews.com/embed/player/article/5780968.html"},
+            {"titulo":"Level 1 · Lição 16: Where Are You From?","url":"https://learningenglish.voanews.com/a/5780964.html","embed":"https://learningenglish.voanews.com/embed/player/article/5780964.html"},
+            {"titulo":"Level 1 · Lição 17: Are You Free on Friday?","url":"https://learningenglish.voanews.com/a/5780966.html","embed":"https://learningenglish.voanews.com/embed/player/article/5780966.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 1, lições 14 a 17",
           "passos": [
-            "Escolha uma lição da sequência (se a lição indicada não existir, siga para a próxima da lista) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases com can, imperativo ou horas e repita em voz alta."
           ]

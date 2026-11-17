@@ -1,5 +1,5 @@
 /* Service worker: deixa o app abrir offline. O site (index, css, js) e o material do curso (pasta material/) entram no cache. */
-const CACHE = 'ingles-v13';
+const CACHE = 'ingles-v14';
 const SITE = ['./', 'index.html', 'css/style.css', 'js/store.js', 'js/game.js', 'js/blocks.js', 'js/srs.js', 'js/jogar.js', 'firebase-config.js', 'js/sync.js', 'js/app.js', 'manifest.webmanifest', 'logo.png', 'icon-192.png', 'icon-512.png', 'material/indice.js'];
 
 self.addEventListener('install', e => {

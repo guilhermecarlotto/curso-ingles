@@ -225,9 +225,10 @@
           "t": "video",
           "id": "m2-s1-vid",
           "titulo": "Vídeo (opcional): pronúncia do -s final",
+          "url": "https://www.youtube.com/watch?v=UaFIejjqCoI",
           "passos": [
-            "Em um buscador de vídeos, procure: “Rachel’s English plural S pronunciation”.",
-            "Assista a um vídeo curto e repita as palavras: books, dogs, buses.",
+            "Abra o vídeo “How to Pronounce Plural Nouns” (Rachel’s English, cerca de 6 minutos, em inglês americano; ligue a legenda se precisar).",
+            "Repita as palavras: books, dogs, buses.",
             "Anote 3 palavras e o som do -s de cada uma (/s/, /z/ ou /ɪz/)."
           ]
         },
@@ -774,9 +775,15 @@
         {
           "t": "video",
           "id": "m2-s4-vid",
+          "licoes": [
+            {"titulo":"Level 1 · Lição 6: Where Is the Gym?","url":"https://learningenglish.voanews.com/a/5781378.html","embed":"https://learningenglish.voanews.com/embed/player/article/5781378.html"},
+            {"titulo":"Level 1 · Lição 7: What Are You Doing?","url":"https://learningenglish.voanews.com/a/5781372.html","embed":"https://learningenglish.voanews.com/embed/player/article/5781372.html"},
+            {"titulo":"Level 1 · Lição 8: Are You Busy?","url":"https://learningenglish.voanews.com/a/5781370.html","embed":"https://learningenglish.voanews.com/embed/player/article/5781370.html"},
+            {"titulo":"Level 1 · Lição 9: Is It Cold?","url":"https://learningenglish.voanews.com/a/5781346.html","embed":"https://learningenglish.voanews.com/embed/player/article/5781346.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 1, lições 6 a 9",
           "passos": [
-            "Escolha a lição da sequência (6, 7, 8 ou 9; veja a página do curso) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases com plural, this/that ou possessivos e repita em voz alta."
           ]

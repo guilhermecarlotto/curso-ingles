@@ -765,9 +765,15 @@
         {
           "t": "video",
           "id": "m9-s4-vid",
+          "licoes": [
+            {"titulo":"Level 2 · Lição 17: Flour Baby, Part 1","url":"https://learningenglish.voanews.com/a/4220576.html","embed":"https://learningenglish.voanews.com/embed/player/article/4220576.html"},
+            {"titulo":"Level 2 · Lição 18: Flour Baby, Part 2","url":"https://learningenglish.voanews.com/a/4231290.html","embed":"https://learningenglish.voanews.com/embed/player/article/4231290.html"},
+            {"titulo":"Level 2 · Lição 19: Movie Night","url":"https://learningenglish.voanews.com/a/4242927.html","embed":"https://learningenglish.voanews.com/embed/player/article/4242927.html"},
+            {"titulo":"Level 2 · Lição 20: The Test Drive","url":"https://learningenglish.voanews.com/a/4254704.html","embed":"https://learningenglish.voanews.com/embed/player/article/4254704.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 2, lições 17 a 20",
           "passos": [
-            "Escolha uma lição da sequência (se a lição indicada não existir, siga para a próxima da lista) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases de qualquer tema do curso e repita em voz alta."
           ]

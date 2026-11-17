@@ -1,4 +1,4 @@
-/* ───────── Temas ───────── */
+﻿/* ───────── Temas ───────── */
 :root,[data-theme="pastel"]{
   color-scheme:light;
   --bg:#FBF7F2;--surface:#FFFEFB;--surface2:#F5EFF8;--border:#E6DFEA;--text:#3A3550;--muted:#7C7794;
@@ -729,7 +729,7 @@ table.decks .ac{text-align:right;white-space:nowrap}table.decks .ac .btn{margin-
 
 /* a tela do jogo */
 body.gm-open{overflow:hidden}
-.gm-ov{--g-pri:#58B947;--g-pri-d:#3E8E32;--g-bad:#E5484D;--g-bad-d:#B8353A;--g-sel:var(--c-blue);position:fixed;inset:0;z-index:80;background:var(--bg);display:flex;flex-direction:column;-webkit-user-select:none;user-select:none}
+.gm-ov{--g-pri:#58B947;--g-pri-d:#3E8E32;--g-bad:#E5484D;--g-bad-d:#B8353A;--g-sel:var(--c-blue);position:fixed;left:0;right:0;top:var(--vvt,0px);height:var(--vvh,100%);z-index:80;background:var(--bg);display:flex;flex-direction:column;-webkit-user-select:none;user-select:none}
 .gm-ov[hidden]{display:none}
 .gm-top{display:flex;align-items:center;gap:10px;padding:12px 16px;width:min(760px,100%);margin:0 auto}
 .gm-x,.gm-tb{border:0;background:transparent;color:var(--muted);font-size:20px;cursor:pointer;padding:6px 8px;border-radius:10px;line-height:1}
@@ -881,3 +881,34 @@ div.gm-mic{cursor:default}
 .gm-cen small{display:block;color:var(--muted);font-size:12px;line-height:1.3}
 .gm-cen-i{font-size:24px;width:34px;text-align:center;flex:none}
 .gm-cen.on .gm-ck{background:var(--c-blue);border-color:var(--c-blue)}
+
+/* Jogar: digitar com o teclado do celular (Verificar logo abaixo do campo) */
+.gm-foot.gone{display:none}
+.gm-inact{display:flex;gap:10px;justify-content:space-between;align-items:center;margin-top:14px}
+.gm-inact .gm-btn.pri{margin-left:auto;min-width:140px}
+/* Jogar: "Posso ouvir" / "Posso falar" (neutro -> marcado -> bloqueado em vermelho) */
+.gm-caps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.gm-cap{display:flex;align-items:center;gap:10px;text-align:left;border:2px solid rgba(255,255,255,.55);background:color-mix(in srgb,var(--surface) 82%,transparent);color:var(--hero-text);border-radius:14px;padding:10px 12px;cursor:pointer;font:inherit;transition:.15s;box-shadow:0 3px 0 rgba(0,0,0,.12)}
+.gm-cap b{display:block;font-size:15px}
+.gm-cap small{display:block;font-size:12px;line-height:1.3;opacity:.85}
+.gm-cap-i{font-size:24px;flex:none}
+.gm-cap:hover:not(:disabled){transform:translateY(-1px)}
+.gm-cap.on{border-color:var(--g-pri,#58B947);background:var(--good-bg);color:var(--text);box-shadow:0 3px 0 var(--g-pri,#58B947)}
+.gm-cap.no{border-color:var(--g-bad,#E5484D);background:var(--bad-bg);color:var(--text);box-shadow:0 3px 0 var(--g-bad,#E5484D)}
+.gm-cap:disabled{opacity:.5;cursor:not-allowed}
+.gm-caps-h{margin:8px 0 0;opacity:.8}
+.gm-type.blk{border-color:var(--g-bad,#E5484D);background:var(--bad-bg);box-shadow:0 3px 0 var(--g-bad,#E5484D);opacity:.9}
+.gm-type.blk .gm-ck{border-color:transparent;background:transparent;font-size:16px}
+.gm-chk.blk{border-color:var(--g-bad,#E5484D);background:var(--bad-bg)}
+@media (max-width:640px){.gm-caps{grid-template-columns:1fr}}
+
+/* Vídeo com várias lições para escolher */
+.vlics{display:grid;gap:8px;margin:10px 0}
+.vlic{border:1px solid var(--border);border-radius:12px;background:var(--surface);padding:0 12px}
+.vlic>summary{cursor:pointer;font-weight:600;padding:10px 0;list-style:none}
+.vlic>summary::-webkit-details-marker{display:none}
+.vlic[open]{padding-bottom:12px}
+.vlic .vframe{margin-top:2px}
+
+/* o aviso de acerto/erro nunca passa da tela (telas baixas, teclado aberto): rola por dentro */
+.gm-foot{max-height:62%;overflow-y:auto}

@@ -209,10 +209,11 @@
         {
           "t": "video",
           "id": "m3-s1-vid",
-          "titulo": "Vídeo (opcional)",
+          "titulo": "Vídeo (opcional): there is / there are",
+          "url": "https://www.youtube.com/watch?v=7XDwn2ofLHg",
           "passos": [
-            "Procure no YouTube: “There is There are English lesson for beginners”.",
-            "Assista a um vídeo curto e anote 3 frases com there is / there are.",
+            "Abra o vídeo “What’s in your bedroom? Describing a room. There is / There are” (Frankly Speaking, nível elementar, em inglês; ligue a legenda se precisar).",
+            "Anote 3 frases com there is / there are.",
             "Repita as frases em voz alta, 3 vezes."
           ]
         },
@@ -770,9 +771,15 @@
         {
           "t": "video",
           "id": "m3-s4-vid",
+          "licoes": [
+            {"titulo":"Level 1 · Lição 10: Come Over to My Place","url":"https://learningenglish.voanews.com/a/5781340.html","embed":"https://learningenglish.voanews.com/embed/player/article/5781340.html"},
+            {"titulo":"Level 1 · Lição 11: This Is My Neighborhood","url":"https://learningenglish.voanews.com/a/5781342.html","embed":"https://learningenglish.voanews.com/embed/player/article/5781342.html"},
+            {"titulo":"Level 1 · Lição 12: Meet My Family","url":"https://learningenglish.voanews.com/a/5780976.html","embed":"https://learningenglish.voanews.com/embed/player/article/5780976.html"},
+            {"titulo":"Level 1 · Lição 13: Happy Birthday, William Shakespeare!","url":"https://learningenglish.voanews.com/a/5780971.html","embed":"https://learningenglish.voanews.com/embed/player/article/5780971.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 1, lições 10 a 13",
           "passos": [
-            "Escolha uma lição da sequência (se a lição indicada não existir, siga para a próxima da lista) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases com there is/are, lugares ou preços e repita em voz alta."
           ]

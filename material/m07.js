@@ -747,9 +747,15 @@
         {
           "t": "video",
           "id": "m7-s4-vid",
+          "licoes": [
+            {"titulo":"Level 2 · Lição 9: Pets Are Family, Too!","url":"https://learningenglish.voanews.com/a/4074883.html","embed":"https://learningenglish.voanews.com/embed/player/article/4074883.html"},
+            {"titulo":"Level 2 · Lição 10: Visit to Peru","url":"https://learningenglish.voanews.com/a/4079037.html","embed":"https://learningenglish.voanews.com/embed/player/article/4079037.html"},
+            {"titulo":"Level 2 · Lição 11: The Big Snow","url":"https://learningenglish.voanews.com/a/4102755.html","embed":"https://learningenglish.voanews.com/embed/player/article/4102755.html"},
+            {"titulo":"Level 2 · Lição 12: Run! Bees!","url":"https://learningenglish.voanews.com/a/4139015.html","embed":"https://learningenglish.voanews.com/embed/player/article/4139015.html"}
+          ],
           "titulo": "Vídeo: Let’s Learn English – Nível 2, lições 9 a 12",
           "passos": [
-            "Escolha uma lição da sequência (se a lição indicada não existir, siga para a próxima da lista) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
+            "Escolha uma das lições abaixo (toque no título para assistir aqui mesmo) e assista sem legenda. Dê uma nota de 0 a 10 para o quanto entendeu.",
             "Assista de novo com legenda em inglês.",
             "Anote 3 frases de pedido ou compra e repita em voz alta."
           ]
