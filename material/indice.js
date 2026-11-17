@@ -1,0 +1,57 @@
+// MATERIAL DO CURSO — índice dos arquivos
+// Só conteúdo (sem código do site). Regras e formato em LEIA-ME.md. Salve em UTF-8.
+// O site carrega, nesta ordem, os arquivos de "MATERIAL_ARQUIVOS". Módulo novo: crie mNN.js e acrescente o nome aqui.
+// "MATERIAL_IMAGENS" só serve para guardar as imagens no cache (uso offline); o site mostra uma imagem mesmo que ela não esteja listada.
+window.MATERIAL_ARQUIVOS = [
+  'curso.js',
+  'm01.js',
+  'm02.js',
+  'm03.js',
+  'm04.js',
+  'm05.js',
+  'm06.js',
+  'm07.js',
+  'm08.js',
+  'm09.js',
+  'pronuncia.js',
+  'imagens-jogo.js',
+  'cenarios.js'
+];
+window.MATERIAL_IMAGENS = [
+  'imagens/aeroporto.svg',
+  'imagens/agora-depois.svg',
+  'imagens/agora-ing.svg',
+  'imagens/at-on-in.svg',
+  'imagens/can-cant.svg',
+  'imagens/casa-comodos.svg',
+  'imagens/clima.svg',
+  'imagens/comparativos.svg',
+  'imagens/conectores.svg',
+  'imagens/contaveis.svg',
+  'imagens/cores-numeros.svg',
+  'imagens/did-estrutura.svg',
+  'imagens/ed-pronuncia.svg',
+  'imagens/familia.svg',
+  'imagens/gostos.svg',
+  'imagens/he-she-it-s.svg',
+  'imagens/horas.svg',
+  'imagens/irregulares-1.svg',
+  'imagens/irregulares-2.svg',
+  'imagens/linha-passado.svg',
+  'imagens/mapa-direcoes.svg',
+  'imagens/meses.svg',
+  'imagens/obrigacao-conselho.svg',
+  'imagens/onde-moro.svg',
+  'imagens/ontem-afazeres.svg',
+  'imagens/pagamento.svg',
+  'imagens/placas.svg',
+  'imagens/planos.svg',
+  'imagens/plural.svg',
+  'imagens/precos.svg',
+  'imagens/preposicoes-lugar.svg',
+  'imagens/restaurante.svg',
+  'imagens/rotina-present-simple.svg',
+  'imagens/roupas.svg',
+  'imagens/this-that.svg',
+  'imagens/to-be-pronomes.svg'
+];

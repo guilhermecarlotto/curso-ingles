@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="pastel">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>My English School</title>
+<meta name="description" content="My English School: curso de inglês do zero ao A2: módulos, sessões, exercícios com correção, Anki e gamificação.">
+<meta name="theme-color" content="#FBF7F2">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="ibtn" id="burger" aria-label="Recolher ou abrir o menu" title="Recolher / abrir o menu">☰</button>
+  <a class="logo" href="#/" aria-label="Início"><img class="brand" src="logo.png" alt="My English School" width="56" height="48"><span style="min-width:0"><b id="courseTitle">My English School</b><small id="courseSub">do A1 ao A2</small></span></a>
+  <a class="chip prof" id="chipProf" href="#/" hidden title="Você está no perfil de teste: nada aqui afeta o seu progresso real">🧪 Perfil de teste</a>
+  <a class="chip" id="chipStreak" href="#/progresso" title="Sequência de dias">🔥 0</a>
+  <a class="chip lvl" id="chipLvl" href="#/progresso" title="Nível">⭐ Nv 1</a>
+  <button class="ibtn" id="btnSync" title="Sincronização e backup do progresso" aria-label="Sincronizar progresso">🔄</button>
+  <a class="ibtn" id="btnBank" href="#/cartoes" title="Cartões e baralhos (cartões para estudar hoje)" aria-label="Cartões e baralhos">🃏<span class="badge" id="bankBadge" data-n="0">0</span></a>
+  <button class="ibtn" id="btnSet" title="Configurações" aria-label="Configurações">⚙</button>
+</header>
+
+<nav class="sidebar" id="nav" aria-label="Menu do curso"></nav>
+<div class="scrim" id="scrim"></div>
+<div class="banner" id="bkBanner" hidden></div>
+
+<div class="shell">
+  <main id="view" tabindex="-1"></main>
+</div>
+
+<div id="pop" hidden>
+  <div class="pbarx">
+    <button data-p="say" title="Ouvir">🔊</button>
+    <button data-p="slow" title="Ouvir devagar" aria-label="Ouvir devagar">🐢</button>
+    <button data-p="tr">🔍 Traduzir</button>
+    <button data-p="anki" class="anki">➕ Cartão</button>
+  </div>
+  <div class="pout"></div>
+</div>
+
+<dialog id="dlg"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<noscript><p style="padding:2rem;font-family:sans-serif">Este curso precisa de JavaScript para funcionar.</p></noscript>
+
+<!-- motor -->
+<script src="js/store.js"></script>
+<script src="js/game.js"></script>
+<script src="js/blocks.js"></script>
+<script src="js/srs.js"></script>
+<script src="js/jogar.js"></script>
+<!-- sincronização do progresso na nuvem (opcional): configuração em firebase-config.js, passo a passo em NUVEM.md -->
+<script src="firebase-config.js"></script>
+<script src="js/sync.js"></script>
+<!-- o conteúdo do curso fica na pasta material/ e é carregado por js/app.js (lista em material/indice.js) -->
+<script src="js/app.js"></script>
+</body>
+</html>
