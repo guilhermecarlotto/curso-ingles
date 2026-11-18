@@ -89,30 +89,13 @@
   const toast0 = EN.toast;
   EN.toast = m => { toast0(m); if (!ov || ov.hidden) return; const s = String(m || ''); if (/^⭐ Nível/.test(s)) Snd.play('level'); else if (/^🏅/.test(s)) Snd.play('badge'); else if (/^🔥 Meta/.test(s)) Snd.play('coin'); };
 
-  /* ───────────── mascote (desenho próprio) ───────────── */
+  /* ───────────── mascotes: os dois cachorrinhos (PNG com fundo transparente, animados por CSS) ───────────── */
   function mascot(mood, px) {
-    const m = mood || 'happy';
-    const eyes = {
-      happy: '<circle cx="47" cy="50" r="9" fill="#fff"/><circle cx="73" cy="50" r="9" fill="#fff"/><circle cx="49" cy="51" r="4.6" fill="#2b2540"/><circle cx="71" cy="51" r="4.6" fill="#2b2540"/><circle cx="50.6" cy="49.2" r="1.6" fill="#fff"/><circle cx="72.6" cy="49.2" r="1.6" fill="#fff"/>',
-      cheer: '<path d="M38 53 Q47 40 56 53" fill="none" stroke="#2b2540" stroke-width="4" stroke-linecap="round"/><path d="M64 53 Q73 40 82 53" fill="none" stroke="#2b2540" stroke-width="4" stroke-linecap="round"/>',
-      sad: '<circle cx="47" cy="52" r="9" fill="#fff"/><circle cx="73" cy="52" r="9" fill="#fff"/><circle cx="47.5" cy="55" r="4.6" fill="#2b2540"/><circle cx="72.5" cy="55" r="4.6" fill="#2b2540"/><path d="M36 41 L55 46" stroke="#2b2540" stroke-width="3" stroke-linecap="round"/><path d="M84 41 L65 46" stroke="#2b2540" stroke-width="3" stroke-linecap="round"/><path d="M42 64 q-3 7 0 10 q3 -3 0 -10z" fill="#7FC4FF"/>',
-      think: '<circle cx="47" cy="50" r="9" fill="#fff"/><circle cx="73" cy="50" r="9" fill="#fff"/><circle cx="52" cy="47" r="4.6" fill="#2b2540"/><circle cx="78" cy="47" r="4.6" fill="#2b2540"/><path d="M38 38 Q47 33 56 38" fill="none" stroke="#2b2540" stroke-width="3" stroke-linecap="round"/>',
-      sleep: '<path d="M38 52 Q47 58 56 52" fill="none" stroke="#2b2540" stroke-width="4" stroke-linecap="round"/><path d="M64 52 Q73 58 82 52" fill="none" stroke="#2b2540" stroke-width="4" stroke-linecap="round"/>'
-    }[m] || '';
-    const up = m === 'cheer';
-    const wings = up
-      ? '<path d="M26 66 Q6 50 12 32 Q30 42 35 62Z" fill="#3B9896"/><path d="M94 66 Q114 50 108 32 Q90 42 85 62Z" fill="#3B9896"/>'
-      : '<path d="M27 68 Q11 78 19 98 Q34 92 37 74Z" fill="#3B9896"/><path d="M93 68 Q109 78 101 98 Q86 92 83 74Z" fill="#3B9896"/>';
-    const beak = (m === 'cheer')
-      ? '<path d="M51 60 Q60 51 69 60 Q60 80 51 60Z" fill="#E7A94A"/><ellipse cx="60" cy="68" rx="5.5" ry="4.5" fill="#D9545D"/>'
-      : m === 'sad' ? '<path d="M52 63 Q60 57 68 63 Q60 71 52 63Z" fill="#E7A94A"/><path d="M54 70 Q60 66 66 70" fill="none" stroke="#C98A2E" stroke-width="2" stroke-linecap="round"/>'
-        : '<path d="M52 59 Q60 53 68 59 Q60 74 52 59Z" fill="#E7A94A"/><path d="M54 62 Q60 67 66 62" fill="none" stroke="#C98A2E" stroke-width="1.6" stroke-linecap="round"/>';
-    const extra = m === 'sleep' ? '<text x="88" y="34" font-size="14" font-weight="800" fill="#7C7794">z</text><text x="98" y="22" font-size="11" font-weight="800" fill="#7C7794">z</text>' : '';
-    return `<svg class="gm-mascot" viewBox="0 0 120 120" width="${px || 96}" height="${px || 96}" role="img" aria-label="Tico, o mascote">` +
-      '<ellipse cx="60" cy="112" rx="26" ry="4" fill="rgba(0,0,0,.12)"/><ellipse cx="46" cy="106" rx="9" ry="4" fill="#E7A94A"/><ellipse cx="74" cy="106" rx="9" ry="4" fill="#E7A94A"/>' +
-      wings + '<ellipse cx="60" cy="68" rx="37" ry="38" fill="#4FB0AE"/><ellipse cx="60" cy="84" rx="23" ry="21" fill="#FFEFC9"/>' +
-      '<path d="M50 30 Q46 10 56 18 Q58 4 62 17 Q70 8 70 30Z" fill="#E97B73"/><path d="M58 28 Q57 16 61 22 Q64 14 66 28Z" fill="#E7A94A"/>' +
-      '<circle cx="37" cy="64" r="5.5" fill="#FF9FB0" opacity=".55"/><circle cx="83" cy="64" r="5.5" fill="#FF9FB0" opacity=".55"/>' + eyes + beak + extra + '</svg>';
+    const m = ['happy', 'cheer', 'sad', 'think', 'sleep'].includes(mood) ? mood : 'happy';
+    const h = px || 96;
+    return `<span class="gm-mascot m-${m}" style="--h:${h}px" role="img" aria-label="Os dois cachorrinhos mascotes">` +
+      '<img class="dg dg1" src="img/mascote-1.png" alt="" draggable="false"><img class="dg dg2" src="img/mascote-2.png" alt="" draggable="false">' +
+      (m === 'sleep' ? '<i class="zz">z z</i>' : m === 'cheer' ? '<i class="zz sp">✨</i>' : '') + '</span>';
   }
 
   /* ───────────── texto: comparação de respostas ───────────── */
