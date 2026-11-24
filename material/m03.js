@@ -247,6 +247,432 @@
       ]
     },
     {
+      "id": "m3-p1",
+      "n": 1,
+      "tipo": "pratica",
+      "titulo": "Fixar there is e there are",
+      "duracao": 40,
+      "resumo": "Existência no singular e no plural, some, any, negativa e pergunta.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m3-p1",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m3-p1-ex1",
+          "titulo": "2.1 Complete com is ou are",
+          "ref": "m3-s1/3.1",
+          "items": [
+            {
+              "q": "There ___ a sofa in the living room.",
+              "a": [
+                "is"
+              ],
+              "why": "Uma coisa → **there is**."
+            },
+            {
+              "q": "There ___ three bedrooms.",
+              "a": [
+                "are"
+              ],
+              "why": "Três coisas → **there are**."
+            },
+            {
+              "q": "There ___ a garden.",
+              "a": [
+                "is"
+              ],
+              "why": "Uma coisa → **there is**."
+            },
+            {
+              "q": "There ___ two bathrooms.",
+              "a": [
+                "are"
+              ],
+              "why": "Duas coisas → **there are**."
+            },
+            {
+              "q": "There ___ some chairs in the kitchen.",
+              "a": [
+                "are"
+              ],
+              "why": "some + plural → **there are**."
+            },
+            {
+              "q": "There ___ one bathroom.",
+              "a": [
+                "is"
+              ],
+              "why": "one → **there is**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p1-ex2",
+          "titulo": "2.2 Escolha some ou any",
+          "ref": "m3-s1/3.2",
+          "items": [
+            {
+              "q": "There are ___ chairs in the kitchen.",
+              "opts": [
+                "some",
+                "any"
+              ],
+              "a": "some",
+              "why": "Frase afirmativa → **some**."
+            },
+            {
+              "q": "There aren’t ___ windows.",
+              "opts": [
+                "some",
+                "any"
+              ],
+              "a": "any",
+              "why": "Negativa → **any**."
+            },
+            {
+              "q": "Are there ___ bedrooms?",
+              "opts": [
+                "some",
+                "any"
+              ],
+              "a": "any",
+              "why": "Pergunta → **any**."
+            },
+            {
+              "q": "There are ___ books on the table.",
+              "opts": [
+                "some",
+                "any"
+              ],
+              "a": "some",
+              "why": "Frase afirmativa → **some**."
+            },
+            {
+              "q": "There aren’t ___ lamps.",
+              "opts": [
+                "some",
+                "any"
+              ],
+              "a": "any",
+              "why": "Negativa → **any**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p1-ex3",
+          "titulo": "2.3 Negativa e pergunta",
+          "ref": "m3-s1/3.2",
+          "items": [
+            {
+              "q": "There is a TV in the room.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "There isn't a TV in the room.",
+                  "There is not a TV in the room."
+                ],
+                [
+                  "Is there a TV in the room?"
+                ]
+              ],
+              "why": "Negativa: **there isn’t**. Pergunta: **Is there…?**"
+            },
+            {
+              "q": "There are some books.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "There aren't any books.",
+                  "There are not any books."
+                ],
+                [
+                  "Are there any books?"
+                ]
+              ],
+              "why": "Negativa e pergunta: some → **any**."
+            },
+            {
+              "q": "There is a garden.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "There isn't a garden.",
+                  "There is not a garden."
+                ],
+                [
+                  "Is there a garden?"
+                ]
+              ],
+              "why": "There isn’t a garden. · Is there a garden?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p1-ex4",
+          "titulo": "2.4 Corrija e traduza",
+          "ref": "m3-s1/3.2",
+          "items": [
+            {
+              "q": "Has a garage in my house.",
+              "a": [
+                "There is a garage in my house.",
+                "There's a garage in my house."
+              ],
+              "why": "Em inglês, use **there is**, nunca “has”."
+            },
+            {
+              "q": "There is two bedrooms.",
+              "a": [
+                "There are two bedrooms."
+              ],
+              "why": "Duas coisas → **there are**."
+            },
+            {
+              "q": "There have a TV.",
+              "a": [
+                "There is a TV.",
+                "There's a TV."
+              ],
+              "why": "Existência: **there is**, não “have”."
+            },
+            {
+              "q": "Is there some books?",
+              "a": [
+                "Are there any books?"
+              ],
+              "why": "Plural + pergunta → **Are there any**."
+            },
+            {
+              "q": "Tem três quartos na casa.",
+              "a": [
+                "There are three bedrooms in the house."
+              ],
+              "why": "Existência no plural: **there are**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Our house is small, but it is nice.",
+              "Nossa casa é pequena, mas é agradável."
+            ],
+            [
+              "There are three bedrooms and two bathrooms.",
+              "Há três quartos e dois banheiros."
+            ],
+            [
+              "There is a big kitchen and a living room.",
+              "Há uma cozinha grande e uma sala de estar."
+            ],
+            [
+              "There is a sofa and a TV in the living room.",
+              "Há um sofá e uma TV na sala."
+            ],
+            [
+              "There isn’t a garage, but there is a garden.",
+              "Não há garagem, mas há um jardim."
+            ],
+            [
+              "Are there any rooms for friends? No, there aren’t.",
+              "Há algum quarto para amigos? Não, não há."
+            ]
+          ],
+          "titulo": "Our house"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: there is e there are",
+          "frases": [
+            [
+              "There is a sofa in the living room.",
+              "Há um sofá na sala."
+            ],
+            [
+              "There are two bedrooms.",
+              "Há dois quartos."
+            ],
+            [
+              "Is there a garage?",
+              "Há uma garagem?"
+            ],
+            [
+              "Are there any windows?",
+              "Há janelas?"
+            ],
+            [
+              "There isn’t a garden.",
+              "Não há jardim."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m3-p1-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m3-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "There is a bed in my room.",
+              "a": [
+                "There is a bed in my room.",
+                "There's a bed in my room."
+              ],
+              "why": "Uma coisa → **there is**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Are there any bathrooms?",
+              "a": [
+                "Are there any bathrooms?"
+              ],
+              "why": "Plural + pergunta → **Are there any…?**"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "There aren’t any chairs.",
+              "a": [
+                "There aren't any chairs.",
+                "There are not any chairs."
+              ],
+              "why": "Negativa no plural: **aren’t any**."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m3-p1",
+          "prompt": "Escreva 5 frases sobre a sua casa: 3 afirmativas (there is/are), 1 negativa e 1 pergunta (Is there…? / Are there…?)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**There is** + uma coisa · **There are** + duas ou mais · nunca “have” para existência",
+            "**some** (afirmativa) · **any** (negativa e pergunta)",
+            "Negativa: there isn’t / there aren’t any · Pergunta: Is there…? / Are there any…?"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "Has a sofa in the room.",
+              "There is a sofa in the room."
+            ],
+            [
+              "There is two chairs.",
+              "There are two chairs."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m3-s2",
       "n": 2,
       "titulo": "Preposições de lugar e móveis",
@@ -467,6 +893,846 @@
       ]
     },
     {
+      "id": "m3-p2",
+      "n": 2,
+      "tipo": "pratica",
+      "titulo": "Fixar as preposições de lugar",
+      "duracao": 40,
+      "resumo": "in, on, under, next to, between, in front of e behind.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m3-p2",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m3-p2-ex1",
+          "titulo": "2.1 Complete com a preposição",
+          "ref": "m3-s2/3.1",
+          "items": [
+            {
+              "q": "The keys are ___ my bag. (dentro)",
+              "a": [
+                "in"
+              ],
+              "why": "Dentro → **in**."
+            },
+            {
+              "q": "The book is ___ the table. (em cima)",
+              "a": [
+                "on"
+              ],
+              "why": "Em cima de uma superfície → **on**."
+            },
+            {
+              "q": "The cat is ___ the chair. (embaixo)",
+              "a": [
+                "under"
+              ],
+              "why": "Embaixo → **under**."
+            },
+            {
+              "q": "The lamp is ___ the bed. (ao lado)",
+              "a": [
+                "next to"
+              ],
+              "why": "Ao lado → **next to**."
+            },
+            {
+              "q": "The TV is ___ the sofa. (na frente)",
+              "a": [
+                "in front of"
+              ],
+              "why": "Na frente → **in front of**."
+            },
+            {
+              "q": "The garden is ___ the house. (atrás)",
+              "a": [
+                "behind"
+              ],
+              "why": "Atrás → **behind**."
+            },
+            {
+              "q": "The sofa is ___ the two doors. (entre)",
+              "a": [
+                "between"
+              ],
+              "why": "Entre dois → **between**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p2-ex2",
+          "titulo": "2.2 In ou on?",
+          "ref": "m3-s2/3.1",
+          "items": [
+            {
+              "q": "The keys are (in / on) the bag.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "in",
+              "why": "Dentro → **in**."
+            },
+            {
+              "q": "The book is (in / on) the table.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "on",
+              "why": "Superfície → **on**."
+            },
+            {
+              "q": "My car is (in / on) the garage.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "in",
+              "why": "Dentro → **in**."
+            },
+            {
+              "q": "The cup is (in / on) the table.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "on",
+              "why": "Superfície → **on**."
+            },
+            {
+              "q": "My phone is (in / on) the sofa.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "on",
+              "why": "Em cima do sofá → **on**."
+            },
+            {
+              "q": "He is (in / on) bed.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "in",
+              "why": "Expressão fixa: **in bed**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p2-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m3-s2/3.1",
+          "items": [
+            {
+              "q": "A lâmpada está ao lado da cama.",
+              "a": [
+                "The lamp is next to the bed."
+              ],
+              "why": "next to = ao lado de."
+            },
+            {
+              "q": "A TV está na frente do sofá.",
+              "a": [
+                "The TV is in front of the sofa."
+              ],
+              "why": "in front of = na frente de."
+            },
+            {
+              "q": "O jardim fica atrás da casa.",
+              "a": [
+                "The garden is behind the house."
+              ],
+              "why": "behind = atrás de."
+            },
+            {
+              "q": "As chaves estão entre os livros.",
+              "a": [
+                "The keys are between the books."
+              ],
+              "why": "between = entre."
+            },
+            {
+              "q": "O livro está em cima da mesa.",
+              "a": [
+                "The book is on the table."
+              ],
+              "why": "on = em cima de."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p2-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m3-s2/3.1",
+          "items": [
+            {
+              "q": "The book is in the table.",
+              "a": [
+                "The book is on the table."
+              ],
+              "why": "Em cima de uma superfície → **on**."
+            },
+            {
+              "q": "The cat is on the box. (dentro da caixa)",
+              "a": [
+                "The cat is in the box."
+              ],
+              "why": "Dentro → **in**."
+            },
+            {
+              "q": "The lamp is next the bed.",
+              "a": [
+                "The lamp is next to the bed."
+              ],
+              "why": "É **next to**."
+            },
+            {
+              "q": "The TV is in front the sofa.",
+              "a": [
+                "The TV is in front of the sofa."
+              ],
+              "why": "É **in front of**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Where are my keys?",
+              "Onde estão as minhas chaves?"
+            ],
+            [
+              "B",
+              "They are on the table.",
+              "Estão em cima da mesa."
+            ],
+            [
+              "A",
+              "No, they aren’t.",
+              "Não, não estão."
+            ],
+            [
+              "B",
+              "Are they in your bag?",
+              "Estão na sua bolsa?"
+            ],
+            [
+              "A",
+              "No. Wait! They are under the sofa.",
+              "Não. Espere! Estão embaixo do sofá."
+            ],
+            [
+              "B",
+              "And your phone? It is next to the lamp.",
+              "E o seu celular? Está ao lado do abajur."
+            ]
+          ],
+          "titulo": "EXEMPLO · Onde estão as chaves?"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: onde está?",
+          "frases": [
+            [
+              "The keys are in my bag.",
+              "As chaves estão na minha bolsa."
+            ],
+            [
+              "The book is on the table.",
+              "O livro está em cima da mesa."
+            ],
+            [
+              "The cat is under the chair.",
+              "O gato está embaixo da cadeira."
+            ],
+            [
+              "The lamp is next to the bed.",
+              "A lâmpada está ao lado da cama."
+            ],
+            [
+              "The TV is in front of the sofa.",
+              "A TV está na frente do sofá."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m3-p2-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m3-s2/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "The cat is under the table.",
+              "a": [
+                "The cat is under the table."
+              ],
+              "why": "under = embaixo de."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "The garden is behind the house.",
+              "a": [
+                "The garden is behind the house."
+              ],
+              "why": "behind = atrás de."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Where are my keys?",
+              "a": [
+                "Where are my keys?"
+              ],
+              "why": "Where + are + plural?"
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m3-p2",
+          "prompt": "Escreva 5 frases dizendo onde cinco objetos estão agora (The phone is on…). Use in, on, under, next to e behind."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**in** dentro · **on** em cima de uma superfície · **under** embaixo · **next to** ao lado · **between** entre · **in front of** na frente · **behind** atrás",
+            "Em português usamos “em” para tudo; em inglês escolha **in** ou **on**."
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "The book is in the table.",
+              "The book is on the table."
+            ],
+            [
+              "The lamp is next the bed.",
+              "The lamp is next to the bed."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m3-p3",
+      "n": 3,
+      "tipo": "pratica",
+      "titulo": "Fixar at home, os móveis e onde as pessoas estão",
+      "duracao": 40,
+      "resumo": "at home/work/school, in bed, on the sofa e vocabulário dos móveis.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m3-p3",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m3-p3-ex1",
+          "titulo": "2.1 Escolha at, in ou on",
+          "ref": "m3-s2/3.2",
+          "items": [
+            {
+              "q": "I am (at / in / on) home.",
+              "opts": [
+                "at",
+                "in",
+                "on"
+              ],
+              "a": "at",
+              "why": "**at home** (sem “the”)."
+            },
+            {
+              "q": "She is (at / in / on) work.",
+              "opts": [
+                "at",
+                "in",
+                "on"
+              ],
+              "a": "at",
+              "why": "**at work** (sem “the”)."
+            },
+            {
+              "q": "The children are (at / in / on) school.",
+              "opts": [
+                "at",
+                "in",
+                "on"
+              ],
+              "a": "at",
+              "why": "**at school** (sem “the”)."
+            },
+            {
+              "q": "He is (at / in / on) bed.",
+              "opts": [
+                "at",
+                "in",
+                "on"
+              ],
+              "a": "in",
+              "why": "Expressão fixa: **in bed**."
+            },
+            {
+              "q": "I am (at / in / on) the sofa.",
+              "opts": [
+                "at",
+                "in",
+                "on"
+              ],
+              "a": "on",
+              "why": "Em cima do sofá → **on the sofa**."
+            },
+            {
+              "q": "They are (at / in / on) the living room.",
+              "opts": [
+                "at",
+                "in",
+                "on"
+              ],
+              "a": "in",
+              "why": "Dentro de um cômodo → **in**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p3-ex2",
+          "titulo": "2.2 Escreva a palavra em inglês",
+          "ref": "m3-s2/3.3",
+          "items": [
+            {
+              "q": "geladeira → ___",
+              "a": [
+                "fridge"
+              ],
+              "why": "a fridge."
+            },
+            {
+              "q": "estante → ___",
+              "a": [
+                "shelf"
+              ],
+              "why": "a shelf (plural: shelves)."
+            },
+            {
+              "q": "espelho → ___",
+              "a": [
+                "mirror"
+              ],
+              "why": "a mirror."
+            },
+            {
+              "q": "tapete → ___",
+              "a": [
+                "carpet"
+              ],
+              "why": "a carpet."
+            },
+            {
+              "q": "cama → ___",
+              "a": [
+                "bed"
+              ],
+              "why": "a bed."
+            },
+            {
+              "q": "sofá → ___",
+              "a": [
+                "sofa"
+              ],
+              "why": "a sofa."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p3-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m3-s2/3.2",
+          "items": [
+            {
+              "q": "Estou em casa.",
+              "a": [
+                "I am at home.",
+                "I'm at home."
+              ],
+              "why": "at home."
+            },
+            {
+              "q": "Ela está no trabalho.",
+              "a": [
+                "She is at work.",
+                "She's at work."
+              ],
+              "why": "at work (sem “the”)."
+            },
+            {
+              "q": "Eles estão na escola.",
+              "a": [
+                "They are at school.",
+                "They're at school."
+              ],
+              "why": "at school (sem “the”)."
+            },
+            {
+              "q": "O espelho está atrás da porta.",
+              "a": [
+                "The mirror is behind the door."
+              ],
+              "why": "behind = atrás de."
+            },
+            {
+              "q": "Há uma geladeira na cozinha.",
+              "a": [
+                "There is a fridge in the kitchen.",
+                "There's a fridge in the kitchen."
+              ],
+              "why": "There is + uma coisa + in + lugar."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p3-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m3-s2/3.2",
+          "items": [
+            {
+              "q": "I am in home.",
+              "a": [
+                "I am at home.",
+                "I'm at home."
+              ],
+              "why": "É **at home**."
+            },
+            {
+              "q": "I am at the work.",
+              "a": [
+                "I am at work.",
+                "I'm at work."
+              ],
+              "why": "**at work**, sem “the”."
+            },
+            {
+              "q": "She is on bed.",
+              "a": [
+                "She is in bed.",
+                "She's in bed."
+              ],
+              "why": "É **in bed**."
+            },
+            {
+              "q": "There is two chairs next to the table.",
+              "a": [
+                "There are two chairs next to the table."
+              ],
+              "why": "Duas coisas → **there are**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "My bedroom is small, but it is nice.",
+              "Meu quarto é pequeno, mas é agradável."
+            ],
+            [
+              "There is a bed next to the window.",
+              "Há uma cama ao lado da janela."
+            ],
+            [
+              "There is a lamp on the shelf, and there is a mirror behind the door.",
+              "Há uma lâmpada na estante e um espelho atrás da porta."
+            ],
+            [
+              "There are two chairs and a table in front of the window.",
+              "Há duas cadeiras e uma mesa na frente da janela."
+            ],
+            [
+              "I am in bed now, and my phone is on the table.",
+              "Estou na cama agora e meu celular está na mesa."
+            ],
+            [
+              "My brother is at work, and my parents are at home.",
+              "Meu irmão está no trabalho e meus pais estão em casa."
+            ]
+          ],
+          "titulo": "My bedroom"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: em casa e no trabalho",
+          "frases": [
+            [
+              "I am at home.",
+              "Estou em casa."
+            ],
+            [
+              "She is at work.",
+              "Ela está no trabalho."
+            ],
+            [
+              "The children are at school.",
+              "As crianças estão na escola."
+            ],
+            [
+              "He is in bed.",
+              "Ele está na cama."
+            ],
+            [
+              "I am on the sofa.",
+              "Estou no sofá."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m3-p3-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m3-s2/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "My parents are at home.",
+              "a": [
+                "My parents are at home."
+              ],
+              "why": "parents = plural → are · at home."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "There is a mirror behind the door.",
+              "a": [
+                "There is a mirror behind the door.",
+                "There's a mirror behind the door."
+              ],
+              "why": "There is + coisa + behind + lugar."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "The children are at school.",
+              "a": [
+                "The children are at school."
+              ],
+              "why": "children = plural → are · at school."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m3-p3",
+          "prompt": "Escreva 5 frases: onde cada pessoa da sua família está agora (at home, at work, at school, in bed) e onde está um móvel da sua casa."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**at home · at work · at school** (sem “the”) · **in bed** · **on the sofa**",
+            "Móveis: sofa · bed · table · chair · shelf · lamp · fridge · TV · mirror · carpet"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I am in home.",
+              "I am at home."
+            ],
+            [
+              "I am at the work.",
+              "I am at work."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m3-s3",
       "n": 3,
       "titulo": "Números até 1000 e preços",
@@ -669,6 +1935,1240 @@
           "items": ["-teen = acento no final (13) · -ty = acento no começo (30)","Preço: **How much is it? / How much are they?**","It is ten **dollars** (plural)"]
         },
         {"t":"errors","items":[["How many is it?","How much is it?"],["ten dollar","ten dollars"]],"title":"ERROS COMUNS DE BRASILEIROS"}
+      ]
+    },
+    {
+      "id": "m3-p4",
+      "n": 4,
+      "tipo": "pratica",
+      "titulo": "Fixar os números de 20 a 1000",
+      "duracao": 40,
+      "resumo": "Escrever e ouvir números, -teen × -ty e idades.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m3-p4",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m3-p4-ex1",
+          "titulo": "2.1 Escreva o número por extenso",
+          "ref": "m3-s3/3.1",
+          "items": [
+            {
+              "q": "21 → ___",
+              "a": [
+                "twenty-one"
+              ],
+              "why": "twenty + hífen + one."
+            },
+            {
+              "q": "35 → ___",
+              "a": [
+                "thirty-five"
+              ],
+              "why": "thirty + hífen + five."
+            },
+            {
+              "q": "48 → ___",
+              "a": [
+                "forty-eight"
+              ],
+              "why": "forty (sem u) + hífen + eight."
+            },
+            {
+              "q": "52 → ___",
+              "a": [
+                "fifty-two"
+              ],
+              "why": "fifty + hífen + two."
+            },
+            {
+              "q": "67 → ___",
+              "a": [
+                "sixty-seven"
+              ],
+              "why": "sixty + hífen + seven."
+            },
+            {
+              "q": "99 → ___",
+              "a": [
+                "ninety-nine"
+              ],
+              "why": "ninety + hífen + nine."
+            },
+            {
+              "q": "100 → ___",
+              "a": [
+                [
+                  "one hundred",
+                  "a hundred"
+                ]
+              ],
+              "why": "100 = one hundred."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p4-ex2",
+          "titulo": "2.2 -teen ou -ty? Escolha",
+          "ref": "m3-s3/3.1",
+          "items": [
+            {
+              "q": "Ele tem 14 anos. He is (fourteen / forty).",
+              "opts": [
+                "fourteen",
+                "forty"
+              ],
+              "a": "fourteen",
+              "why": "-teen (13–19): acento no final."
+            },
+            {
+              "q": "Ela tem 40 anos. She is (fourteen / forty).",
+              "opts": [
+                "fourteen",
+                "forty"
+              ],
+              "a": "forty",
+              "why": "-ty (30–90): acento no começo."
+            },
+            {
+              "q": "São 15 dólares: (fifteen / fifty) dollars.",
+              "opts": [
+                "fifteen",
+                "fifty"
+              ],
+              "a": "fifteen",
+              "why": "15 = fifteen."
+            },
+            {
+              "q": "Há 60 pessoas: (sixteen / sixty) people.",
+              "opts": [
+                "sixteen",
+                "sixty"
+              ],
+              "a": "sixty",
+              "why": "60 = sixty."
+            },
+            {
+              "q": "Eu tenho 80 anos: (eighteen / eighty).",
+              "opts": [
+                "eighteen",
+                "eighty"
+              ],
+              "a": "eighty",
+              "why": "80 = eighty."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p4-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m3-s3/3.1",
+          "items": [
+            {
+              "q": "Eu tenho trinta e dois anos.",
+              "a": [
+                "I am thirty-two years old.",
+                "I'm thirty-two years old."
+              ],
+              "why": "Idade: TO BE + número + years old."
+            },
+            {
+              "q": "Há cem pessoas aqui.",
+              "a": [
+                "There are one hundred people here.",
+                "There are a hundred people here."
+              ],
+              "why": "Plural → there are."
+            },
+            {
+              "q": "Meu pai tem sessenta anos.",
+              "a": [
+                "My father is sixty years old.",
+                "My father is sixty."
+              ],
+              "why": "Idade: TO BE."
+            },
+            {
+              "q": "Meu irmão tem vinte e um anos.",
+              "a": [
+                "My brother is twenty-one years old.",
+                "My brother is twenty-one."
+              ],
+              "why": "Idade: TO BE."
+            },
+            {
+              "q": "A casa tem noventa e cinco anos.",
+              "a": [
+                "The house is ninety-five years old."
+              ],
+              "why": "Idade da casa: TO BE + years old."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p4-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m3-s3/3.1",
+          "items": [
+            {
+              "q": "I am thirty years.",
+              "a": [
+                "I am thirty years old.",
+                "I'm thirty years old."
+              ],
+              "why": "Falta **old**."
+            },
+            {
+              "q": "Twenty-five people is here.",
+              "a": [
+                "Twenty-five people are here."
+              ],
+              "why": "people = plural → **are**."
+            },
+            {
+              "q": "I am thirty and five years old.",
+              "a": [
+                "I am thirty-five years old.",
+                "I'm thirty-five years old."
+              ],
+              "why": "Use hífen: **thirty-five**."
+            },
+            {
+              "q": "She is fourty years old.",
+              "a": [
+                "She is forty years old.",
+                "She's forty years old."
+              ],
+              "why": "forty se escreve sem “u”."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "I am thirty-five years old.",
+              "Tenho trinta e cinco anos."
+            ],
+            [
+              "My father is sixty, and my mother is fifty-eight.",
+              "Meu pai tem sessenta e minha mãe tem cinquenta e oito."
+            ],
+            [
+              "My brother is twenty-one.",
+              "Meu irmão tem vinte e um."
+            ],
+            [
+              "There are forty people in my office.",
+              "Há quarenta pessoas no meu escritório."
+            ],
+            [
+              "There are ninety people in the park today. It is hot!",
+              "Há noventa pessoas no parque hoje. Está quente!"
+            ]
+          ],
+          "titulo": "Numbers in my life"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: números",
+          "frases": [
+            [
+              "I am thirty-five years old.",
+              "Tenho trinta e cinco anos."
+            ],
+            [
+              "There are forty people here.",
+              "Há quarenta pessoas aqui."
+            ],
+            [
+              "Thirteen or thirty?",
+              "Treze ou trinta?"
+            ],
+            [
+              "He is eighty years old.",
+              "Ele tem oitenta anos."
+            ],
+            [
+              "One hundred people are here.",
+              "Cem pessoas estão aqui."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m3-p4-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m3-s3/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I am twenty-one years old.",
+              "a": [
+                "I am twenty-one years old.",
+                "I'm twenty-one years old."
+              ],
+              "why": "Idade: TO BE + número + years old."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "There are fifty people here.",
+              "a": [
+                "There are fifty people here."
+              ],
+              "why": "Plural → there are."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "My mother is sixty.",
+              "a": [
+                "My mother is sixty.",
+                "My mother's sixty.",
+                "My mother is sixty years old."
+              ],
+              "why": "mother = she → is."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m3-p4",
+          "prompt": "Escreva 5 frases com números: a sua idade, a idade de duas pessoas da família e quantas pessoas há no seu trabalho ou na sua rua (there are…)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "20 twenty · 30 thirty · 40 forty · 50 fifty · 60 sixty · 70 seventy · 80 eighty · 90 ninety · 100 one hundred · 1,000 one thousand",
+            "Do 21 ao 99, hífen: twenty-one, forty-five",
+            "-teen: acento no final (thir**TEEN**) · -ty: acento no começo (**THIR**ty)"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I am thirty years.",
+              "I am thirty years old."
+            ],
+            [
+              "fourty",
+              "forty"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m3-p5",
+      "n": 5,
+      "tipo": "pratica",
+      "titulo": "Fixar preços e How much",
+      "duracao": 40,
+      "resumo": "Perguntar e dizer preços, dólares, centavos e barato × caro.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m3-p5",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m3-p5-ex1",
+          "titulo": "2.1 How much ou How many?",
+          "ref": "m3-s3/3.2",
+          "items": [
+            {
+              "q": "(How much / How many) is this bag?",
+              "opts": [
+                "How much",
+                "How many"
+              ],
+              "a": "How much",
+              "why": "Preço → **How much**."
+            },
+            {
+              "q": "(How much / How many) children do you have?",
+              "opts": [
+                "How much",
+                "How many"
+              ],
+              "a": "How many",
+              "why": "Quantidade de coisas contáveis → **How many**."
+            },
+            {
+              "q": "(How much / How many) are these shoes?",
+              "opts": [
+                "How much",
+                "How many"
+              ],
+              "a": "How much",
+              "why": "Preço → **How much**."
+            },
+            {
+              "q": "(How much / How many) books are there?",
+              "opts": [
+                "How much",
+                "How many"
+              ],
+              "a": "How many",
+              "why": "Quantidade → **How many**."
+            },
+            {
+              "q": "(How much / How many) is the coffee?",
+              "opts": [
+                "How much",
+                "How many"
+              ],
+              "a": "How much",
+              "why": "Preço → **How much**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p5-ex2",
+          "titulo": "2.2 Complete a frase",
+          "ref": "m3-s3/3.2",
+          "items": [
+            {
+              "q": "How much ___ this bag? — It is twenty dollars.",
+              "a": [
+                "is"
+              ],
+              "why": "this bag = uma coisa → **is**."
+            },
+            {
+              "q": "How much ___ these shoes? — They are sixty dollars.",
+              "a": [
+                "are"
+              ],
+              "why": "these shoes = plural → **are**."
+            },
+            {
+              "q": "It is ten ___.",
+              "a": [
+                "dollars"
+              ],
+              "why": "Depois do número, plural: **dollars**."
+            },
+            {
+              "q": "The price is thirty ___. (30 R$)",
+              "a": [
+                "reais"
+              ],
+              "why": "R$ 30 = thirty **reais**."
+            },
+            {
+              "q": "It is twelve dollars and fifty ___.",
+              "a": [
+                "cents"
+              ],
+              "why": "Centavos = **cents**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p5-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m3-s3/3.2",
+          "items": [
+            {
+              "q": "Quanto custa aquela bolsa?",
+              "a": [
+                "How much is that bag?"
+              ],
+              "why": "How much + is + that bag?"
+            },
+            {
+              "q": "Quanto custam estes sapatos?",
+              "a": [
+                "How much are these shoes?"
+              ],
+              "why": "How much + are + these shoes?"
+            },
+            {
+              "q": "Custa quarenta dólares.",
+              "a": [
+                "It is forty dollars.",
+                "It's forty dollars."
+              ],
+              "why": "It is + preço."
+            },
+            {
+              "q": "É barato.",
+              "a": [
+                "It is cheap.",
+                "It's cheap."
+              ],
+              "why": "cheap = barato."
+            },
+            {
+              "q": "Eles são caros.",
+              "a": [
+                "They are expensive.",
+                "They're expensive."
+              ],
+              "why": "expensive = caro."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p5-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m3-s3/3.2",
+          "items": [
+            {
+              "q": "It is ten dollar.",
+              "a": [
+                "It is ten dollars.",
+                "It's ten dollars."
+              ],
+              "why": "Depois de 10, **dollars** (plural)."
+            },
+            {
+              "q": "How many is it?",
+              "a": [
+                "How much is it?"
+              ],
+              "why": "Preço → **How much**."
+            },
+            {
+              "q": "How much is these shoes?",
+              "a": [
+                "How much are these shoes?"
+              ],
+              "why": "Plural → **are**."
+            },
+            {
+              "q": "The bag are expensive.",
+              "a": [
+                "The bag is expensive."
+              ],
+              "why": "bag = uma coisa → **is**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Hello! How much are those shoes?",
+              "Olá! Quanto custam aqueles sapatos?"
+            ],
+            [
+              "B",
+              "They are seventy dollars.",
+              "Custam setenta dólares."
+            ],
+            [
+              "A",
+              "That is expensive. Do you have cheap shoes?",
+              "É caro. Você tem sapatos baratos?"
+            ],
+            [
+              "B",
+              "Yes. These are thirty dollars.",
+              "Sim. Estes custam trinta dólares."
+            ],
+            [
+              "A",
+              "And how much is this bag?",
+              "E quanto custa esta bolsa?"
+            ],
+            [
+              "B",
+              "It is twenty-five dollars.",
+              "Custa vinte e cinco dólares."
+            ]
+          ],
+          "titulo": "EXEMPLO · Na loja"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: preços",
+          "frases": [
+            [
+              "How much is it?",
+              "Quanto custa?"
+            ],
+            [
+              "It is ten dollars.",
+              "Custa dez dólares."
+            ],
+            [
+              "How much are these shoes?",
+              "Quanto custam estes sapatos?"
+            ],
+            [
+              "They are sixty-five dollars.",
+              "Custam sessenta e cinco dólares."
+            ],
+            [
+              "That is expensive!",
+              "Isso é caro!"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m3-p5-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m3-s3/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "How much is this bag?",
+              "a": [
+                "How much is this bag?"
+              ],
+              "why": "How much + is + coisa no singular."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "They are thirty dollars.",
+              "a": [
+                "They are thirty dollars.",
+                "They're thirty dollars."
+              ],
+              "why": "Plural → They are + preço."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "It is not expensive.",
+              "a": [
+                "It is not expensive.",
+                "It isn't expensive.",
+                "It's not expensive."
+              ],
+              "why": "Negativa do TO BE: not depois do verbo."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m3-p5",
+          "prompt": "Escreva um diálogo de 6 linhas numa loja: pergunte o preço de 2 coisas (How much is…? / How much are…?) e responda com preços."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Preço: **How much is it?** (uma coisa) · **How much are they?** (duas ou mais)",
+            "Resposta: It is ten dollars. · They are twenty dollars.",
+            "cheap = barato · expensive = caro · **How many** é para contar (How many children?)"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "How many is it?",
+              "How much is it?"
+            ],
+            [
+              "It is ten dollar.",
+              "It is ten dollars."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m3-p6",
+      "n": 6,
+      "tipo": "pratica",
+      "titulo": "Revisão do módulo",
+      "duracao": 40,
+      "resumo": "There is/are, preposições, números e preços: aquecimento para o mini-teste.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m3-p6",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m3-p6-ex1",
+          "titulo": "2.1 Escolha a forma correta",
+          "ref": "m3-s1/3.1",
+          "items": [
+            {
+              "q": "There (is / are) two lamps in my room.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "Duas coisas → **are**."
+            },
+            {
+              "q": "Are there (some / any) windows?",
+              "opts": [
+                "some",
+                "any"
+              ],
+              "a": "any",
+              "why": "Pergunta → **any**."
+            },
+            {
+              "q": "The keys are (on / under) the table. (em cima)",
+              "opts": [
+                "on",
+                "under"
+              ],
+              "a": "on",
+              "why": "Em cima de → **on**."
+            },
+            {
+              "q": "I am (at / in) work now.",
+              "opts": [
+                "at",
+                "in"
+              ],
+              "a": "at",
+              "why": "**at work**."
+            },
+            {
+              "q": "How (much / many) is this lamp?",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "much",
+              "why": "Preço → **How much**."
+            },
+            {
+              "q": "There (isn’t / aren’t) a garage.",
+              "opts": [
+                "isn’t",
+                "aren’t"
+              ],
+              "a": "isn’t",
+              "why": "Uma coisa → **isn’t**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p6-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m3-s1/3.2",
+          "items": [
+            {
+              "q": "Não há janelas na cozinha.",
+              "a": [
+                "There aren't any windows in the kitchen.",
+                "There are not any windows in the kitchen."
+              ],
+              "why": "Negativa no plural: **aren’t any**."
+            },
+            {
+              "q": "Há duas camas no quarto?",
+              "a": [
+                "Are there two beds in the room?"
+              ],
+              "why": "Pergunta: **Are there…?**"
+            },
+            {
+              "q": "O gato está embaixo da mesa.",
+              "a": [
+                "The cat is under the table."
+              ],
+              "why": "under = embaixo de."
+            },
+            {
+              "q": "Custa quarenta e cinco dólares.",
+              "a": [
+                "It is forty-five dollars.",
+                "It's forty-five dollars."
+              ],
+              "why": "It is + preço."
+            },
+            {
+              "q": "O sofá está na frente da TV.",
+              "a": [
+                "The sofa is in front of the TV."
+              ],
+              "why": "in front of = na frente de."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p6-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m3-s1/3.2",
+          "items": [
+            {
+              "q": "There is three chairs.",
+              "a": [
+                "There are three chairs."
+              ],
+              "why": "Três coisas → **are**."
+            },
+            {
+              "q": "I am in work.",
+              "a": [
+                "I am at work.",
+                "I'm at work."
+              ],
+              "why": "**at work**."
+            },
+            {
+              "q": "The book is in the table.",
+              "a": [
+                "The book is on the table."
+              ],
+              "why": "Superfície → **on**."
+            },
+            {
+              "q": "How many is this bag?",
+              "a": [
+                "How much is this bag?"
+              ],
+              "why": "Preço → **How much**."
+            },
+            {
+              "q": "Is there some chairs?",
+              "a": [
+                "Are there any chairs?"
+              ],
+              "why": "Plural + pergunta → **Are there any**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m3-p6-ex4",
+          "titulo": "2.4 Aquecimento: escreva por extenso",
+          "ref": "m3-s3/3.1",
+          "items": [
+            {
+              "q": "36 → ___",
+              "a": [
+                "thirty-six"
+              ],
+              "why": "thirty + hífen + six."
+            },
+            {
+              "q": "71 → ___",
+              "a": [
+                "seventy-one"
+              ],
+              "why": "seventy + hífen + one."
+            },
+            {
+              "q": "14 → ___",
+              "a": [
+                "fourteen"
+              ],
+              "why": "-teen."
+            },
+            {
+              "q": "40 → ___",
+              "a": [
+                "forty"
+              ],
+              "why": "forty (sem u)."
+            },
+            {
+              "q": "250 → ___",
+              "a": [
+                [
+                  "two hundred and fifty",
+                  "two hundred fifty"
+                ]
+              ],
+              "why": "250 = two hundred (and) fifty."
+            },
+            {
+              "q": "1,000 → ___",
+              "a": [
+                [
+                  "one thousand",
+                  "a thousand"
+                ]
+              ],
+              "why": "1.000 = one thousand."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Our new house is big.",
+              "Nossa casa nova é grande."
+            ],
+            [
+              "There are four bedrooms and two bathrooms.",
+              "Há quatro quartos e dois banheiros."
+            ],
+            [
+              "There is a garden behind the house, and there is a garage next to the kitchen.",
+              "Há um jardim atrás da casa e uma garagem ao lado da cozinha."
+            ],
+            [
+              "There are some shelves in the living room.",
+              "Há algumas estantes na sala."
+            ],
+            [
+              "The TV is in front of the sofa, and the lamp is between the sofa and the table.",
+              "A TV está na frente do sofá e a lâmpada está entre o sofá e a mesa."
+            ],
+            [
+              "The price is two hundred thousand dollars. It isn’t cheap!",
+              "O preço é duzentos mil dólares. Não é barato!"
+            ]
+          ],
+          "titulo": "Our new house"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: revisão",
+          "frases": [
+            [
+              "There are four bedrooms.",
+              "Há quatro quartos."
+            ],
+            [
+              "Are there any windows in the kitchen?",
+              "Há janelas na cozinha?"
+            ],
+            [
+              "The lamp is between the sofa and the table.",
+              "A lâmpada está entre o sofá e a mesa."
+            ],
+            [
+              "It is not cheap.",
+              "Não é barato."
+            ],
+            [
+              "How much is the house?",
+              "Quanto custa a casa?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m3-p6-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m3-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "There are two bathrooms.",
+              "a": [
+                "There are two bathrooms."
+              ],
+              "why": "Duas coisas → there are."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "The garden is behind the house.",
+              "a": [
+                "The garden is behind the house."
+              ],
+              "why": "behind = atrás de."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "How much is it?",
+              "a": [
+                "How much is it?"
+              ],
+              "why": "Pergunta de preço."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m3-p6",
+          "prompt": "Descreva a casa dos seus sonhos em 6 frases: there is/are, preposições de lugar e um preço."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "There is / there are · some / any",
+            "in · on · under · next to · between · in front of · behind · at home / at work",
+            "Números 20–1000 · How much is it? It is forty dollars."
+          ]
+        },
+        {
+          "t": "tip",
+          "s": "Esta é a última prática antes do mini-teste da Sessão 4. Refaça o Caderno de erros e releia as revisões das sessões 1, 2 e 3.",
+          "title": "PULO DO GATO"
+        }
       ]
     },
     {

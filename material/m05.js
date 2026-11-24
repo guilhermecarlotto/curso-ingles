@@ -233,6 +233,423 @@
       ]
     },
     {
+      "id": "m5-p1",
+      "n": 1,
+      "tipo": "pratica",
+      "titulo": "Fixar was e were",
+      "duracao": 40,
+      "resumo": "Passado do TO BE, negativa, pergunta e marcadores de tempo.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m5-p1",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m5-p1-ex1",
+          "titulo": "2.1 Complete com was ou were",
+          "ref": "m5-s1/3.1",
+          "items": [
+            {
+              "q": "I ___ at home yesterday.",
+              "a": [
+                "was"
+              ],
+              "why": "I → **was**."
+            },
+            {
+              "q": "They ___ tired last night.",
+              "a": [
+                "were"
+              ],
+              "why": "they → **were**."
+            },
+            {
+              "q": "She ___ at work last week.",
+              "a": [
+                "was"
+              ],
+              "why": "she → **was**."
+            },
+            {
+              "q": "We ___ in Rio last year.",
+              "a": [
+                "were"
+              ],
+              "why": "we → **were**."
+            },
+            {
+              "q": "It ___ cold on Monday.",
+              "a": [
+                "was"
+              ],
+              "why": "it → **was**."
+            },
+            {
+              "q": "You ___ late two days ago.",
+              "a": [
+                "were"
+              ],
+              "why": "you → **were**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p1-ex2",
+          "titulo": "2.2 Negativas e perguntas",
+          "ref": "m5-s1/3.1",
+          "items": [
+            {
+              "q": "___ you at the party? — Yes, I was.",
+              "a": [
+                "Were"
+              ],
+              "why": "Pergunta com you: **Were**."
+            },
+            {
+              "q": "The food ___ good. (não estava)",
+              "a": [
+                [
+                  "wasn't",
+                  "was not"
+                ]
+              ],
+              "why": "Negativa: **wasn’t**."
+            },
+            {
+              "q": "Was he tired? — No, he ___.",
+              "a": [
+                [
+                  "wasn't",
+                  "was not"
+                ]
+              ],
+              "why": "Resposta curta negativa: **No, he wasn’t.**"
+            },
+            {
+              "q": "They ___ at home. (não estavam)",
+              "a": [
+                [
+                  "weren't",
+                  "were not"
+                ]
+              ],
+              "why": "Negativa: **weren’t**."
+            },
+            {
+              "q": "___ it a great day? — Yes, it was.",
+              "a": [
+                "Was"
+              ],
+              "why": "Pergunta com it: **Was**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p1-ex3",
+          "titulo": "2.3 Marcadores de tempo: escolha",
+          "ref": "m5-s1/3.2",
+          "items": [
+            {
+              "q": "I was at home (yesterday / tomorrow).",
+              "opts": [
+                "yesterday",
+                "tomorrow"
+              ],
+              "a": "yesterday",
+              "why": "Passado → **yesterday**."
+            },
+            {
+              "q": "She was here two days (ago / before).",
+              "opts": [
+                "ago",
+                "before"
+              ],
+              "a": "ago",
+              "why": "Depois do número → **ago**."
+            },
+            {
+              "q": "We were in Rio (last / past) year.",
+              "opts": [
+                "last",
+                "past"
+              ],
+              "a": "last",
+              "why": "**last year**."
+            },
+            {
+              "q": "He was sick (in / on) Monday.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "on",
+              "why": "Dia da semana → **on**."
+            },
+            {
+              "q": "I was in São Paulo (in / on) 2020.",
+              "opts": [
+                "in",
+                "on"
+              ],
+              "a": "in",
+              "why": "Ano → **in**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p1-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m5-s1/3.1",
+          "items": [
+            {
+              "q": "Yesterday I am at home.",
+              "a": [
+                "Yesterday I was at home."
+              ],
+              "why": "Ontem → passado: **was**."
+            },
+            {
+              "q": "She were tired.",
+              "a": [
+                "She was tired."
+              ],
+              "why": "she → **was**."
+            },
+            {
+              "q": "Did you were at home?",
+              "a": [
+                "Were you at home?"
+              ],
+              "why": "Was/were não usam did."
+            },
+            {
+              "q": "I was there two days before.",
+              "a": [
+                "I was there two days ago."
+              ],
+              "why": "É **ago**."
+            },
+            {
+              "q": "We was late.",
+              "a": [
+                "We were late."
+              ],
+              "why": "we → **were**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Last Sunday I was at my sister’s house.",
+              "No domingo passado, eu estava na casa da minha irmã."
+            ],
+            [
+              "Her husband and her children were there too.",
+              "O marido dela e os filhos dela também estavam lá."
+            ],
+            [
+              "The children were happy, but I was tired.",
+              "As crianças estavam felizes, mas eu estava cansado."
+            ],
+            [
+              "It was a great day, and the food was good.",
+              "Foi um ótimo dia e a comida estava boa."
+            ],
+            [
+              "My parents weren’t there. They were at home.",
+              "Meus pais não estavam lá. Estavam em casa."
+            ],
+            [
+              "Two days ago, I was very busy.",
+              "Há dois dias, eu estava muito ocupado."
+            ]
+          ],
+          "titulo": "Last Sunday"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: was e were",
+          "frases": [
+            [
+              "Where were you yesterday?",
+              "Onde você estava ontem?"
+            ],
+            [
+              "I was at home.",
+              "Eu estava em casa."
+            ],
+            [
+              "She was tired last night.",
+              "Ela estava cansada ontem à noite."
+            ],
+            [
+              "They weren’t late.",
+              "Eles não estavam atrasados."
+            ],
+            [
+              "It was a great day.",
+              "Foi um ótimo dia."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m5-p1-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m5-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I was at work yesterday.",
+              "a": [
+                "I was at work yesterday.",
+                "Yesterday I was at work."
+              ],
+              "why": "I → was."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Were you at the party?",
+              "a": [
+                "Were you at the party?"
+              ],
+              "why": "Pergunta: Were + you…?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "We weren’t late.",
+              "a": [
+                "We weren't late.",
+                "We were not late."
+              ],
+              "why": "we → weren’t."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m5-p1",
+          "prompt": "Escreva 5 frases: onde você estava ontem, na semana passada e há 2 anos, e como foi o dia (it was…)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**was**: I, he, she, it · **were**: you, we, they",
+            "Negativa: **wasn’t / weren’t** · pergunta: **Was / Were + sujeito?** (sem did)",
+            "Marcadores: yesterday · last night/week/year · two days ago · in 2020 · on Monday"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "She were tired.",
+              "She was tired."
+            ],
+            [
+              "Did you were at home?",
+              "Were you at home?"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m5-s2",
       "n": 2,
       "titulo": "Passado simples: verbos regulares",
@@ -444,6 +861,858 @@
       ]
     },
     {
+      "id": "m5-p2",
+      "n": 2,
+      "tipo": "pratica",
+      "titulo": "Fixar o passado dos verbos regulares",
+      "duracao": 40,
+      "resumo": "Terminação -ed, ortografia e os três sons do -ed.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m5-p2",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m5-p2-ex1",
+          "titulo": "2.1 Escreva o passado",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "work → ___",
+              "a": [
+                "worked"
+              ],
+              "why": "Maioria: + ed."
+            },
+            {
+              "q": "live → ___",
+              "a": [
+                "lived"
+              ],
+              "why": "Termina em e: + d."
+            },
+            {
+              "q": "study → ___",
+              "a": [
+                "studied"
+              ],
+              "why": "Consoante + y: y → ied."
+            },
+            {
+              "q": "play → ___",
+              "a": [
+                "played"
+              ],
+              "why": "Vogal + y: + ed."
+            },
+            {
+              "q": "stop → ___",
+              "a": [
+                "stopped"
+              ],
+              "why": "Curto (consoante-vogal-consoante): dobra o p."
+            },
+            {
+              "q": "visit → ___",
+              "a": [
+                "visited"
+              ],
+              "why": "Maioria: + ed."
+            },
+            {
+              "q": "try → ___",
+              "a": [
+                "tried"
+              ],
+              "why": "Consoante + y: y → ied."
+            },
+            {
+              "q": "clean → ___",
+              "a": [
+                "cleaned"
+              ],
+              "why": "Maioria: + ed."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p2-ex2",
+          "titulo": "2.2 Escolha o som do -ed",
+          "ref": "m5-s2/3.2",
+          "items": [
+            {
+              "q": "Som do -ed em “wanted”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/ɪd/",
+              "why": "Depois de **t** ou **d** → sílaba nova: **/ɪd/**."
+            },
+            {
+              "q": "Som do -ed em “watched”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/t/",
+              "why": "Depois de som surdo (ch) → **/t/**."
+            },
+            {
+              "q": "Som do -ed em “played”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/d/",
+              "why": "Depois de vogal → **/d/**."
+            },
+            {
+              "q": "Som do -ed em “needed”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/ɪd/",
+              "why": "Depois de **d** → **/ɪd/**."
+            },
+            {
+              "q": "Som do -ed em “worked”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/t/",
+              "why": "Depois de **k** → **/t/**."
+            },
+            {
+              "q": "Som do -ed em “called”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/d/",
+              "why": "Depois de **l** → **/d/**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p2-ex3",
+          "titulo": "2.3 Complete no passado",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "Yesterday I ___ (work) all day.",
+              "a": [
+                "worked"
+              ],
+              "why": "work + ed."
+            },
+            {
+              "q": "She ___ (visit) her aunt.",
+              "a": [
+                "visited"
+              ],
+              "why": "visit + ed."
+            },
+            {
+              "q": "We ___ (cook) dinner.",
+              "a": [
+                "cooked"
+              ],
+              "why": "cook + ed."
+            },
+            {
+              "q": "They ___ (play) soccer.",
+              "a": [
+                "played"
+              ],
+              "why": "play + ed."
+            },
+            {
+              "q": "He ___ (study) English.",
+              "a": [
+                "studied"
+              ],
+              "why": "study → studied."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p2-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "She studyed English.",
+              "a": [
+                "She studied English."
+              ],
+              "why": "Consoante + y: y → ied."
+            },
+            {
+              "q": "We stoped there.",
+              "a": [
+                "We stopped there."
+              ],
+              "why": "Dobra o p: stopped."
+            },
+            {
+              "q": "I play yesterday.",
+              "a": [
+                "I played yesterday."
+              ],
+              "why": "Ontem → passado: played."
+            },
+            {
+              "q": "They watchd TV.",
+              "a": [
+                "They watched TV."
+              ],
+              "why": "watch + **ed**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Yesterday was a busy day.",
+              "Ontem foi um dia cheio."
+            ],
+            [
+              "I cleaned the house in the morning.",
+              "Limpei a casa de manhã."
+            ],
+            [
+              "My wife cooked lunch, and we stayed at home.",
+              "Minha esposa preparou o almoço e ficamos em casa."
+            ],
+            [
+              "In the afternoon, my son played games, and I watched a movie.",
+              "À tarde, meu filho jogou e eu assisti a um filme."
+            ],
+            [
+              "My parents called us in the evening.",
+              "Meus pais ligaram para nós à noite."
+            ],
+            [
+              "We talked for an hour. It was a nice day.",
+              "Conversamos por uma hora. Foi um dia agradável."
+            ]
+          ],
+          "titulo": "My Saturday"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: passado regular",
+          "frases": [
+            [
+              "I worked all day.",
+              "Eu trabalhei o dia todo."
+            ],
+            [
+              "She visited her aunt.",
+              "Ela visitou a tia dela."
+            ],
+            [
+              "We cooked dinner.",
+              "Nós preparamos o jantar."
+            ],
+            [
+              "They played soccer.",
+              "Eles jogaram futebol."
+            ],
+            [
+              "He studied English.",
+              "Ele estudou inglês."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m5-p2-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I cleaned the house.",
+              "a": [
+                "I cleaned the house."
+              ],
+              "why": "clean + ed."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She called me.",
+              "a": [
+                "She called me."
+              ],
+              "why": "call + ed."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "They stayed at home.",
+              "a": [
+                "They stayed at home."
+              ],
+              "why": "stay + ed."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m5-p2",
+          "prompt": "Escreva 5 frases sobre o que você fez ontem usando verbos regulares no passado (worked, cleaned, watched…)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Regulares: **+ ed** · termina em e: **+ d** · consoante + y: **ied** · vogal + y: **+ ed** · curto: dobra a consoante (stopped)",
+            "Um só passado para todos: I worked · she worked · they worked (sem -s)",
+            "Sons do -ed: **/t/** (worked) · **/d/** (played) · **/ɪd/** (wanted)"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "She studyed English.",
+              "She studied English."
+            ],
+            [
+              "I play yesterday.",
+              "I played yesterday."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m5-p3",
+      "n": 3,
+      "tipo": "pratica",
+      "titulo": "Fixar o passado regular em frases",
+      "duracao": 40,
+      "resumo": "Sons do -ed, ortografia e frases no passado.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m5-p3",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m5-p3-ex1",
+          "titulo": "2.1 Escolha o som do -ed",
+          "ref": "m5-s2/3.2",
+          "items": [
+            {
+              "q": "Som do -ed em “cleaned”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/d/",
+              "why": "Depois de **n** → **/d/**."
+            },
+            {
+              "q": "Som do -ed em “stopped”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/t/",
+              "why": "Depois de **p** → **/t/**."
+            },
+            {
+              "q": "Som do -ed em “visited”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/ɪd/",
+              "why": "Depois de **t** → **/ɪd/**."
+            },
+            {
+              "q": "Som do -ed em “lived”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/d/",
+              "why": "Depois de **v** → **/d/**."
+            },
+            {
+              "q": "Som do -ed em “studied”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/d/",
+              "why": "Depois de vogal (i) → **/d/**."
+            },
+            {
+              "q": "Som do -ed em “stayed”:",
+              "opts": [
+                "/t/",
+                "/d/",
+                "/ɪd/"
+              ],
+              "a": "/d/",
+              "why": "Depois de vogal → **/d/**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p3-ex2",
+          "titulo": "2.2 Escolha a forma certa",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "Ela estudou:",
+              "opts": [
+                "studied",
+                "studyed"
+              ],
+              "a": "studied",
+              "why": "Consoante + y: y → ied."
+            },
+            {
+              "q": "Nós paramos:",
+              "opts": [
+                "stopped",
+                "stoped"
+              ],
+              "a": "stopped",
+              "why": "Curto: dobra o p."
+            },
+            {
+              "q": "Eles moraram:",
+              "opts": [
+                "lived",
+                "livd"
+              ],
+              "a": "lived",
+              "why": "Termina em e: + d."
+            },
+            {
+              "q": "Ele jogou:",
+              "opts": [
+                "played",
+                "plaied"
+              ],
+              "a": "played",
+              "why": "Vogal + y: só + ed."
+            },
+            {
+              "q": "Eu visitei:",
+              "opts": [
+                "visited",
+                "visitd"
+              ],
+              "a": "visited",
+              "why": "visit + ed."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p3-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "Ela limpou a casa.",
+              "a": [
+                "She cleaned the house."
+              ],
+              "why": "she + cleaned."
+            },
+            {
+              "q": "Nós assistimos a um filme.",
+              "a": [
+                "We watched a movie."
+              ],
+              "why": "we + watched."
+            },
+            {
+              "q": "Eles jogaram futebol.",
+              "a": [
+                "They played soccer."
+              ],
+              "why": "they + played."
+            },
+            {
+              "q": "Eu liguei para minha mãe.",
+              "a": [
+                "I called my mother."
+              ],
+              "why": "I + called."
+            },
+            {
+              "q": "Ele ficou em casa.",
+              "a": [
+                "He stayed at home."
+              ],
+              "why": "he + stayed."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p3-ex4",
+          "titulo": "2.4 Passe para o passado",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "She studies English.",
+              "a": [
+                "She studied English."
+              ],
+              "why": "study → studied."
+            },
+            {
+              "q": "They play soccer.",
+              "a": [
+                "They played soccer."
+              ],
+              "why": "play → played."
+            },
+            {
+              "q": "He visits his aunt.",
+              "a": [
+                "He visited his aunt."
+              ],
+              "why": "visit → visited."
+            },
+            {
+              "q": "We cook dinner.",
+              "a": [
+                "We cooked dinner."
+              ],
+              "why": "cook → cooked."
+            },
+            {
+              "q": "I stay at home.",
+              "a": [
+                "I stayed at home."
+              ],
+              "why": "stay → stayed."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Last weekend, we visited my parents.",
+              "No fim de semana passado, visitamos meus pais."
+            ],
+            [
+              "We stayed at their house for two days.",
+              "Ficamos na casa deles por dois dias."
+            ],
+            [
+              "My father cooked dinner, and my mother cleaned the kitchen.",
+              "Meu pai preparou o jantar e minha mãe limpou a cozinha."
+            ],
+            [
+              "I played soccer with my brother.",
+              "Joguei futebol com meu irmão."
+            ],
+            [
+              "On Sunday, we watched a movie and talked all day.",
+              "No domingo, assistimos a um filme e conversamos o dia todo."
+            ],
+            [
+              "I was tired, but I was happy.",
+              "Eu estava cansado, mas estava feliz."
+            ]
+          ],
+          "titulo": "A good weekend"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: o que você fez",
+          "frases": [
+            [
+              "She cleaned the house.",
+              "Ela limpou a casa."
+            ],
+            [
+              "We watched a movie.",
+              "Nós assistimos a um filme."
+            ],
+            [
+              "They played soccer.",
+              "Eles jogaram futebol."
+            ],
+            [
+              "I called my mother.",
+              "Eu liguei para minha mãe."
+            ],
+            [
+              "He stayed at home.",
+              "Ele ficou em casa."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m5-p3-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m5-s2/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "We visited my parents.",
+              "a": [
+                "We visited my parents."
+              ],
+              "why": "visit + ed."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "He studied English.",
+              "a": [
+                "He studied English."
+              ],
+              "why": "study → studied."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I was tired, but I was happy.",
+              "a": [
+                "I was tired, but I was happy."
+              ],
+              "why": "I → was."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m5-p3",
+          "prompt": "Escreva 5 frases sobre o fim de semana de um amigo ou familiar (He/She + passado regular + was/were)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Passado regular: **verbo + ed** (sem -s com he/she/it)",
+            "Sons do -ed: /t/ · /d/ · /ɪd/ (só o terceiro forma sílaba nova)",
+            "Ortografia: stopped · studied · lived · played"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "We stoped there.",
+              "We stopped there."
+            ],
+            [
+              "They watchd TV.",
+              "They watched TV."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m5-s3",
       "n": 3,
       "titulo": "Passado: negativa e perguntas com did",
@@ -649,6 +1918,1262 @@
           "items": ["Com **did/didn’t**, o verbo volta ao **base** (sem -ed)","Resposta curta: Yes, I **did**. · No, I **didn’t**.","Com **was/were** não se usa did"]
         },
         {"t":"errors","items":[["Did you worked?","Did you work?"],["I didn’t worked.","I didn’t work."]],"title":"ERROS COMUNS DE BRASILEIROS"}
+      ]
+    },
+    {
+      "id": "m5-p4",
+      "n": 4,
+      "tipo": "pratica",
+      "titulo": "Fixar did e didn’t",
+      "duracao": 40,
+      "resumo": "Negativa e pergunta no passado: did + verbo básico.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m5-p4",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m5-p4-ex1",
+          "titulo": "2.1 Complete com did ou didn’t",
+          "ref": "m5-s3/3.1",
+          "items": [
+            {
+              "q": "I ___ work yesterday. (não trabalhei)",
+              "a": [
+                [
+                  "didn't",
+                  "did not"
+                ]
+              ],
+              "why": "Negativa: **didn’t** + verbo básico."
+            },
+            {
+              "q": "___ you call Paula? — Yes, I did.",
+              "a": [
+                "Did"
+              ],
+              "why": "Pergunta: **Did** + sujeito + verbo básico?"
+            },
+            {
+              "q": "She ___ study last night. (não estudou)",
+              "a": [
+                [
+                  "didn't",
+                  "did not"
+                ]
+              ],
+              "why": "Negativa: **didn’t** + verbo básico."
+            },
+            {
+              "q": "___ they stay at home? — No, they didn’t.",
+              "a": [
+                "Did"
+              ],
+              "why": "Pergunta: **Did**…?"
+            },
+            {
+              "q": "We ___ watch TV. (não assistimos)",
+              "a": [
+                [
+                  "didn't",
+                  "did not"
+                ]
+              ],
+              "why": "Negativa: **didn’t**."
+            },
+            {
+              "q": "___ he visit you? — Yes, he did.",
+              "a": [
+                "Did"
+              ],
+              "why": "Pergunta: **Did**…?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p4-ex2",
+          "titulo": "2.2 Escolha o verbo certo",
+          "ref": "m5-s3/3.1",
+          "items": [
+            {
+              "q": "I didn’t (work / worked) yesterday.",
+              "opts": [
+                "work",
+                "worked"
+              ],
+              "a": "work",
+              "why": "Com didn’t, verbo básico (sem -ed)."
+            },
+            {
+              "q": "Did you (study / studied) English?",
+              "opts": [
+                "study",
+                "studied"
+              ],
+              "a": "study",
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "She didn’t (call / called) me.",
+              "opts": [
+                "call",
+                "called"
+              ],
+              "a": "call",
+              "why": "Com didn’t, verbo básico."
+            },
+            {
+              "q": "Did they (play / played) soccer?",
+              "opts": [
+                "play",
+                "played"
+              ],
+              "a": "play",
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "He didn’t (clean / cleaned) the house.",
+              "opts": [
+                "clean",
+                "cleaned"
+              ],
+              "a": "clean",
+              "why": "Com didn’t, verbo básico."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p4-ex3",
+          "titulo": "2.3 Negativa e pergunta",
+          "ref": "m5-s3/3.1",
+          "items": [
+            {
+              "q": "She called me.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "She didn't call me.",
+                  "She did not call me."
+                ],
+                [
+                  "Did she call you?",
+                  "Did she call me?"
+                ]
+              ],
+              "why": "Negativa: **didn’t call**. Pergunta: **Did she call…?**"
+            },
+            {
+              "q": "They worked yesterday.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "They didn't work yesterday.",
+                  "They did not work yesterday."
+                ],
+                [
+                  "Did they work yesterday?"
+                ]
+              ],
+              "why": "didn’t work · Did they work…?"
+            },
+            {
+              "q": "You cooked dinner.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "You didn't cook dinner.",
+                  "You did not cook dinner."
+                ],
+                [
+                  "Did you cook dinner?"
+                ]
+              ],
+              "why": "didn’t cook · Did you cook…?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p4-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m5-s3/3.1",
+          "items": [
+            {
+              "q": "I didn’t worked yesterday.",
+              "a": [
+                "I didn't work yesterday.",
+                "I did not work yesterday."
+              ],
+              "why": "O -ed fica no did: **didn’t work**."
+            },
+            {
+              "q": "Did you worked?",
+              "a": [
+                "Did you work?"
+              ],
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "She no called me.",
+              "a": [
+                "She didn't call me.",
+                "She did not call me."
+              ],
+              "why": "Negativa: **didn’t**."
+            },
+            {
+              "q": "Did she was tired?",
+              "a": [
+                "Was she tired?"
+              ],
+              "why": "Com was/were não use did."
+            },
+            {
+              "q": "We didn’t was at home.",
+              "a": [
+                "We weren't at home.",
+                "We were not at home."
+              ],
+              "why": "Com was/were: **weren’t**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Did you work yesterday?",
+              "Você trabalhou ontem?"
+            ],
+            [
+              "B",
+              "Yes, I did. I worked all day.",
+              "Sim. Trabalhei o dia todo."
+            ],
+            [
+              "A",
+              "Did you cook dinner?",
+              "Você preparou o jantar?"
+            ],
+            [
+              "B",
+              "No, I didn’t. I didn’t have time.",
+              "Não. Não tive tempo."
+            ],
+            [
+              "A",
+              "Did you call Paula?",
+              "Você ligou para a Paula?"
+            ],
+            [
+              "B",
+              "Yes, I did. We talked for an hour.",
+              "Sim. Conversamos por uma hora."
+            ],
+            [
+              "A",
+              "Was she tired?",
+              "Ela estava cansada?"
+            ],
+            [
+              "B",
+              "No, she wasn’t.",
+              "Não, não estava."
+            ]
+          ],
+          "titulo": "EXEMPLO · Ontem"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: did e didn’t",
+          "frases": [
+            [
+              "Did you work yesterday?",
+              "Você trabalhou ontem?"
+            ],
+            [
+              "Yes, I did.",
+              "Sim, trabalhei."
+            ],
+            [
+              "I didn’t call him.",
+              "Eu não liguei para ele."
+            ],
+            [
+              "She didn’t study last night.",
+              "Ela não estudou ontem à noite."
+            ],
+            [
+              "Did they stay at home?",
+              "Eles ficaram em casa?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m5-p4-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m5-s3/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I didn’t work yesterday.",
+              "a": [
+                "I didn't work yesterday.",
+                "I did not work yesterday."
+              ],
+              "why": "didn’t + verbo básico."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Did you call Paula?",
+              "a": [
+                "Did you call Paula?"
+              ],
+              "why": "Did + you + verbo básico?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She didn’t clean the house.",
+              "a": [
+                "She didn't clean the house.",
+                "She did not clean the house."
+              ],
+              "why": "didn’t + verbo básico."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m5-p4",
+          "prompt": "Escreva 5 frases: 3 negativas sobre o que você NÃO fez ontem e 2 perguntas com Did you…? para um amigo."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Negativa: **didn’t + verbo básico** · pergunta: **Did + sujeito + verbo básico?**",
+            "O **-ed** só aparece na afirmativa: I worked → I didn’t work → Did you work?",
+            "Resposta curta: Yes, I did. · No, I didn’t. · was/were não usam did."
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I didn’t worked yesterday.",
+              "I didn’t work yesterday."
+            ],
+            [
+              "Did she was tired?",
+              "Was she tired?"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m5-p5",
+      "n": 5,
+      "tipo": "pratica",
+      "titulo": "Fixar as perguntas no passado",
+      "duracao": 40,
+      "resumo": "Where, What, When, Why e Who com did.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m5-p5",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m5-p5-ex1",
+          "titulo": "2.1 Escolha a palavra interrogativa",
+          "ref": "m5-s3/3.2",
+          "items": [
+            {
+              "q": "(Where / Why) did you stay? — At home.",
+              "opts": [
+                "Where",
+                "Why"
+              ],
+              "a": "Where",
+              "why": "Resposta é um lugar → **Where**."
+            },
+            {
+              "q": "(When / Who) did she call? — Last night.",
+              "opts": [
+                "When",
+                "Who"
+              ],
+              "a": "When",
+              "why": "Resposta é um momento → **When**."
+            },
+            {
+              "q": "(Why / What) did they leave? — Because they were tired.",
+              "opts": [
+                "Why",
+                "What"
+              ],
+              "a": "Why",
+              "why": "“Because…” responde **Why**."
+            },
+            {
+              "q": "(Who / How) did you visit? — My aunt.",
+              "opts": [
+                "Who",
+                "How"
+              ],
+              "a": "Who",
+              "why": "Resposta é uma pessoa → **Who**."
+            },
+            {
+              "q": "(What / When) did you cook? — Pasta.",
+              "opts": [
+                "What",
+                "When"
+              ],
+              "a": "What",
+              "why": "Resposta é uma coisa → **What**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p5-ex2",
+          "titulo": "2.2 Faça a pergunta",
+          "ref": "m5-s3/3.2",
+          "items": [
+            {
+              "q": "I stayed at home. (Where…?)",
+              "a": [
+                "Where did you stay?"
+              ],
+              "why": "Where + did + sujeito + verbo básico?"
+            },
+            {
+              "q": "She called last night. (When…?)",
+              "a": [
+                "When did she call?"
+              ],
+              "why": "When + did + she + verbo básico?"
+            },
+            {
+              "q": "They cooked pasta. (What…?)",
+              "a": [
+                "What did they cook?"
+              ],
+              "why": "What + did + they + verbo básico?"
+            },
+            {
+              "q": "I visited my aunt. (Who…?)",
+              "a": [
+                "Who did you visit?"
+              ],
+              "why": "Who + did + you + verbo básico?"
+            },
+            {
+              "q": "They left because they were tired. (Why…?)",
+              "a": [
+                "Why did they leave?"
+              ],
+              "why": "Why + did + they + verbo básico?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p5-ex3",
+          "titulo": "2.3 Responda com Because",
+          "ref": "m5-s3/3.2",
+          "items": [
+            {
+              "q": "Why did you leave? (porque eu estava cansado)",
+              "a": [
+                "Because I was tired."
+              ],
+              "why": "Because + frase completa."
+            },
+            {
+              "q": "Why didn’t she work? (porque ela estava cansada)",
+              "a": [
+                "Because she was tired."
+              ],
+              "why": "Because + frase completa."
+            },
+            {
+              "q": "Why did they stay at home? (porque eles estavam cansados)",
+              "a": [
+                "Because they were tired."
+              ],
+              "why": "Because + frase completa."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p5-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m5-s3/3.2",
+          "items": [
+            {
+              "q": "Where you stayed?",
+              "a": [
+                "Where did you stay?"
+              ],
+              "why": "Faltou **did** e o verbo fica básico."
+            },
+            {
+              "q": "What did you cooked?",
+              "a": [
+                "What did you cook?"
+              ],
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "When she called?",
+              "a": [
+                "When did she call?"
+              ],
+              "why": "Faltou **did**."
+            },
+            {
+              "q": "Why they left?",
+              "a": [
+                "Why did they leave?"
+              ],
+              "why": "Faltou **did** e o verbo fica básico."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Where were you yesterday?",
+              "Onde você estava ontem?"
+            ],
+            [
+              "B",
+              "I was at my aunt’s house.",
+              "Eu estava na casa da minha tia."
+            ],
+            [
+              "A",
+              "What did you do there?",
+              "O que você fez lá?"
+            ],
+            [
+              "B",
+              "We cooked lunch and watched a movie.",
+              "Preparamos o almoço e assistimos a um filme."
+            ],
+            [
+              "A",
+              "Who cooked?",
+              "Quem cozinhou?"
+            ],
+            [
+              "B",
+              "My aunt cooked. I cleaned the kitchen.",
+              "Minha tia cozinhou. Eu limpei a cozinha."
+            ],
+            [
+              "A",
+              "When did you come back home?",
+              "Quando você voltou para casa?"
+            ],
+            [
+              "B",
+              "At night. I was very tired.",
+              "À noite. Eu estava muito cansado."
+            ]
+          ],
+          "titulo": "EXEMPLO · Onde você estava?"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: perguntas no passado",
+          "frases": [
+            [
+              "Where did you stay?",
+              "Onde você ficou?"
+            ],
+            [
+              "What did you do?",
+              "O que você fez?"
+            ],
+            [
+              "When did she call?",
+              "Quando ela ligou?"
+            ],
+            [
+              "Why did they leave?",
+              "Por que eles saíram?"
+            ],
+            [
+              "How was your day?",
+              "Como foi o seu dia?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m5-p5-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m5-s3/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Where did you stay?",
+              "a": [
+                "Where did you stay?"
+              ],
+              "why": "Where + did + you + verbo básico?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "What did she cook?",
+              "a": [
+                "What did she cook?"
+              ],
+              "why": "What + did + she + verbo básico?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Why did they leave?",
+              "a": [
+                "Why did they leave?"
+              ],
+              "why": "Why + did + they + verbo básico?"
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m5-p5",
+          "prompt": "Escreva 5 perguntas no passado para um amigo (Where, What, When, Why, Who) e responda 2 delas."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Pergunta: **palavra interrogativa + did + sujeito + verbo básico?**",
+            "Where (lugar) · What (coisa) · When (momento) · Why (motivo) · Who (pessoa) · How was…?",
+            "**Because…** responde Why"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "Where you stayed?",
+              "Where did you stay?"
+            ],
+            [
+              "What did you cooked?",
+              "What did you cook?"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m5-p6",
+      "n": 6,
+      "tipo": "pratica",
+      "titulo": "Revisão do módulo",
+      "duracao": 40,
+      "resumo": "was/were, passado regular, did/didn’t e perguntas: aquecimento para o mini-teste.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m5-p6",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m5-p6-ex1",
+          "titulo": "2.1 Escolha a forma correta",
+          "ref": "m5-s1/3.1",
+          "items": [
+            {
+              "q": "I (was / did) tired yesterday.",
+              "opts": [
+                "was",
+                "did"
+              ],
+              "a": "was",
+              "why": "TO BE no passado: **was**."
+            },
+            {
+              "q": "(Did / Were) you call Paula?",
+              "opts": [
+                "Did",
+                "Were"
+              ],
+              "a": "Did",
+              "why": "“call” é outro verbo → **Did**."
+            },
+            {
+              "q": "She (didn’t / wasn’t) work last week.",
+              "opts": [
+                "didn’t",
+                "wasn’t"
+              ],
+              "a": "didn’t",
+              "why": "“work” é outro verbo → **didn’t**."
+            },
+            {
+              "q": "They (was / were) at the party.",
+              "opts": [
+                "was",
+                "were"
+              ],
+              "a": "were",
+              "why": "they → **were**."
+            },
+            {
+              "q": "(Did / Was) she tired?",
+              "opts": [
+                "Did",
+                "Was"
+              ],
+              "a": "Was",
+              "why": "“tired” é adjetivo → **Was**."
+            },
+            {
+              "q": "He (visit / visited) his aunt.",
+              "opts": [
+                "visit",
+                "visited"
+              ],
+              "a": "visited",
+              "why": "Afirmativa no passado: **verbo + ed**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p6-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m5-s2/3.1",
+          "items": [
+            {
+              "q": "Eu estava em casa ontem.",
+              "a": [
+                "I was at home yesterday.",
+                "Yesterday I was at home."
+              ],
+              "why": "I → was."
+            },
+            {
+              "q": "Ela não ligou para mim.",
+              "a": [
+                "She didn't call me.",
+                "She did not call me."
+              ],
+              "why": "didn’t + verbo básico."
+            },
+            {
+              "q": "Vocês trabalharam ontem?",
+              "a": [
+                "Did you work yesterday?"
+              ],
+              "why": "Did + you + verbo básico?"
+            },
+            {
+              "q": "Onde eles ficaram?",
+              "a": [
+                "Where did they stay?"
+              ],
+              "why": "Where + did + they + verbo básico?"
+            },
+            {
+              "q": "Nós limpamos a casa há dois dias.",
+              "a": [
+                "We cleaned the house two days ago."
+              ],
+              "why": "cleaned + two days **ago**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p6-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m5-s3/3.1",
+          "items": [
+            {
+              "q": "Did she called you?",
+              "a": [
+                "Did she call you?"
+              ],
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "They was at home.",
+              "a": [
+                "They were at home."
+              ],
+              "why": "they → **were**."
+            },
+            {
+              "q": "We didn’t was late.",
+              "a": [
+                "We weren't late.",
+                "We were not late."
+              ],
+              "why": "Com was/were: **weren’t**."
+            },
+            {
+              "q": "She studyed English.",
+              "a": [
+                "She studied English."
+              ],
+              "why": "Consoante + y: y → ied."
+            },
+            {
+              "q": "Yesterday I am tired.",
+              "a": [
+                "Yesterday I was tired."
+              ],
+              "why": "Ontem → passado: **was**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m5-p6-ex4",
+          "titulo": "2.4 Complete no passado",
+          "ref": "m5-s1/3.1",
+          "items": [
+            {
+              "q": "Last year I ___ (be) in Rio.",
+              "a": [
+                "was"
+              ],
+              "why": "I → was."
+            },
+            {
+              "q": "She ___ (not / clean) the house.",
+              "a": [
+                [
+                  "didn't clean",
+                  "did not clean"
+                ]
+              ],
+              "why": "didn’t + verbo básico."
+            },
+            {
+              "q": "___ you ___ (study) last night?",
+              "a": [
+                "Did",
+                "study"
+              ],
+              "why": "Did + you + verbo básico?"
+            },
+            {
+              "q": "They ___ (play) soccer on Sunday.",
+              "a": [
+                "played"
+              ],
+              "why": "play + ed."
+            },
+            {
+              "q": "We ___ at home. (não estávamos)",
+              "a": [
+                [
+                  "weren't",
+                  "were not"
+                ]
+              ],
+              "why": "Negativa de were: **weren’t**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "On Saturday, Anna cleaned the house and cooked dinner.",
+              "No sábado, a Anna limpou a casa e preparou o jantar."
+            ],
+            [
+              "She didn’t watch TV.",
+              "Ela não assistiu TV."
+            ],
+            [
+              "Her friends visited her in the evening.",
+              "Os amigos dela a visitaram à noite."
+            ],
+            [
+              "They played games and talked for two hours.",
+              "Eles jogaram e conversaram por duas horas."
+            ],
+            [
+              "On Sunday, she stayed at home.",
+              "No domingo, ela ficou em casa."
+            ],
+            [
+              "She was tired, but she was happy.",
+              "Ela estava cansada, mas estava feliz."
+            ]
+          ],
+          "titulo": "Anna’s weekend"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: revisão",
+          "frases": [
+            [
+              "I was at home yesterday.",
+              "Eu estava em casa ontem."
+            ],
+            [
+              "She didn’t call me.",
+              "Ela não ligou para mim."
+            ],
+            [
+              "Did you work yesterday?",
+              "Você trabalhou ontem?"
+            ],
+            [
+              "Where did they stay?",
+              "Onde eles ficaram?"
+            ],
+            [
+              "We cleaned the house two days ago.",
+              "Limpamos a casa há dois dias."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m5-p6-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m5-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "We weren’t late.",
+              "a": [
+                "We weren't late.",
+                "We were not late."
+              ],
+              "why": "we → weren’t."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Did you visit your aunt?",
+              "a": [
+                "Did you visit your aunt?"
+              ],
+              "why": "Did + you + verbo básico?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She didn’t cook dinner.",
+              "a": [
+                "She didn't cook dinner.",
+                "She did not cook dinner."
+              ],
+              "why": "didn’t + verbo básico."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m5-p6",
+          "prompt": "Escreva um parágrafo de 6 frases sobre o seu último fim de semana: was/were, verbos regulares, uma negativa e uma pergunta para um amigo."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "was / were · wasn’t / weren’t · Was / Were + sujeito?",
+            "Regulares: verbo + ed · didn’t + verbo básico · Did + sujeito + verbo básico?",
+            "Marcadores: yesterday · last … · … ago"
+          ]
+        },
+        {
+          "t": "tip",
+          "s": "Esta é a última prática antes do mini-teste da Sessão 4. Refaça o Caderno de erros e releia as revisões das sessões 1, 2 e 3.",
+          "title": "PULO DO GATO"
+        }
       ]
     },
     {

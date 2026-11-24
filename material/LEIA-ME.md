@@ -69,6 +69,7 @@ plano: {
   metodo: [["Título", "explicação"]],                                  // lista “Título: explicação”
   sessao: [[8, "Anki", "o que fazer"], [7, "…", "…"]],                 // [minutos, bloco, instrução]
   pilulas: ["**Pulo do gato:** …"],                                    // lista de textos
+  pratica: { intro: "…", blocos: [["Cartões e revisão", 10, "o que fazer"]] }, // sessão de prática (opcional)
   ciclo: { intro: "…", passos: ["…"] },
   fases: [{ id: "f1", n: 1, nome: "Fundação", nivel: "A1", cor: "teal", descricao: "…",
             criterio: "texto do critério para avançar", modulos: ["m1","m2"], marco: "m4-s4" }],
@@ -105,7 +106,7 @@ Fases sem `modulos` aparecem como "conteúdo futuro". `marco` é o id da sessão
   "resumo": "Uma linha.", "blocos": [ ], "revisao": [ ] }
 ```
 
-`n` pode ser `""` para uma sessão introdutória. `revisao` é a lista de blocos do **material sintético de revisão** (use `table`, `bullets`, `errors`, `tip`): é o que o aluno abre pelo botão "📖 Material de revisão" no Caderno de erros, na "Revisão rápida" da sessão e na Revisão programada (D+1, D+7, D+30).
+`n` pode ser `""` para uma sessão introdutória. **Sessão de prática:** acrescente `"tipo": "pratica"` (e `n` = 1, 2, 3… dentro do módulo). Ela aparece como “Prática N”, não traz conteúdo novo, não gera lembretes D+1/D+7/D+30 e, se não tiver bloco `vocab`, não traz cartões novos (o bloco `srs` mostra só as revisões do dia). Estrutura usada: `roteiro` (10 + 15 + 10 + 5 min), `etapa-1` Cartões e revisão (`srs` + `revref`), `etapa-2` Exercícios, `etapa-3` Ouvir e ler (`reading`, `example`, `listen`), `etapa-4` Escrever (ditado e `prod`). A ordem das sessões no arquivo do módulo é a ordem de estudo (guiada, guiada, prática…). Cada módulo tem 10 sessões: 4 guiadas e 6 de prática (2 semanas). `plano.pratica` descreve os 4 blocos na página do plano. `revisao` é a lista de blocos do **material sintético de revisão** (use `table`, `bullets`, `errors`, `tip`): é o que o aluno abre pelo botão "📖 Material de revisão" no Caderno de erros, na "Revisão rápida" da sessão e na Revisão programada (D+1, D+7, D+30).
 
 ## Marcação de texto (vale em todos os textos)
 

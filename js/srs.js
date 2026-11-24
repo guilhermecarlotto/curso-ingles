@@ -48,7 +48,9 @@
   /* sessão atual = a primeira ainda não concluída (com cartões) */
   function currentSid() {
     const S = EN.S;
-    return C.ORDER.find(id => hasDeck(id) && !S.done[id]) || C.ORDER.filter(hasDeck).pop() || null;
+    /* sessão de prática não tem cartões novos, mas conta como "atual": assim os cartões da próxima guiada só entram na hora certa */
+    const prat = id => C.SES[id].s.tipo === 'pratica';
+    return C.ORDER.find(id => (hasDeck(id) || prat(id)) && !S.done[id]) || C.ORDER.filter(hasDeck).pop() || null;
   }
   const dueIds = deck => Object.keys(cards()).filter(id => cards()[id].due <= today() && live(id) && (!deck || deckOfId(id) === deck)).sort((a, b) => cards()[a].due < cards()[b].due ? -1 : 1);
   const newSession = sid => (sid ? sessionDeck(sid).map(c => c.id).filter(id => !cards()[id] && !susp()[id]) : []);
@@ -226,7 +228,7 @@
     const list = queue(scope), isDeck = !!(scope && scope.indexOf('deck:') === 0), sid = scope && !isDeck ? scope : null;
     if (!list.length) { if (!(o && o.quiet)) EN.toast('Nenhum cartão para estudar agora. ✔'); if (sid) markStep(sid); return false; }
     const s = sid && C.SES[sid] ? C.SES[sid].s : null;
-    Q = { scope: scope || null, sid, title: isDeck ? 'Baralho: ' + deckName(scope.slice(5)) : s ? `Sessão ${s.n}` : 'Cartões de hoje', list, done: 0, again: 0, shown: false, total: list.length, newN: list.filter(x => x.isNew).length, last: null };
+    Q = { scope: scope || null, sid, title: isDeck ? 'Baralho: ' + deckName(scope.slice(5)) : s ? (s.tipo === 'pratica' ? `Prática ${s.n}` : `Sessão ${s.n}`) : 'Cartões de hoje', list, done: 0, again: 0, shown: false, total: list.length, newN: list.filter(x => x.isNew).length, last: null };
     ensureOv().hidden = false; document.body.classList.add('srs-open'); draw(); autoSay(false); return true;
   }
   function close() {
@@ -327,7 +329,7 @@
     const mods = (C.course ? C.course.modulos : []).map(m => `<div class="card" style="margin:8px 0"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span style="font-size:20px">${esc(m.icone || '📘')}</span><b style="flex:1;min-width:150px">${C.md(m.titulo)}</b></div><div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px">${(m.sessoes || []).filter(s => hasDeck(s.id)).map(s => { const d = sessionDeck(s.id), v = d.filter(c => cards()[c.id]).length; return `<button class="btn sm ${v === d.length ? 'ghost' : ''}" data-act="srs-open" data-k="${esc(s.id)}" title="Estudar o baralho da sessão ${s.n}">${v === d.length ? '✓ ' : ''}S${s.n} · ${v}/${d.length}</button>`; }).join('')}</div></div>`).join('');
     return `<h1 class="pgtitle">🃏 Cartões</h1><p class="muted">Seus baralhos e os cartões do curso ficam aqui dentro: o app agenda sozinho a próxima vez que cada cartão deve voltar. Responda <b>De novo</b>, <b>Difícil</b>, <b>Bom</b> ou <b>Fácil</b> conforme lembrar.</p>
 <div class="card srs-sum"><div class="srs-n"><b>${q.due}</b><span>revisões para hoje</span></div><div class="srs-n"><b>${q.nw}</b><span>novos disponíveis</span></div><div class="srs-n"><b>${st.r}</b><span>respondidos hoje</span></div><div class="srs-n"><b>${all.length}</b><span>cartões estudados</span></div></div>
-<div class="act" style="margin:12px 0"><button class="btn pri" data-act="srs-open" data-k="">▶ Estudar tudo agora${cs ? ` (inclui sessão ${C.SES[cs].s.n})` : ''}</button><button class="btn" data-ca="add" data-k="">➕ Adicionar cartão</button><button class="btn" data-ca="newdeck">📁 Novo baralho</button><button class="btn" data-ca="browse" data-k="all">🔎 Navegar</button><button class="btn" data-ca="import">⬆ Importar</button></div>
+<div class="act" style="margin:12px 0"><button class="btn pri" data-act="srs-open" data-k="">▶ Estudar tudo agora${cs ? ` (inclui ${C.SES[cs].s.tipo === 'pratica' ? 'prática' : 'sessão'} ${C.SES[cs].s.n})` : ''}</button><button class="btn" data-ca="add" data-k="">➕ Adicionar cartão</button><button class="btn" data-ca="newdeck">📁 Novo baralho</button><button class="btn" data-ca="browse" data-k="all">🔎 Navegar</button><button class="btn" data-ca="import">⬆ Importar</button></div>
 <div class="sectitle">Meus baralhos</div><div class="card" style="padding:6px 10px"><table class="decks"><thead><tr><th>Baralho</th><th class="num">Novos</th><th class="num">Vencidos</th><th class="num">Cartões</th><th></th></tr></thead><tbody>${rows}</tbody></table></div>
 <p class="small muted" style="margin-top:6px">Para criar um cartão a partir do texto das aulas, selecione uma palavra ou um trecho e escolha <b>➕ Cartão</b>: preencha a tradução e um exemplo. Os baralhos que você criar aparecem na lista de escolha.</p>
 <div class="sectitle">Baralhos do curso</div><p class="small muted">Cada sessão tem 10 cartões novos. Clique para estudar o baralho dela (as revisões vencidas vêm junto). Para ver ou suspender os cartões do curso, use <a href="#/cartoes/navegar/curso">Navegar</a>.</p>${mods}

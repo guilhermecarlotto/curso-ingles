@@ -230,7 +230,7 @@
   }
   C.aiBox = aiBox;
   function aiPrompt(kind, id) {
-    const L = [], hd = (s, m) => `Módulo ${m.n != null ? m.n : '?'} · Sessão ${s.n != null ? s.n : '?'} · ${plain(s.titulo)}`;
+    const L = [], hd = (s, m) => `Módulo ${m.n != null ? m.n : '?'} · ${s.tipo === 'pratica' ? 'Prática' : 'Sessão'} ${s.n != null ? s.n : '?'} · ${plain(s.titulo)}`;
     const head = (what, s, m) => { L.push(`Olá, Claude! Sou brasileiro estudando inglês do zero (nível A1 → A2, inglês americano) em um curso próprio. Corrija ${what}.`, '', 'ATIVIDADE', hd(s, m)); };
     if (kind === 'video') {
       const { b, s, m } = C.VIDEOS[id], v = S.video[id] || {}, u = safeUrl(b.url || (C.course.curso && C.course.curso.videoUrl));

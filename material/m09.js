@@ -224,6 +224,428 @@
       ]
     },
     {
+      "id": "m9-p1",
+      "n": 1,
+      "tipo": "pratica",
+      "titulo": "Fixar comparativos e superlativos",
+      "duracao": 40,
+      "resumo": "-er/-est, more/most, irregulares, than e as… as.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m9-p1",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m9-p1-ex1",
+          "titulo": "2.1 Escreva o comparativo",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "tall → ___",
+              "a": [
+                "taller"
+              ],
+              "why": "Curto: + er."
+            },
+            {
+              "q": "big → ___",
+              "a": [
+                "bigger"
+              ],
+              "why": "c-v-c: dobra a consoante."
+            },
+            {
+              "q": "easy → ___",
+              "a": [
+                "easier"
+              ],
+              "why": "y → ier."
+            },
+            {
+              "q": "nice → ___",
+              "a": [
+                "nicer"
+              ],
+              "why": "Termina em e: + r."
+            },
+            {
+              "q": "good → ___",
+              "a": [
+                "better"
+              ],
+              "why": "Irregular: good → better."
+            },
+            {
+              "q": "expensive → ___",
+              "a": [
+                "more expensive"
+              ],
+              "why": "Longo: more + adjetivo."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p1-ex2",
+          "titulo": "2.2 Escolha a forma certa",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "She is (taller / more tall) than me.",
+              "opts": [
+                "taller",
+                "more tall"
+              ],
+              "a": "taller",
+              "why": "Curto: -er."
+            },
+            {
+              "q": "This hotel is (cheaper / more cheap) than that one.",
+              "opts": [
+                "cheaper",
+                "more cheap"
+              ],
+              "a": "cheaper",
+              "why": "Curto: -er."
+            },
+            {
+              "q": "It is the (best / most good) movie of the year.",
+              "opts": [
+                "best",
+                "most good"
+              ],
+              "a": "best",
+              "why": "Irregular: the best."
+            },
+            {
+              "q": "This bag is (more expensive / expensiver) than that one.",
+              "opts": [
+                "more expensive",
+                "expensiver"
+              ],
+              "a": "more expensive",
+              "why": "Longo: more + adjetivo."
+            },
+            {
+              "q": "He is taller (than / that) me.",
+              "opts": [
+                "than",
+                "that"
+              ],
+              "a": "than",
+              "why": "Comparativo + **than**."
+            },
+            {
+              "q": "She is (the tallest / tallest) in the class.",
+              "opts": [
+                "the tallest",
+                "tallest"
+              ],
+              "a": "the tallest",
+              "why": "Superlativo leva **the**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p1-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "Minha casa é maior que a sua.",
+              "a": [
+                "My house is bigger than yours.",
+                "My house is bigger than your house."
+              ],
+              "why": "bigger than."
+            },
+            {
+              "q": "Este é o melhor hotel.",
+              "a": [
+                "This is the best hotel.",
+                "This hotel is the best."
+              ],
+              "why": "the best."
+            },
+            {
+              "q": "Ela é mais velha que eu.",
+              "a": [
+                "She is older than me.",
+                "She is older than I am."
+              ],
+              "why": "older than."
+            },
+            {
+              "q": "Eu sou tão alto quanto meu irmão.",
+              "a": [
+                "I am as tall as my brother.",
+                "I'm as tall as my brother."
+              ],
+              "why": "as + adjetivo + as."
+            },
+            {
+              "q": "Este hotel não é tão caro quanto aquele.",
+              "a": [
+                "This hotel isn't as expensive as that one.",
+                "This hotel is not as expensive as that one."
+              ],
+              "why": "not as … as."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p1-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "She is more tall than me.",
+              "a": [
+                "She is taller than me."
+              ],
+              "why": "Adjetivo curto: **taller**."
+            },
+            {
+              "q": "This is more better.",
+              "a": [
+                "This is better."
+              ],
+              "why": "better já é comparativo."
+            },
+            {
+              "q": "He is taller that me.",
+              "a": [
+                "He is taller than me."
+              ],
+              "why": "Use **than**."
+            },
+            {
+              "q": "It is the most big house.",
+              "a": [
+                "It is the biggest house."
+              ],
+              "why": "Curto: **the biggest**."
+            },
+            {
+              "q": "This hotel is more cheap.",
+              "a": [
+                "This hotel is cheaper."
+              ],
+              "why": "Curto: **cheaper**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Look at these two hotels. Which one is better?",
+              "Olhe estes dois hotéis. Qual é melhor?"
+            ],
+            [
+              "B",
+              "The blue hotel is bigger, but it’s more expensive.",
+              "O hotel azul é maior, mas é mais caro."
+            ],
+            [
+              "A",
+              "And the green one?",
+              "E o verde?"
+            ],
+            [
+              "B",
+              "It’s cheaper and closer to the beach. It isn’t as big as the blue one.",
+              "É mais barato e mais perto da praia. Não é tão grande quanto o azul."
+            ],
+            [
+              "A",
+              "Let’s take the green one. It’s the best price!",
+              "Vamos ficar com o verde. É o melhor preço!"
+            ]
+          ],
+          "titulo": "EXEMPLO · Escolhendo um hotel"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: comparar",
+          "frases": [
+            [
+              "My house is bigger than yours.",
+              "Minha casa é maior que a sua."
+            ],
+            [
+              "This bag is cheaper.",
+              "Esta bolsa é mais barata."
+            ],
+            [
+              "She is the tallest in the class.",
+              "Ela é a mais alta da turma."
+            ],
+            [
+              "This is the best movie.",
+              "Este é o melhor filme."
+            ],
+            [
+              "I am as tall as my brother.",
+              "Sou tão alto quanto meu irmão."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m9-p1-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She is taller than me.",
+              "a": [
+                "She is taller than me.",
+                "She is taller than I am."
+              ],
+              "why": "taller than."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "This is the best hotel.",
+              "a": [
+                "This is the best hotel."
+              ],
+              "why": "the best."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "It is not as expensive as that one.",
+              "a": [
+                "It is not as expensive as that one.",
+                "It isn't as expensive as that one."
+              ],
+              "why": "not as … as."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m9-p1",
+          "prompt": "Escreva 5 frases comparando duas coisas (casas, cidades, pessoas ou celulares) e 2 com o superlativo (the best, the biggest…)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Curto: **-er / the -est** · longo: **more / the most** · irregulares: **better / best · worse / worst**",
+            "Comparativo + **than** · superlativo leva **the**",
+            "**as … as** (igual) · **not as … as** (menos que)"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "She is more tall than me.",
+              "She is taller than me."
+            ],
+            [
+              "This is more better.",
+              "This is better."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m9-s2",
       "n": 2,
       "titulo": "Direções, lugares e transporte",
@@ -430,6 +852,800 @@
           "firstCol": true
         },
         {"t":"errors","items":[["Turn to left.","Turn left."],["by foot","on foot"]],"title":"ERROS COMUNS DE BRASILEIROS"}
+      ]
+    },
+    {
+      "id": "m9-p2",
+      "n": 2,
+      "tipo": "pratica",
+      "titulo": "Fixar as direções",
+      "duracao": 40,
+      "resumo": "Pedir e dar direções: go straight, turn left/right, on the corner.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m9-p2",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m9-p2-ex1",
+          "titulo": "2.1 Complete as direções",
+          "ref": "m9-s2/3.1",
+          "items": [
+            {
+              "q": "___ straight for two blocks. (siga)",
+              "a": [
+                "Go"
+              ],
+              "why": "**Go** straight."
+            },
+            {
+              "q": "___ left at the traffic light. (vire)",
+              "a": [
+                "Turn"
+              ],
+              "why": "**Turn** left."
+            },
+            {
+              "q": "The bank is ___ the corner.",
+              "a": [
+                "on"
+              ],
+              "why": "**on** the corner."
+            },
+            {
+              "q": "It is ___ from the park. (em frente a)",
+              "a": [
+                "across"
+              ],
+              "why": "**across** from."
+            },
+            {
+              "q": "The school is next ___ the bank.",
+              "a": [
+                "to"
+              ],
+              "why": "next **to**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p2-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m9-s2/3.1",
+          "items": [
+            {
+              "q": "Siga em frente.",
+              "a": [
+                "Go straight.",
+                "Go straight ahead."
+              ],
+              "why": "Go straight."
+            },
+            {
+              "q": "Vire à esquerda.",
+              "a": [
+                "Turn left."
+              ],
+              "why": "Turn left."
+            },
+            {
+              "q": "Como chego ao museu?",
+              "a": [
+                "How do I get to the museum?"
+              ],
+              "why": "How do I get to…?"
+            },
+            {
+              "q": "Vire à direita no semáforo.",
+              "a": [
+                "Turn right at the traffic light."
+              ],
+              "why": "at the traffic light."
+            },
+            {
+              "q": "É longe?",
+              "a": [
+                "Is it far?"
+              ],
+              "why": "Is it far?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p2-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m9-s2/3.1",
+          "items": [
+            {
+              "q": "How I go to the bank?",
+              "a": [
+                "How do I get to the bank?"
+              ],
+              "why": "Use **How do I get to…?**"
+            },
+            {
+              "q": "Turn to left.",
+              "a": [
+                "Turn left."
+              ],
+              "why": "Sem **to**."
+            },
+            {
+              "q": "It is in the corner.",
+              "a": [
+                "It is on the corner."
+              ],
+              "why": "**on** the corner."
+            },
+            {
+              "q": "The bank is next the school.",
+              "a": [
+                "The bank is next to the school."
+              ],
+              "why": "next **to**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p2-ex4",
+          "titulo": "2.4 Entenda a direção",
+          "ref": "m9-s2/3.1",
+          "items": [
+            {
+              "q": "“Turn right” significa:",
+              "opts": [
+                "Vire à direita",
+                "Vire à esquerda"
+              ],
+              "a": "Vire à direita",
+              "why": "right = direita."
+            },
+            {
+              "q": "“Go straight” significa:",
+              "opts": [
+                "Siga em frente",
+                "Volte"
+              ],
+              "a": "Siga em frente",
+              "why": "straight = reto."
+            },
+            {
+              "q": "“It’s across from the park” significa:",
+              "opts": [
+                "Em frente ao parque",
+                "Dentro do parque"
+              ],
+              "a": "Em frente ao parque",
+              "why": "across from = em frente a."
+            },
+            {
+              "q": "“It’s next to the bank” significa:",
+              "opts": [
+                "Ao lado do banco",
+                "Atrás do banco"
+              ],
+              "a": "Ao lado do banco",
+              "why": "next to = ao lado de."
+            },
+            {
+              "q": "“Turn left” significa:",
+              "opts": [
+                "Vire à esquerda",
+                "Vire à direita"
+              ],
+              "a": "Vire à esquerda",
+              "why": "left = esquerda."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Excuse me, how do I get to the bank?",
+              "Com licença, como chego ao banco?"
+            ],
+            [
+              "B",
+              "Go straight for two blocks. Then turn left at the traffic light.",
+              "Siga em frente por dois quarteirões. Depois vire à esquerda no semáforo."
+            ],
+            [
+              "A",
+              "Is it far?",
+              "É longe?"
+            ],
+            [
+              "B",
+              "No, it’s five minutes on foot. It’s across from the park.",
+              "Não, são cinco minutos a pé. Fica em frente ao parque."
+            ],
+            [
+              "A",
+              "Thank you very much!",
+              "Muito obrigado!"
+            ]
+          ],
+          "titulo": "EXEMPLO · Como chego ao banco?"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: direções",
+          "frases": [
+            [
+              "How do I get to the bank?",
+              "Como chego ao banco?"
+            ],
+            [
+              "Go straight.",
+              "Siga em frente."
+            ],
+            [
+              "Turn left at the traffic light.",
+              "Vire à esquerda no semáforo."
+            ],
+            [
+              "It’s on the corner.",
+              "Fica na esquina."
+            ],
+            [
+              "It’s across from the park.",
+              "Fica em frente ao parque."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m9-p2-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m9-s2/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "How do I get to the bank?",
+              "a": [
+                "How do I get to the bank?"
+              ],
+              "why": "How do I get to…?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Go straight for two blocks.",
+              "a": [
+                "Go straight for two blocks."
+              ],
+              "why": "Go straight for + quarteirões."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Turn right at the traffic light.",
+              "a": [
+                "Turn right at the traffic light."
+              ],
+              "why": "at the traffic light."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m9-p2",
+          "prompt": "Escreva as direções da sua casa até um lugar próximo (mercado ou ponto de ônibus) em 5 frases: go straight, turn left/right, on the corner…"
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Pedir: **How do I get to…?** · **Where is…?** · **Is there… near here?**",
+            "Dar: **Go straight · Turn left/right · It’s on the corner · across from · next to**",
+            "Imperativo: Go, Turn, Take, Cross · **on** the corner · **at** the traffic light"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "How I go to the bank?",
+              "How do I get to the bank?"
+            ],
+            [
+              "It is in the corner.",
+              "It is on the corner."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m9-p3",
+      "n": 3,
+      "tipo": "pratica",
+      "titulo": "Fixar lugares e transporte",
+      "duracao": 40,
+      "resumo": "Lugares da cidade, by bus/on foot e frases de deslocamento.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m9-p3",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m9-p3-ex1",
+          "titulo": "2.1 Escolha a opção certa",
+          "ref": "m9-s2/3.2",
+          "items": [
+            {
+              "q": "Ir de ônibus:",
+              "opts": [
+                "by bus",
+                "on bus"
+              ],
+              "a": "by bus",
+              "why": "by + meio de transporte."
+            },
+            {
+              "q": "Ir a pé:",
+              "opts": [
+                "by foot",
+                "on foot"
+              ],
+              "a": "on foot",
+              "why": "a pé = **on foot**."
+            },
+            {
+              "q": "Ir de carro:",
+              "opts": [
+                "by car",
+                "in car"
+              ],
+              "a": "by car",
+              "why": "by + meio de transporte."
+            },
+            {
+              "q": "Ir de táxi:",
+              "opts": [
+                "by taxi",
+                "with taxi"
+              ],
+              "a": "by taxi",
+              "why": "by + meio de transporte."
+            },
+            {
+              "q": "Ir de trem:",
+              "opts": [
+                "by train",
+                "on train"
+              ],
+              "a": "by train",
+              "why": "by + meio de transporte."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p3-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m9-s2/3.2",
+          "items": [
+            {
+              "q": "Eu vou ao trabalho de ônibus.",
+              "a": [
+                "I go to work by bus."
+              ],
+              "why": "by bus."
+            },
+            {
+              "q": "Eu vou à escola a pé.",
+              "a": [
+                "I go to school on foot."
+              ],
+              "why": "on foot."
+            },
+            {
+              "q": "Onde fica o correio?",
+              "a": [
+                "Where is the post office?"
+              ],
+              "why": "Where is…?"
+            },
+            {
+              "q": "Tem uma farmácia perto daqui?",
+              "a": [
+                "Is there a pharmacy near here?"
+              ],
+              "why": "Is there… near here?"
+            },
+            {
+              "q": "O hospital é longe?",
+              "a": [
+                "Is the hospital far?",
+                "Is it far to the hospital?"
+              ],
+              "why": "Is … far?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p3-ex3",
+          "titulo": "2.3 Escreva o lugar em inglês",
+          "ref": "m9-s2/3.2",
+          "items": [
+            {
+              "q": "banco → ___",
+              "a": [
+                [
+                  "bank",
+                  "a bank"
+                ]
+              ],
+              "why": "a bank."
+            },
+            {
+              "q": "correios → ___",
+              "a": [
+                [
+                  "post office",
+                  "a post office"
+                ]
+              ],
+              "why": "a post office."
+            },
+            {
+              "q": "museu → ___",
+              "a": [
+                [
+                  "museum",
+                  "a museum"
+                ]
+              ],
+              "why": "a museum."
+            },
+            {
+              "q": "hospital → ___",
+              "a": [
+                [
+                  "hospital",
+                  "a hospital"
+                ]
+              ],
+              "why": "a hospital."
+            },
+            {
+              "q": "semáforo → ___",
+              "a": [
+                [
+                  "traffic light",
+                  "a traffic light"
+                ]
+              ],
+              "why": "a traffic light."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p3-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m9-s2/3.2",
+          "items": [
+            {
+              "q": "I go to work by foot.",
+              "a": [
+                "I go to work on foot."
+              ],
+              "why": "a pé = on foot."
+            },
+            {
+              "q": "I go to school with bus.",
+              "a": [
+                "I go to school by bus."
+              ],
+              "why": "by + meio."
+            },
+            {
+              "q": "Where the post office is?",
+              "a": [
+                "Where is the post office?"
+              ],
+              "why": "Pergunta: Where **is**…?"
+            },
+            {
+              "q": "She goes to work in bus.",
+              "a": [
+                "She goes to work by bus."
+              ],
+              "why": "by bus."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Today I have to go to the bank and the post office.",
+              "Hoje preciso ir ao banco e aos correios."
+            ],
+            [
+              "The bank is on the corner, next to a pharmacy.",
+              "O banco fica na esquina, ao lado de uma farmácia."
+            ],
+            [
+              "The post office is across from the park, five minutes on foot.",
+              "Os correios ficam em frente ao parque, a cinco minutos a pé."
+            ],
+            [
+              "I usually go by bus, but today I am going on foot.",
+              "Geralmente vou de ônibus, mas hoje vou a pé."
+            ],
+            [
+              "After that, I am going to visit a museum.",
+              "Depois, vou visitar um museu."
+            ]
+          ],
+          "titulo": "A day in the city"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: lugares e transporte",
+          "frases": [
+            [
+              "I go to work by bus.",
+              "Vou ao trabalho de ônibus."
+            ],
+            [
+              "I go to school on foot.",
+              "Vou à escola a pé."
+            ],
+            [
+              "Where is the post office?",
+              "Onde ficam os correios?"
+            ],
+            [
+              "Is there a pharmacy near here?",
+              "Tem uma farmácia perto daqui?"
+            ],
+            [
+              "It’s five minutes on foot.",
+              "São cinco minutos a pé."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m9-p3-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m9-s2/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I go to work by bus.",
+              "a": [
+                "I go to work by bus."
+              ],
+              "why": "by bus."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Where is the post office?",
+              "a": [
+                "Where is the post office?"
+              ],
+              "why": "Where is…?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "It is five minutes on foot.",
+              "a": [
+                "It is five minutes on foot.",
+                "It's five minutes on foot."
+              ],
+              "why": "on foot = a pé."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m9-p3",
+          "prompt": "Escreva 5 frases sobre como você vai ao trabalho, à escola ou ao mercado (by bus, by car, on foot) e onde ficam 2 lugares perto da sua casa."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**by** + transporte (by bus, by car, by train) · **on foot** (a pé)",
+            "Lugares: bank · post office · hospital · museum · restaurant · hotel",
+            "Perguntas: **Where is…?** · **Is there… near here?** · **How far is it?**"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I go to work by foot.",
+              "I go to work on foot."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
       ]
     },
     {
@@ -642,6 +1858,1239 @@
       ]
     },
     {
+      "id": "m9-p4",
+      "n": 4,
+      "tipo": "pratica",
+      "titulo": "Fixar have to, must e should",
+      "duracao": 40,
+      "resumo": "Obrigação, ausência de obrigação, proibição e conselho.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m9-p4",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m9-p4-ex1",
+          "titulo": "2.1 Escolha a forma certa",
+          "ref": "m9-s3/3.1",
+          "items": [
+            {
+              "q": "She (have / has) to work on Saturday.",
+              "opts": [
+                "have",
+                "has"
+              ],
+              "a": "has",
+              "why": "She → **has to**."
+            },
+            {
+              "q": "I (have / has) to work tomorrow.",
+              "opts": [
+                "have",
+                "has"
+              ],
+              "a": "have",
+              "why": "I → **have to**."
+            },
+            {
+              "q": "He (don’t / doesn’t) have to come.",
+              "opts": [
+                "don’t",
+                "doesn’t"
+              ],
+              "a": "doesn’t",
+              "why": "He → **doesn’t have to**."
+            },
+            {
+              "q": "You should (see / to see) a doctor.",
+              "opts": [
+                "see",
+                "to see"
+              ],
+              "a": "see",
+              "why": "should + verbo base."
+            },
+            {
+              "q": "You must (wear / to wear) a seat belt.",
+              "opts": [
+                "wear",
+                "to wear"
+              ],
+              "a": "wear",
+              "why": "must + verbo base."
+            },
+            {
+              "q": "You (mustn’t / don’t have to) smoke here.",
+              "opts": [
+                "mustn’t",
+                "don’t have to"
+              ],
+              "a": "mustn’t",
+              "why": "Proibido → **mustn’t**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p4-ex2",
+          "titulo": "2.2 Complete a frase",
+          "ref": "m9-s3/3.1",
+          "items": [
+            {
+              "q": "I ___ to work tomorrow. (tenho que)",
+              "a": [
+                "have"
+              ],
+              "why": "I **have** to."
+            },
+            {
+              "q": "She ___ to wake up early. (tem que)",
+              "a": [
+                "has"
+              ],
+              "why": "She **has** to."
+            },
+            {
+              "q": "You ___ have to pay. (não precisa)",
+              "a": [
+                [
+                  "don't",
+                  "don’t",
+                  "do not"
+                ]
+              ],
+              "why": "**don’t** have to."
+            },
+            {
+              "q": "You ___ rest. (deveria)",
+              "a": [
+                "should"
+              ],
+              "why": "**should** + verbo."
+            },
+            {
+              "q": "You ___ drive today. (é proibido)",
+              "a": [
+                [
+                  "mustn't",
+                  "mustn’t",
+                  "must not"
+                ]
+              ],
+              "why": "**mustn’t** = proibido."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p4-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m9-s3/3.1",
+          "items": [
+            {
+              "q": "Eu preciso comprar um presente.",
+              "a": [
+                "I need to buy a gift.",
+                "I have to buy a gift."
+              ],
+              "why": "need to / have to + verbo."
+            },
+            {
+              "q": "Você deveria descansar.",
+              "a": [
+                "You should rest.",
+                "You should take a rest."
+              ],
+              "why": "should + verbo."
+            },
+            {
+              "q": "Ela não precisa vir.",
+              "a": [
+                "She doesn't have to come.",
+                "She does not have to come."
+              ],
+              "why": "doesn’t have to."
+            },
+            {
+              "q": "Você não pode fumar aqui.",
+              "a": [
+                "You mustn't smoke here.",
+                "You must not smoke here."
+              ],
+              "why": "mustn’t = proibido."
+            },
+            {
+              "q": "Eu quero aprender inglês.",
+              "a": [
+                "I want to learn English."
+              ],
+              "why": "want to + verbo."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p4-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m9-s3/3.1",
+          "items": [
+            {
+              "q": "I must to go.",
+              "a": [
+                "I must go."
+              ],
+              "why": "must + verbo base, sem to."
+            },
+            {
+              "q": "She have to work.",
+              "a": [
+                "She has to work."
+              ],
+              "why": "She → **has to**."
+            },
+            {
+              "q": "You should to see a doctor.",
+              "a": [
+                "You should see a doctor."
+              ],
+              "why": "should sem to."
+            },
+            {
+              "q": "He don’t have to come.",
+              "a": [
+                "He doesn't have to come.",
+                "He does not have to come."
+              ],
+              "why": "He → **doesn’t**."
+            },
+            {
+              "q": "Do I must go?",
+              "a": [
+                "Must I go?",
+                "Do I have to go?"
+              ],
+              "why": "Não use **do** com must."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "What’s the problem?",
+              "Qual é o problema?"
+            ],
+            [
+              "B",
+              "I have a headache and I’m very tired.",
+              "Estou com dor de cabeça e muito cansado."
+            ],
+            [
+              "A",
+              "You should rest and drink a lot of water.",
+              "Você deveria descansar e beber bastante água."
+            ],
+            [
+              "B",
+              "Do I have to take medicine?",
+              "Preciso tomar remédio?"
+            ],
+            [
+              "A",
+              "Yes, you have to take one pill twice a day. You mustn’t drive today.",
+              "Sim, você tem que tomar um comprimido duas vezes ao dia. Você não pode dirigir hoje."
+            ]
+          ],
+          "titulo": "EXEMPLO · No médico"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: obrigação e conselho",
+          "frases": [
+            [
+              "I have to work tomorrow.",
+              "Tenho que trabalhar amanhã."
+            ],
+            [
+              "She has to wake up early.",
+              "Ela tem que acordar cedo."
+            ],
+            [
+              "You don’t have to come.",
+              "Você não precisa vir."
+            ],
+            [
+              "You mustn’t smoke here.",
+              "Você não pode fumar aqui."
+            ],
+            [
+              "You should see a doctor.",
+              "Você deveria ir ao médico."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m9-p4-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m9-s3/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I have to work tomorrow.",
+              "a": [
+                "I have to work tomorrow."
+              ],
+              "why": "I have to + verbo."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She doesn’t have to come.",
+              "a": [
+                "She doesn't have to come.",
+                "She does not have to come."
+              ],
+              "why": "doesn’t have to."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "You should rest.",
+              "a": [
+                "You should rest."
+              ],
+              "why": "should + verbo."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m9-p4",
+          "prompt": "Escreva 6 frases: 2 coisas que você tem que fazer amanhã, 2 conselhos para um amigo cansado e 2 coisas proibidas em um lugar (mustn’t)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**have to / has to** = tenho que · **don’t / doesn’t have to** = não precisa",
+            "**must** = obrigação forte · **mustn’t** = proibido (não é o mesmo que don’t have to)",
+            "**should** = conselho · depois de must/should: verbo base, sem to e sem -s"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I must to go.",
+              "I must go."
+            ],
+            [
+              "She have to work.",
+              "She has to work."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m9-p5",
+      "n": 5,
+      "tipo": "pratica",
+      "titulo": "Fixar pedidos educados e conselhos",
+      "duracao": 40,
+      "resumo": "Could you…?, Can you…?, need to, want to e respostas.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m9-p5",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m9-p5-ex1",
+          "titulo": "2.1 Escreva em inglês",
+          "ref": "m9-s3/3.2",
+          "items": [
+            {
+              "q": "Você poderia me ajudar, por favor?",
+              "a": [
+                "Could you help me, please?"
+              ],
+              "why": "Could you + verbo, please?"
+            },
+            {
+              "q": "Você pode falar mais devagar?",
+              "a": [
+                "Can you speak more slowly?",
+                "Could you speak more slowly?"
+              ],
+              "why": "speak more slowly."
+            },
+            {
+              "q": "Você poderia repetir, por favor?",
+              "a": [
+                "Could you repeat that, please?",
+                "Could you repeat, please?"
+              ],
+              "why": "Could you repeat…?"
+            },
+            {
+              "q": "Posso abrir a janela?",
+              "a": [
+                "Could I open the window?",
+                "Can I open the window?"
+              ],
+              "why": "Could/Can I + verbo?"
+            },
+            {
+              "q": "Eu preciso de ajuda.",
+              "a": [
+                "I need help.",
+                "I need some help."
+              ],
+              "why": "need + help."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p5-ex2",
+          "titulo": "2.2 Escolha a resposta",
+          "ref": "m9-s3/3.2",
+          "items": [
+            {
+              "q": "“Could you help me, please?” (aceitar)",
+              "opts": [
+                "Sure.",
+                "Yes, you could."
+              ],
+              "a": "Sure.",
+              "why": "Aceitar: Sure. / Of course."
+            },
+            {
+              "q": "“Could you repeat that, please?”",
+              "opts": [
+                "Yes, of course.",
+                "Yes, I repeat."
+              ],
+              "a": "Yes, of course.",
+              "why": "Aceitar com educação."
+            },
+            {
+              "q": "“Can you speak more slowly?” (aceitar)",
+              "opts": [
+                "Sure, no problem.",
+                "Yes, I speak."
+              ],
+              "a": "Sure, no problem.",
+              "why": "Sure, no problem."
+            },
+            {
+              "q": "“Could you help me?” (você está ocupado)",
+              "opts": [
+                "Sorry, I can’t.",
+                "Sure, I can’t."
+              ],
+              "a": "Sorry, I can’t.",
+              "why": "Recusar: Sorry, I can’t."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p5-ex3",
+          "titulo": "2.3 Que conselho você dá?",
+          "ref": "m9-s3/3.1",
+          "items": [
+            {
+              "q": "Seu amigo está cansado:",
+              "opts": [
+                "You should rest.",
+                "You must rest."
+              ],
+              "a": "You should rest.",
+              "why": "Conselho → **should**."
+            },
+            {
+              "q": "Seu amigo está doente:",
+              "opts": [
+                "You should see a doctor.",
+                "You are a doctor."
+              ],
+              "a": "You should see a doctor.",
+              "why": "should + see a doctor."
+            },
+            {
+              "q": "Seu amigo está com dor de cabeça:",
+              "opts": [
+                "You should drink water.",
+                "You should to drink water."
+              ],
+              "a": "You should drink water.",
+              "why": "should + verbo sem to."
+            },
+            {
+              "q": "Seu amigo está sem dinheiro:",
+              "opts": [
+                "You shouldn’t buy it.",
+                "You shouldn’t to buy it."
+              ],
+              "a": "You shouldn’t buy it.",
+              "why": "shouldn’t + verbo."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p5-ex4",
+          "titulo": "2.4 Complete a frase",
+          "ref": "m9-s3/3.2",
+          "items": [
+            {
+              "q": "___ you help me, please?",
+              "a": [
+                [
+                  "Could",
+                  "Can"
+                ]
+              ],
+              "why": "Could/Can you…?"
+            },
+            {
+              "q": "I ___ to buy a gift. (preciso)",
+              "a": [
+                [
+                  "need",
+                  "have"
+                ]
+              ],
+              "why": "need/have to + verbo."
+            },
+            {
+              "q": "I ___ to learn English. (quero)",
+              "a": [
+                "want"
+              ],
+              "why": "want to + verbo."
+            },
+            {
+              "q": "You ___ see a doctor. (deveria)",
+              "a": [
+                "should"
+              ],
+              "why": "should + verbo."
+            },
+            {
+              "q": "Sure, no ___.",
+              "a": [
+                "problem"
+              ],
+              "why": "no problem."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Excuse me. Could you help me, please?",
+              "Com licença. Você poderia me ajudar, por favor?"
+            ],
+            [
+              "B",
+              "Sure. What do you need?",
+              "Claro. Do que você precisa?"
+            ],
+            [
+              "A",
+              "I need to buy a gift for my sister. Is there a shop near here?",
+              "Preciso comprar um presente para minha irmã. Tem uma loja perto daqui?"
+            ],
+            [
+              "B",
+              "There is one across from the park. You should go on foot. It’s very close.",
+              "Tem uma em frente ao parque. Você deveria ir a pé. É bem perto."
+            ],
+            [
+              "A",
+              "Could you repeat that, please?",
+              "Você poderia repetir, por favor?"
+            ],
+            [
+              "B",
+              "Of course. Across from the park.",
+              "Claro. Em frente ao parque."
+            ]
+          ],
+          "titulo": "EXEMPLO · Pedindo ajuda"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: pedidos",
+          "frases": [
+            [
+              "Could you help me, please?",
+              "Você poderia me ajudar, por favor?"
+            ],
+            [
+              "Can you speak more slowly?",
+              "Você pode falar mais devagar?"
+            ],
+            [
+              "Could you repeat that, please?",
+              "Você poderia repetir, por favor?"
+            ],
+            [
+              "I need to buy a gift.",
+              "Preciso comprar um presente."
+            ],
+            [
+              "Sure, no problem.",
+              "Claro, sem problema."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m9-p5-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m9-s3/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Could you help me, please?",
+              "a": [
+                "Could you help me, please?"
+              ],
+              "why": "Could you + verbo, please?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Can you speak more slowly?",
+              "a": [
+                "Can you speak more slowly?"
+              ],
+              "why": "speak more slowly."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I need to buy a gift.",
+              "a": [
+                "I need to buy a gift."
+              ],
+              "why": "need to + verbo."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m9-p5",
+          "prompt": "Escreva um mini-diálogo de 6 falas: você pede ajuda a alguém na rua, a pessoa responde, você pede para repetir e agradece."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Pedir com educação: **Could you… please?** · **Can you…?** · **Could I…?**",
+            "Aceitar: Sure. · Of course. · Sure, no problem. · Recusar: Sorry, I can’t.",
+            "**need to / want to + verbo** · **should** para conselho"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "Could you to help me?",
+              "Could you help me?"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m9-p6",
+      "n": 6,
+      "tipo": "pratica",
+      "titulo": "Revisão do módulo",
+      "duracao": 40,
+      "resumo": "Comparar, orientar-se e aconselhar: aquecimento para o teste final.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m9-p6",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m9-p6-ex1",
+          "titulo": "2.1 Escolha a forma correta",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "This hotel is (cheaper / more cheap) than that one.",
+              "opts": [
+                "cheaper",
+                "more cheap"
+              ],
+              "a": "cheaper",
+              "why": "Curto: -er."
+            },
+            {
+              "q": "It is the (best / most good) movie.",
+              "opts": [
+                "best",
+                "most good"
+              ],
+              "a": "best",
+              "why": "Irregular: the best."
+            },
+            {
+              "q": "(Go / Going) straight for two blocks.",
+              "opts": [
+                "Go",
+                "Going"
+              ],
+              "a": "Go",
+              "why": "Imperativo: Go."
+            },
+            {
+              "q": "The bank is (on / in) the corner.",
+              "opts": [
+                "on",
+                "in"
+              ],
+              "a": "on",
+              "why": "**on** the corner."
+            },
+            {
+              "q": "She (has / have) to work on Saturday.",
+              "opts": [
+                "has",
+                "have"
+              ],
+              "a": "has",
+              "why": "She → has to."
+            },
+            {
+              "q": "You (should / must to) see a doctor.",
+              "opts": [
+                "should",
+                "must to"
+              ],
+              "a": "should",
+              "why": "should + verbo base."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p6-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "Minha casa é maior que a sua.",
+              "a": [
+                "My house is bigger than yours.",
+                "My house is bigger than your house."
+              ],
+              "why": "bigger than."
+            },
+            {
+              "q": "Como chego ao banco?",
+              "a": [
+                "How do I get to the bank?"
+              ],
+              "why": "How do I get to…?"
+            },
+            {
+              "q": "Vire à esquerda no semáforo.",
+              "a": [
+                "Turn left at the traffic light."
+              ],
+              "why": "Turn left at…"
+            },
+            {
+              "q": "Eu vou ao trabalho de ônibus.",
+              "a": [
+                "I go to work by bus."
+              ],
+              "why": "by bus."
+            },
+            {
+              "q": "Você não precisa vir.",
+              "a": [
+                "You don't have to come.",
+                "You do not have to come."
+              ],
+              "why": "don’t have to."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p6-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "She is more tall than me.",
+              "a": [
+                "She is taller than me."
+              ],
+              "why": "Curto: -er."
+            },
+            {
+              "q": "He is taller that me.",
+              "a": [
+                "He is taller than me."
+              ],
+              "why": "Use **than**."
+            },
+            {
+              "q": "I go to work by foot.",
+              "a": [
+                "I go to work on foot."
+              ],
+              "why": "a pé = on foot."
+            },
+            {
+              "q": "I must to go.",
+              "a": [
+                "I must go."
+              ],
+              "why": "must sem to."
+            },
+            {
+              "q": "He don’t have to come.",
+              "a": [
+                "He doesn't have to come.",
+                "He does not have to come."
+              ],
+              "why": "He → doesn’t."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m9-p6-ex4",
+          "titulo": "2.4 Complete a frase",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "She is the ___ in the class. (mais alta)",
+              "a": [
+                "tallest"
+              ],
+              "why": "tall → the tallest."
+            },
+            {
+              "q": "I am as tall ___ my brother.",
+              "a": [
+                "as"
+              ],
+              "why": "as … as."
+            },
+            {
+              "q": "It’s five minutes ___ foot.",
+              "a": [
+                "on"
+              ],
+              "why": "on foot."
+            },
+            {
+              "q": "Could you ___ me, please?",
+              "a": [
+                "help"
+              ],
+              "why": "Could you + verbo."
+            },
+            {
+              "q": "You ___ drive today. (é proibido)",
+              "a": [
+                [
+                  "mustn't",
+                  "mustn’t",
+                  "must not"
+                ]
+              ],
+              "why": "mustn’t = proibido."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "My friend Paula is new in the city. She needs some help.",
+              "Minha amiga Paula é nova na cidade. Ela precisa de ajuda."
+            ],
+            [
+              "First, she has to go to the bank. It is on the corner, across from the park.",
+              "Primeiro, ela precisa ir ao banco. Fica na esquina, em frente ao parque."
+            ],
+            [
+              "I tell her: go straight for two blocks, then turn left.",
+              "Digo a ela: siga em frente por dois quarteirões e vire à esquerda."
+            ],
+            [
+              "It is five minutes on foot, so she doesn’t have to take a taxi.",
+              "São cinco minutos a pé, então ela não precisa pegar táxi."
+            ],
+            [
+              "She says her old city was bigger than this one, but this one is cheaper.",
+              "Ela diz que a cidade antiga dela era maior que esta, mas esta é mais barata."
+            ],
+            [
+              "I think the best thing is to go on foot. She should try it!",
+              "Acho que o melhor é ir a pé. Ela deveria tentar!"
+            ]
+          ],
+          "titulo": "Helping a friend"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: revisão",
+          "frases": [
+            [
+              "This hotel is cheaper than that one.",
+              "Este hotel é mais barato que aquele."
+            ],
+            [
+              "How do I get to the bank?",
+              "Como chego ao banco?"
+            ],
+            [
+              "Turn left at the traffic light.",
+              "Vire à esquerda no semáforo."
+            ],
+            [
+              "You should see a doctor.",
+              "Você deveria ir ao médico."
+            ],
+            [
+              "Could you help me, please?",
+              "Você poderia me ajudar, por favor?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m9-p6-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m9-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She is taller than me.",
+              "a": [
+                "She is taller than me.",
+                "She is taller than I am."
+              ],
+              "why": "taller than."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "How do I get to the bank?",
+              "a": [
+                "How do I get to the bank?"
+              ],
+              "why": "How do I get to…?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "You don’t have to come.",
+              "a": [
+                "You don't have to come.",
+                "You do not have to come."
+              ],
+              "why": "don’t have to = não precisa."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m9-p6",
+          "prompt": "Escreva 6 frases: 2 comparando coisas, 2 dando direções até um lugar e 2 conselhos ou obrigações (should, have to)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "-er/-est · more/most · better/best · than · as … as",
+            "How do I get to…? · Go straight · Turn left/right · on the corner · by bus · on foot",
+            "have to · don’t have to · must · mustn’t · should · Could you…, please?"
+          ]
+        },
+        {
+          "t": "tip",
+          "s": "Esta é a última prática antes do teste final do A2, na Sessão 4. Refaça o Caderno de erros e releia as revisões das sessões 1, 2 e 3. Viagem e aeroporto aparecem só na Sessão 4.",
+          "title": "PULO DO GATO"
+        }
+      ]
+    },
+    {
       "id": "m9-s4",
       "n": 4,
       "titulo": "Marco A2: revisão geral e teste final",
@@ -850,5 +3299,5 @@
       ]
     }
   ],
-  "gloss": "taller=mais alto;bigger=maior;cheaper=mais barato;better=melhor;worse=pior;best=melhor;worst=pior;older=mais velho;younger=mais novo;easier=mais fácil;difficult=difícil;expensive=caro;straight=reto;left=esquerda;right=direita;corner=esquina;block=quarteirão;bank=banco;museum=museu;hospital=hospital;hotel=hotel;foot=pé;doctor=médico;headache=dor de cabeça;medicine=remédio;pill=comprimido;rest=descansar;ticket=passagem;passport=passaporte;flight=voo;suitcase=mala;airport=aeroporto;reservation=reserva;map=mapa;trip=viagem;recommend=recomendar;option=opção;check=conferir;smoke=fumar;slowly=devagar;problem=problema;learn=aprender"
+  "gloss": "taller=mais alto;bigger=maior;cheaper=mais barato;better=melhor;worse=pior;best=melhor;worst=pior;older=mais velho;younger=mais novo;easier=mais fácil;difficult=difícil;expensive=caro;straight=reto;left=esquerda;right=direita;corner=esquina;block=quarteirão;bank=banco;museum=museu;hospital=hospital;hotel=hotel;foot=pé;doctor=médico;headache=dor de cabeça;medicine=remédio;pill=comprimido;rest=descansar;ticket=passagem;passport=passaporte;flight=voo;suitcase=mala;airport=aeroporto;reservation=reserva;map=mapa;trip=viagem;recommend=recomendar;option=opção;check=conferir;smoke=fumar;slowly=devagar;problem=problema;learn=aprender;shop=loja"
 });

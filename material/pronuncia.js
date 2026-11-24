@@ -71,5 +71,7 @@ window.CURSO_PRON = {
   "foot": "fút", "doctor": "DÁK-ter", "headache": "RRÉD-êik", "medicine": "MÉ-di-sin", "pill": "pil", "rest": "rést",
   "ticket": "TI-kit", "passport": "PÉS-pórt", "flight": "fláit", "suitcase": "SÚT-kêis", "airport": "ÉR-pórt",
   "reservation": "ré-ser-VÊI-chen", "map": "mép", "trip": "trip", "recommend": "ré-ko-MÉND", "option": "ÁP-chen",
-  "check": "tchék", "smoke": "smôuk", "slowly": "SLÔU-li", "problem": "PRÁ-blem", "learn": "lârn"
+  "check": "tchék", "smoke": "smôuk", "slowly": "SLÔU-li", "problem": "PRÁ-blem", "learn": "lârn",
+  "alex": "É-leks", "anna": "É-na", "tom": "TÓM", "sara": "SÉ-ra", "paula": "PÓ-la", "carlos": "KÁR-los", "chicago": "chi-KÁ-gou", "engineer": "en-dji-NÍR", "washes": "UÓ-chiz", "o'clock": "o-KLÓK",
+  "shop": "CHÓP"
 };

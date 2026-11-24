@@ -223,6 +223,445 @@
       ]
     },
     {
+      "id": "m7-p1",
+      "n": 1,
+      "tipo": "pratica",
+      "titulo": "Fixar contáveis e incontáveis",
+      "duracao": 40,
+      "resumo": "a/an, some, any, much, many, a lot of e medidas (a glass of, a slice of).",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m7-p1",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m7-p1-ex1",
+          "titulo": "2.1 Escolha a/an, some ou any",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "I have ___ egg.",
+              "opts": [
+                "a",
+                "an",
+                "some",
+                "any"
+              ],
+              "a": "an",
+              "why": "egg é contável e começa com som de vogal → **an**."
+            },
+            {
+              "q": "I want ___ water, please.",
+              "opts": [
+                "a",
+                "an",
+                "some",
+                "any"
+              ],
+              "a": "some",
+              "why": "water é incontável, frase afirmativa → **some**."
+            },
+            {
+              "q": "We don’t have ___ milk.",
+              "opts": [
+                "a",
+                "an",
+                "some",
+                "any"
+              ],
+              "a": "any",
+              "why": "Negativa → **any**."
+            },
+            {
+              "q": "Do you have ___ cheese?",
+              "opts": [
+                "a",
+                "an",
+                "some",
+                "any"
+              ],
+              "a": "any",
+              "why": "Pergunta → **any**."
+            },
+            {
+              "q": "She has ___ apple.",
+              "opts": [
+                "a",
+                "an",
+                "some",
+                "any"
+              ],
+              "a": "an",
+              "why": "apple começa com som de vogal → **an**."
+            },
+            {
+              "q": "There is ___ bread on the table.",
+              "opts": [
+                "a",
+                "an",
+                "some",
+                "any"
+              ],
+              "a": "some",
+              "why": "bread é incontável, afirmativa → **some**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p1-ex2",
+          "titulo": "2.2 Much ou many?",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "How (much / many) eggs do you want?",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "many",
+              "why": "eggs é contável → **many**."
+            },
+            {
+              "q": "How (much / many) milk do you drink?",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "much",
+              "why": "milk é incontável → **much**."
+            },
+            {
+              "q": "I don’t have (much / many) money.",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "much",
+              "why": "money é incontável → **much**."
+            },
+            {
+              "q": "How (much / many) apples are there?",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "many",
+              "why": "apples é contável → **many**."
+            },
+            {
+              "q": "How (much / many) rice do you eat?",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "much",
+              "why": "rice é incontável → **much**."
+            },
+            {
+              "q": "I don’t eat (much / many) vegetables.",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "many",
+              "why": "vegetables é contável (plural) → **many**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p1-ex3",
+          "titulo": "2.3 Medidas e frases",
+          "ref": "m7-s1/3.1",
+          "items": [
+            {
+              "q": "a ___ of bread (uma fatia)",
+              "a": [
+                "slice"
+              ],
+              "why": "a **slice** of bread."
+            },
+            {
+              "q": "a ___ of milk (uma garrafa)",
+              "a": [
+                "bottle"
+              ],
+              "why": "a **bottle** of milk."
+            },
+            {
+              "q": "two ___ of water (dois copos)",
+              "a": [
+                "glasses"
+              ],
+              "why": "two **glasses** of water."
+            },
+            {
+              "q": "Quero um pouco de pão.",
+              "a": [
+                "I want some bread.",
+                "I'd like some bread."
+              ],
+              "why": "bread é incontável: **some bread**."
+            },
+            {
+              "q": "Não temos ovos.",
+              "a": [
+                "We don't have any eggs.",
+                "We do not have any eggs."
+              ],
+              "why": "Negativa → **any**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p1-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "I want a bread.",
+              "a": [
+                "I want some bread.",
+                "I want a slice of bread."
+              ],
+              "why": "bread é incontável."
+            },
+            {
+              "q": "How many milk do we have?",
+              "a": [
+                "How much milk do we have?"
+              ],
+              "why": "milk é incontável → **much**."
+            },
+            {
+              "q": "I don’t have many money.",
+              "a": [
+                "I don't have much money."
+              ],
+              "why": "money é incontável → **much**."
+            },
+            {
+              "q": "She gave me an information.",
+              "a": [
+                "She gave me some information."
+              ],
+              "why": "information é incontável."
+            },
+            {
+              "q": "The rice are good.",
+              "a": [
+                "The rice is good."
+              ],
+              "why": "Incontável → verbo no singular."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "There is a lot of milk in my fridge.",
+              "Há muito leite na minha geladeira."
+            ],
+            [
+              "There are six eggs, but there isn’t any cheese.",
+              "Há seis ovos, mas não há queijo."
+            ],
+            [
+              "I have some chicken and a lot of vegetables.",
+              "Tenho frango e muitos legumes."
+            ],
+            [
+              "I don’t have any bread, so I need to buy some.",
+              "Não tenho pão, então preciso comprar."
+            ],
+            [
+              "How much rice do we have? Not much.",
+              "Quanto arroz temos? Pouco."
+            ]
+          ],
+          "titulo": "In my fridge"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: comida",
+          "frases": [
+            [
+              "I want some bread.",
+              "Quero um pouco de pão."
+            ],
+            [
+              "Do you have any milk?",
+              "Você tem leite?"
+            ],
+            [
+              "How many eggs do we have?",
+              "Quantos ovos temos?"
+            ],
+            [
+              "How much rice do you eat?",
+              "Quanto arroz você come?"
+            ],
+            [
+              "We don’t have any eggs.",
+              "Não temos ovos."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m7-p1-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I have an egg and some bread.",
+              "a": [
+                "I have an egg and some bread."
+              ],
+              "why": "an egg (contável) · some bread (incontável)."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "How much milk do you drink?",
+              "a": [
+                "How much milk do you drink?"
+              ],
+              "why": "milk é incontável → How much."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "We don’t have any cheese.",
+              "a": [
+                "We don't have any cheese.",
+                "We do not have any cheese."
+              ],
+              "why": "Negativa → any."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m7-p1",
+          "prompt": "Escreva uma lista de compras de 6 itens com medidas (a glass of, a slice of, a bottle of) e 3 frases com some, any e a lot of."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Contável: a/an · many · Incontável: some · much · medida (a glass of water)",
+            "**some** (afirmativa) · **any** (negativa e pergunta) · **a lot of** (afirmativa)",
+            "bread, money, information e news são incontáveis"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I want a bread.",
+              "I want some bread."
+            ],
+            [
+              "How many milk do we have?",
+              "How much milk do we have?"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m7-s2",
       "n": 2,
       "titulo": "No restaurante: would like",
@@ -440,6 +879,820 @@
       ]
     },
     {
+      "id": "m7-p2",
+      "n": 2,
+      "tipo": "pratica",
+      "titulo": "Fixar would like e pedidos educados",
+      "duracao": 40,
+      "resumo": "I’d like, Can I have…?, Would you like…? e respostas.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m7-p2",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m7-p2-ex1",
+          "titulo": "2.1 Complete a frase",
+          "ref": "m7-s2/3.1",
+          "items": [
+            {
+              "q": "I ___ like a salad, please. (would)",
+              "a": [
+                [
+                  "would",
+                  "'d"
+                ]
+              ],
+              "why": "I would like = **I’d like**."
+            },
+            {
+              "q": "___ you like some water?",
+              "a": [
+                "Would"
+              ],
+              "why": "Oferecer: **Would you like…?**"
+            },
+            {
+              "q": "She would ___ a coffee.",
+              "a": [
+                "like"
+              ],
+              "why": "would + **like**."
+            },
+            {
+              "q": "___ I have the menu, please?",
+              "a": [
+                "Can"
+              ],
+              "why": "Pedir: **Can I have…?**"
+            },
+            {
+              "q": "Would you like some dessert? — Yes, ___.",
+              "a": [
+                "please"
+              ],
+              "why": "Aceitar com educação: **Yes, please.**"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p2-ex2",
+          "titulo": "2.2 Escolha a frase mais educada",
+          "ref": "m7-s2/3.1",
+          "items": [
+            {
+              "q": "Pedindo ao garçom:",
+              "opts": [
+                "I want a coffee.",
+                "I’d like a coffee, please."
+              ],
+              "a": "I’d like a coffee, please.",
+              "why": "**I’d like… please** é educado."
+            },
+            {
+              "q": "Oferecendo café:",
+              "opts": [
+                "Do you want coffee?",
+                "Would you like some coffee?"
+              ],
+              "a": "Would you like some coffee?",
+              "why": "**Would you like…?** oferece com educação."
+            },
+            {
+              "q": "Aceitando:",
+              "opts": [
+                "Yes, please.",
+                "Yes, give me."
+              ],
+              "a": "Yes, please.",
+              "why": "**Yes, please.**"
+            },
+            {
+              "q": "Recusando com educação:",
+              "opts": [
+                "No, thank you.",
+                "No."
+              ],
+              "a": "No, thank you.",
+              "why": "**No, thank you.**"
+            },
+            {
+              "q": "Pedindo a conta:",
+              "opts": [
+                "The bill, please.",
+                "Give me the bill."
+              ],
+              "a": "The bill, please.",
+              "why": "**The bill, please.**"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p2-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m7-s2/3.1",
+          "items": [
+            {
+              "q": "Eu gostaria de uma salada, por favor.",
+              "a": [
+                "I'd like a salad, please.",
+                "I would like a salad, please."
+              ],
+              "why": "I’d like + coisa + please."
+            },
+            {
+              "q": "Você gostaria de um pouco de água?",
+              "a": [
+                "Would you like some water?"
+              ],
+              "why": "Would you like + some…?"
+            },
+            {
+              "q": "Eu gostaria de frango e arroz.",
+              "a": [
+                "I'd like chicken and rice.",
+                "I would like chicken and rice."
+              ],
+              "why": "I’d like + comida."
+            },
+            {
+              "q": "Mais alguma coisa?",
+              "a": [
+                "Anything else?"
+              ],
+              "why": "Anything else?"
+            },
+            {
+              "q": "É só, obrigado.",
+              "a": [
+                "That's all, thanks.",
+                "That is all, thanks.",
+                "That's all, thank you."
+              ],
+              "why": "That’s all, thanks."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p2-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m7-s2/3.1",
+          "items": [
+            {
+              "q": "I want a coffee. (pedindo ao garçom)",
+              "a": [
+                "I'd like a coffee, please.",
+                "I would like a coffee, please."
+              ],
+              "why": "Para pedir, use **I’d like… please**."
+            },
+            {
+              "q": "She woulds like tea.",
+              "a": [
+                "She would like tea."
+              ],
+              "why": "**would** não leva -s."
+            },
+            {
+              "q": "I would like to a coffee.",
+              "a": [
+                "I would like a coffee."
+              ],
+              "why": "would like + substantivo, sem **to**."
+            },
+            {
+              "q": "Do you would like some water?",
+              "a": [
+                "Would you like some water?"
+              ],
+              "why": "Pergunta com would: **Would you…?**"
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Good morning! Are you ready to order?",
+              "Bom dia! Já podem pedir?"
+            ],
+            [
+              "B",
+              "Yes, I’d like a coffee and a slice of bread, please.",
+              "Sim, eu gostaria de um café e uma fatia de pão, por favor."
+            ],
+            [
+              "A",
+              "Would you like some cheese?",
+              "Você gostaria de um pouco de queijo?"
+            ],
+            [
+              "B",
+              "No, thank you.",
+              "Não, obrigado."
+            ],
+            [
+              "A",
+              "Anything else?",
+              "Mais alguma coisa?"
+            ],
+            [
+              "B",
+              "That’s all, thanks. The bill, please.",
+              "É só, obrigado. A conta, por favor."
+            ]
+          ],
+          "titulo": "EXEMPLO · No café"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: pedidos",
+          "frases": [
+            [
+              "I’d like a salad, please.",
+              "Eu gostaria de uma salada, por favor."
+            ],
+            [
+              "Can I have the menu?",
+              "Posso ver o cardápio?"
+            ],
+            [
+              "Would you like some coffee?",
+              "Você gostaria de café?"
+            ],
+            [
+              "Yes, please.",
+              "Sim, por favor."
+            ],
+            [
+              "That’s all, thanks.",
+              "É só, obrigado."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m7-p2-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m7-s2/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I’d like a coffee, please.",
+              "a": [
+                "I'd like a coffee, please.",
+                "I would like a coffee, please."
+              ],
+              "why": "I’d like + coisa + please."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Would you like some water?",
+              "a": [
+                "Would you like some water?"
+              ],
+              "why": "Would you like + some…?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "The bill, please.",
+              "a": [
+                "The bill, please."
+              ],
+              "why": "The bill, please."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m7-p2",
+          "prompt": "Escreva um mini-diálogo de 4 falas pedindo uma bebida e uma comida num café (I’d like…, Can I have…?, Would you like…?)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Pedir: **I’d like… please** · **Can I have… please?** · oferecer: **Would you like…?**",
+            "**would** não muda e não leva -s · depois de would like, substantivo ou to + verbo",
+            "Respostas: Yes, please. · No, thank you."
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I want a coffee.",
+              "I’d like a coffee, please."
+            ],
+            [
+              "Do you would like some water?",
+              "Would you like some water?"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m7-p3",
+      "n": 3,
+      "tipo": "pratica",
+      "titulo": "Fixar o restaurante",
+      "duracao": 40,
+      "resumo": "Pedir mesa, prato, bebida e conta; conversar com o garçom.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m7-p3",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m7-p3-ex1",
+          "titulo": "2.1 Quem fala?",
+          "ref": "m7-s2/3.2",
+          "items": [
+            {
+              "q": "“Are you ready to order?”",
+              "opts": [
+                "garçom",
+                "cliente"
+              ],
+              "a": "garçom",
+              "why": "Quem atende pergunta se já pode pedir."
+            },
+            {
+              "q": "“I’d like the chicken and rice, please.”",
+              "opts": [
+                "garçom",
+                "cliente"
+              ],
+              "a": "cliente",
+              "why": "Quem pede o prato é o cliente."
+            },
+            {
+              "q": "“Would you like something to drink?”",
+              "opts": [
+                "garçom",
+                "cliente"
+              ],
+              "a": "garçom",
+              "why": "Quem oferece a bebida é o garçom."
+            },
+            {
+              "q": "“Just water, please.”",
+              "opts": [
+                "garçom",
+                "cliente"
+              ],
+              "a": "cliente",
+              "why": "O cliente responde."
+            },
+            {
+              "q": "“That’s all, thanks.”",
+              "opts": [
+                "garçom",
+                "cliente"
+              ],
+              "a": "cliente",
+              "why": "O cliente encerra o pedido."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p3-ex2",
+          "titulo": "2.2 Complete a conversa",
+          "ref": "m7-s2/3.2",
+          "items": [
+            {
+              "q": "A table ___ two, please.",
+              "a": [
+                "for"
+              ],
+              "why": "Mesa para dois: **a table for two**."
+            },
+            {
+              "q": "Are you ___ to order?",
+              "a": [
+                "ready"
+              ],
+              "why": "**Are you ready to order?**"
+            },
+            {
+              "q": "I’d like the chicken ___ rice.",
+              "a": [
+                "and"
+              ],
+              "why": "and = e."
+            },
+            {
+              "q": "___ else? — That’s all, thanks.",
+              "a": [
+                "Anything"
+              ],
+              "why": "**Anything else?**"
+            },
+            {
+              "q": "The ___, please. (a conta)",
+              "a": [
+                "bill"
+              ],
+              "why": "**The bill, please.**"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p3-ex3",
+          "titulo": "2.3 Escolha a resposta",
+          "ref": "m7-s2/3.1",
+          "items": [
+            {
+              "q": "“Would you like some dessert?” (aceitar)",
+              "opts": [
+                "Yes, please.",
+                "Yes, I do."
+              ],
+              "a": "Yes, please.",
+              "why": "Aceitar com educação: **Yes, please.**"
+            },
+            {
+              "q": "“Anything else?” (terminar o pedido)",
+              "opts": [
+                "That’s all, thanks.",
+                "Yes, I am."
+              ],
+              "a": "That’s all, thanks.",
+              "why": "**That’s all, thanks.**"
+            },
+            {
+              "q": "“Can I have the menu?” (resposta do garçom)",
+              "opts": [
+                "Yes, of course.",
+                "Yes, I would."
+              ],
+              "a": "Yes, of course.",
+              "why": "**Yes, of course.**"
+            },
+            {
+              "q": "“Would you like a coffee?” (recusar)",
+              "opts": [
+                "No, thank you.",
+                "No, I do coffee."
+              ],
+              "a": "No, thank you.",
+              "why": "**No, thank you.**"
+            },
+            {
+              "q": "“What would you like?” (pedir salada)",
+              "opts": [
+                "I’d like a salad, please.",
+                "I like a salad."
+              ],
+              "a": "I’d like a salad, please.",
+              "why": "Pedido educado: **I’d like…**"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p3-ex4",
+          "titulo": "2.4 Escreva em inglês",
+          "ref": "m7-s2/3.2",
+          "items": [
+            {
+              "q": "Uma mesa para dois, por favor.",
+              "a": [
+                "A table for two, please."
+              ],
+              "why": "a table for two."
+            },
+            {
+              "q": "Vocês já podem pedir?",
+              "a": [
+                "Are you ready to order?"
+              ],
+              "why": "Are you ready to order?"
+            },
+            {
+              "q": "Eu gostaria de frango com arroz.",
+              "a": [
+                "I'd like chicken and rice.",
+                "I would like chicken and rice."
+              ],
+              "why": "I’d like + comida."
+            },
+            {
+              "q": "Estava delicioso.",
+              "a": [
+                "It was delicious.",
+                "Everything was delicious."
+              ],
+              "why": "delicious = delicioso."
+            },
+            {
+              "q": "A conta, por favor.",
+              "a": [
+                "The bill, please."
+              ],
+              "why": "The bill, please."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Last night, my wife and I went to a restaurant.",
+              "Ontem à noite, minha esposa e eu fomos a um restaurante."
+            ],
+            [
+              "We wanted a table for two.",
+              "Queríamos uma mesa para dois."
+            ],
+            [
+              "I had the chicken and rice, and my wife had a salad.",
+              "Eu comi frango com arroz e minha esposa comeu uma salada."
+            ],
+            [
+              "We drank some water, and we ate a lot.",
+              "Bebemos um pouco de água e comemos bastante."
+            ],
+            [
+              "Everything was delicious.",
+              "Tudo estava delicioso."
+            ],
+            [
+              "Finally, we said: “The bill, please.” We left at ten o’clock.",
+              "Por fim, dissemos: “A conta, por favor.” Saímos às dez horas."
+            ]
+          ],
+          "titulo": "Dinner for two"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: no restaurante",
+          "frases": [
+            [
+              "A table for two, please.",
+              "Uma mesa para dois, por favor."
+            ],
+            [
+              "Are you ready to order?",
+              "Vocês já podem pedir?"
+            ],
+            [
+              "I’d like the chicken and rice.",
+              "Eu gostaria do frango com arroz."
+            ],
+            [
+              "Everything was delicious.",
+              "Tudo estava delicioso."
+            ],
+            [
+              "The bill, please.",
+              "A conta, por favor."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m7-p3-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m7-s2/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Are you ready to order?",
+              "a": [
+                "Are you ready to order?"
+              ],
+              "why": "Are you ready to order?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I’d like chicken and rice.",
+              "a": [
+                "I'd like chicken and rice.",
+                "I would like chicken and rice."
+              ],
+              "why": "I’d like + comida."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Anything else?",
+              "a": [
+                "Anything else?"
+              ],
+              "why": "Anything else?"
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m7-p3",
+          "prompt": "Escreva 5 frases sobre uma refeição em um restaurante ou café (no passado): o que você pediu, o que bebeu e se estava delicioso."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Mesa: **A table for two, please.** · Garçom: **Are you ready to order? · Anything else?**",
+            "Cliente: **I’d like… · Can I have…? · That’s all, thanks. · The bill, please.**",
+            "delicious = delicioso"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I want a coffee.",
+              "I’d like a coffee, please."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m7-s3",
       "n": 3,
       "titulo": "Compras e roupas",
@@ -646,6 +1899,1220 @@
           "firstCol": true
         },
         {"t":"errors","items":[["These jeans is nice.","These jeans are nice."],["It is much big.","It is too big."]],"title":"ERROS COMUNS DE BRASILEIROS"}
+      ]
+    },
+    {
+      "id": "m7-p4",
+      "n": 4,
+      "tipo": "pratica",
+      "titulo": "Fixar as roupas",
+      "duracao": 40,
+      "resumo": "Vocabulário de roupas, plurais especiais e a pair of.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m7-p4",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m7-p4-ex1",
+          "titulo": "2.1 Escolha is ou are",
+          "ref": "m7-s3/3.1",
+          "items": [
+            {
+              "q": "These jeans (is / are) nice.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "jeans é plural → **are**."
+            },
+            {
+              "q": "That dress (is / are) beautiful.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "is",
+              "why": "dress é singular → **is**."
+            },
+            {
+              "q": "My shoes (is / are) too small.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "shoes é plural → **are**."
+            },
+            {
+              "q": "This T-shirt (is / are) blue.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "is",
+              "why": "T-shirt é singular → **is**."
+            },
+            {
+              "q": "Those pants (is / are) expensive.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "pants é plural → **are**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p4-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m7-s3/3.1",
+          "items": [
+            {
+              "q": "Uma calça jeans.",
+              "a": [
+                "A pair of jeans."
+              ],
+              "why": "Peça com duas partes: **a pair of**."
+            },
+            {
+              "q": "Dois pares de sapatos.",
+              "a": [
+                "Two pairs of shoes."
+              ],
+              "why": "two **pairs of** shoes."
+            },
+            {
+              "q": "Eu preciso de um casaco quente.",
+              "a": [
+                "I need a warm coat."
+              ],
+              "why": "need + a warm coat."
+            },
+            {
+              "q": "Estas meias são novas.",
+              "a": [
+                "These socks are new."
+              ],
+              "why": "plural → are."
+            },
+            {
+              "q": "Aquela saia é bonita.",
+              "a": [
+                "That skirt is nice.",
+                "That skirt is beautiful."
+              ],
+              "why": "singular → is."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p4-ex3",
+          "titulo": "2.3 Escreva a palavra em inglês",
+          "ref": "m7-s3/3.1",
+          "items": [
+            {
+              "q": "camiseta → ___",
+              "a": [
+                "T-shirt"
+              ],
+              "why": "a T-shirt."
+            },
+            {
+              "q": "camisa → ___",
+              "a": [
+                "shirt"
+              ],
+              "why": "a shirt."
+            },
+            {
+              "q": "vestido → ___",
+              "a": [
+                "dress"
+              ],
+              "why": "a dress."
+            },
+            {
+              "q": "saia → ___",
+              "a": [
+                "skirt"
+              ],
+              "why": "a skirt."
+            },
+            {
+              "q": "jaqueta → ___",
+              "a": [
+                "jacket"
+              ],
+              "why": "a jacket."
+            },
+            {
+              "q": "sapatos → ___",
+              "a": [
+                "shoes"
+              ],
+              "why": "shoes (plural)."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p4-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m7-s3/3.1",
+          "items": [
+            {
+              "q": "These jeans is nice.",
+              "a": [
+                "These jeans are nice."
+              ],
+              "why": "jeans é plural → **are**."
+            },
+            {
+              "q": "The shoes is expensive.",
+              "a": [
+                "The shoes are expensive."
+              ],
+              "why": "shoes é plural → **are**."
+            },
+            {
+              "q": "I need a jeans.",
+              "a": [
+                "I need a pair of jeans."
+              ],
+              "why": "Use **a pair of**."
+            },
+            {
+              "q": "Those socks is new.",
+              "a": [
+                "Those socks are new."
+              ],
+              "why": "socks é plural → **are**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "I need a warm coat and a pair of jeans.",
+              "Preciso de um casaco quente e de uma calça jeans."
+            ],
+            [
+              "My old jacket is small, and my shoes are too old.",
+              "Minha jaqueta velha é pequena e meus sapatos são velhos demais."
+            ],
+            [
+              "These jeans are blue, and that T-shirt is white.",
+              "Esta calça jeans é azul e aquela camiseta é branca."
+            ],
+            [
+              "My wife likes dresses. She has two blue dresses and a pair of black shoes.",
+              "Minha esposa gosta de vestidos. Ela tem dois vestidos azuis e um par de sapatos pretos."
+            ],
+            [
+              "We bought two pairs of socks.",
+              "Compramos dois pares de meias."
+            ]
+          ],
+          "titulo": "Clothes for the cold"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: roupas",
+          "frases": [
+            [
+              "These jeans are nice.",
+              "Esta calça jeans é bonita."
+            ],
+            [
+              "I need a warm coat.",
+              "Preciso de um casaco quente."
+            ],
+            [
+              "Two pairs of shoes.",
+              "Dois pares de sapatos."
+            ],
+            [
+              "That dress is beautiful.",
+              "Aquele vestido é lindo."
+            ],
+            [
+              "These socks are new.",
+              "Estas meias são novas."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m7-p4-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m7-s3/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "These jeans are blue.",
+              "a": [
+                "These jeans are blue."
+              ],
+              "why": "jeans é plural → are."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I need a pair of shoes.",
+              "a": [
+                "I need a pair of shoes."
+              ],
+              "why": "a pair of + plural."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "That skirt is nice.",
+              "a": [
+                "That skirt is nice."
+              ],
+              "why": "skirt é singular → is."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m7-p4",
+          "prompt": "Escreva 5 frases sobre as suas roupas: o que você usa no trabalho, no fim de semana e no frio (use jeans, shoes, a pair of…)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "jeans, pants, shorts, glasses e shoes/socks pedem **verbo no plural** (are)",
+            "Uma peça: **a pair of** jeans · duas: **two pairs of** shoes",
+            "Roupas: T-shirt · shirt · dress · skirt · jacket · coat · shoes · socks"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "These jeans is nice.",
+              "These jeans are nice."
+            ],
+            [
+              "I need a jeans.",
+              "I need a pair of jeans."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m7-p5",
+      "n": 5,
+      "tipo": "pratica",
+      "titulo": "Fixar a compra de roupas",
+      "duracao": 40,
+      "resumo": "one/ones, too, provar, perguntar o tamanho e decidir.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m7-p5",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m7-p5-ex1",
+          "titulo": "2.1 Complete com one ou ones",
+          "ref": "m7-s3/3.2",
+          "items": [
+            {
+              "q": "I like this ___. (a camisa azul)",
+              "a": [
+                "one"
+              ],
+              "why": "Uma coisa → **one**."
+            },
+            {
+              "q": "I like these ___. (os sapatos azuis)",
+              "a": [
+                "ones"
+              ],
+              "why": "Várias coisas → **ones**."
+            },
+            {
+              "q": "Do you have a bigger ___?",
+              "a": [
+                "one"
+              ],
+              "why": "Uma coisa → **one**."
+            },
+            {
+              "q": "Those ___ are expensive. (os vermelhos)",
+              "a": [
+                "ones"
+              ],
+              "why": "Várias coisas → **ones**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p5-ex2",
+          "titulo": "2.2 Too ou very?",
+          "ref": "m7-s3/3.2",
+          "items": [
+            {
+              "q": "It is (too / very) big for me. (grande demais)",
+              "opts": [
+                "too",
+                "very"
+              ],
+              "a": "too",
+              "why": "**too** = mais do que o necessário."
+            },
+            {
+              "q": "These shoes are (too / very) nice. (muito bonitos)",
+              "opts": [
+                "too",
+                "very"
+              ],
+              "a": "very",
+              "why": "Elogio → **very**."
+            },
+            {
+              "q": "They’re (too / very) small. I can’t wear them.",
+              "opts": [
+                "too",
+                "very"
+              ],
+              "a": "too",
+              "why": "Não servem → **too small**."
+            },
+            {
+              "q": "This jacket is (too / very) expensive. (caro demais)",
+              "opts": [
+                "too",
+                "very"
+              ],
+              "a": "too",
+              "why": "Não posso pagar → **too expensive**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p5-ex3",
+          "titulo": "2.3 O que você diz?",
+          "ref": "m7-s3/3.2",
+          "items": [
+            {
+              "q": "Para provar uma roupa:",
+              "opts": [
+                "Can I try it on?",
+                "Can I take it?"
+              ],
+              "a": "Can I try it on?",
+              "why": "Provar = **try on**."
+            },
+            {
+              "q": "A camisa ficou grande demais:",
+              "opts": [
+                "It’s too big.",
+                "I’ll take it."
+              ],
+              "a": "It’s too big.",
+              "why": "**It’s too big.**"
+            },
+            {
+              "q": "Você decide comprar:",
+              "opts": [
+                "I’ll take it.",
+                "It’s too small."
+              ],
+              "a": "I’ll take it.",
+              "why": "**I’ll take it.**"
+            },
+            {
+              "q": "Para saber o tamanho:",
+              "opts": [
+                "What size do you wear?",
+                "What is the date?"
+              ],
+              "a": "What size do you wear?",
+              "why": "**What size…?**"
+            },
+            {
+              "q": "Para saber o preço de uma calça:",
+              "opts": [
+                "How much are these?",
+                "How many are these?"
+              ],
+              "a": "How much are these?",
+              "why": "Preço → **How much**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p5-ex4",
+          "titulo": "2.4 Escreva em inglês",
+          "ref": "m7-s3/3.2",
+          "items": [
+            {
+              "q": "Posso provar estes sapatos?",
+              "a": [
+                "Can I try these shoes on?",
+                "Can I try these on?"
+              ],
+              "why": "try on = provar."
+            },
+            {
+              "q": "Estes são grandes demais.",
+              "a": [
+                "These are too big."
+              ],
+              "why": "too big."
+            },
+            {
+              "q": "Você tem um tamanho menor?",
+              "a": [
+                "Do you have a smaller size?"
+              ],
+              "why": "Do you have a smaller size?"
+            },
+            {
+              "q": "Eu levo esta.",
+              "a": [
+                "I'll take this one.",
+                "I will take this one.",
+                "I'll take it."
+              ],
+              "why": "I’ll take it."
+            },
+            {
+              "q": "Eu gosto daqueles azuis.",
+              "a": [
+                "I like those blue ones."
+              ],
+              "why": "those blue ones."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Hello! Can I help you?",
+              "Olá! Posso ajudar?"
+            ],
+            [
+              "B",
+              "Yes, I like this jacket. Do you have a medium?",
+              "Sim, gosto desta jaqueta. Vocês têm tamanho M?"
+            ],
+            [
+              "A",
+              "Yes. The fitting room is over there.",
+              "Sim. O provador é logo ali."
+            ],
+            [
+              "B",
+              "It’s too big. Do you have a smaller size?",
+              "Ficou grande demais. Vocês têm um tamanho menor?"
+            ],
+            [
+              "A",
+              "Yes, here you are.",
+              "Sim, aqui está."
+            ],
+            [
+              "B",
+              "How much is it?",
+              "Quanto custa?"
+            ],
+            [
+              "A",
+              "It’s fifty dollars.",
+              "Custa cinquenta dólares."
+            ],
+            [
+              "B",
+              "Perfect. I’ll take it.",
+              "Perfeito. Eu levo."
+            ]
+          ],
+          "titulo": "EXEMPLO · Na loja de roupas"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: na loja",
+          "frases": [
+            [
+              "Can I try it on?",
+              "Posso provar?"
+            ],
+            [
+              "It’s too big.",
+              "Ficou grande demais."
+            ],
+            [
+              "Do you have a medium?",
+              "Vocês têm tamanho M?"
+            ],
+            [
+              "How much are these?",
+              "Quanto custam estes?"
+            ],
+            [
+              "I’ll take it.",
+              "Eu levo."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m7-p5-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m7-s3/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Can I try these on?",
+              "a": [
+                "Can I try these on?"
+              ],
+              "why": "try on = provar."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "They’re too small.",
+              "a": [
+                "They're too small.",
+                "They are too small."
+              ],
+              "why": "too small = pequeno demais."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I’ll take these.",
+              "a": [
+                "I'll take these.",
+                "I will take these."
+              ],
+              "why": "I’ll take = eu levo."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m7-p5",
+          "prompt": "Escreva 5 frases sobre uma compra de roupa que você fez (no passado): o que comprou, o preço, se era grande ou pequeno demais e se levou."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**this one / that one** · **these ones / those ones** evitam repetir o nome",
+            "**too** = demais (too big, too small, too expensive) · **very** = muito",
+            "Na loja: Can I try it on? · What size do you wear? · It’s too big. · I’ll take it."
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I like this blue.",
+              "I like this blue one."
+            ],
+            [
+              "It is much big.",
+              "It is too big."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m7-p6",
+      "n": 6,
+      "tipo": "pratica",
+      "titulo": "Revisão do módulo",
+      "duracao": 40,
+      "resumo": "Contáveis, pedidos educados e roupas: aquecimento para o mini-teste.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m7-p6",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m7-p6-ex1",
+          "titulo": "2.1 Escolha a forma correta",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "Do you have (some / any) milk?",
+              "opts": [
+                "some",
+                "any"
+              ],
+              "a": "any",
+              "why": "Pergunta → **any**."
+            },
+            {
+              "q": "How (much / many) eggs do you want?",
+              "opts": [
+                "much",
+                "many"
+              ],
+              "a": "many",
+              "why": "eggs é contável → **many**."
+            },
+            {
+              "q": "I’d (like / want) a salad, please.",
+              "opts": [
+                "like",
+                "want"
+              ],
+              "a": "like",
+              "why": "Pedido educado: **I’d like**."
+            },
+            {
+              "q": "These jeans (is / are) too big.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "jeans é plural → **are**."
+            },
+            {
+              "q": "I like this (one / ones).",
+              "opts": [
+                "one",
+                "ones"
+              ],
+              "a": "one",
+              "why": "Uma coisa → **one**."
+            },
+            {
+              "q": "(Would / Do) you like some coffee?",
+              "opts": [
+                "Would",
+                "Do"
+              ],
+              "a": "Would",
+              "why": "Oferecer: **Would you like…?**"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p6-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "Quanto leite temos?",
+              "a": [
+                "How much milk do we have?"
+              ],
+              "why": "milk é incontável → How much."
+            },
+            {
+              "q": "Não temos pão.",
+              "a": [
+                "We don't have any bread.",
+                "We do not have any bread."
+              ],
+              "why": "Negativa → any."
+            },
+            {
+              "q": "Posso provar estas calças?",
+              "a": [
+                "Can I try these pants on?",
+                "Can I try these on?",
+                "Can I try these jeans on?"
+              ],
+              "why": "try on = provar."
+            },
+            {
+              "q": "Eu gostaria de um café, por favor.",
+              "a": [
+                "I'd like a coffee, please.",
+                "I would like a coffee, please."
+              ],
+              "why": "I’d like + coisa + please."
+            },
+            {
+              "q": "Estes sapatos são caros demais.",
+              "a": [
+                "These shoes are too expensive."
+              ],
+              "why": "plural → are · too expensive."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p6-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "How many money do you have?",
+              "a": [
+                "How much money do you have?"
+              ],
+              "why": "money é incontável → much."
+            },
+            {
+              "q": "I don’t have some eggs.",
+              "a": [
+                "I don't have any eggs.",
+                "I do not have any eggs."
+              ],
+              "why": "Negativa → any."
+            },
+            {
+              "q": "These shoes is too small.",
+              "a": [
+                "These shoes are too small."
+              ],
+              "why": "shoes é plural → are."
+            },
+            {
+              "q": "I like this blue.",
+              "a": [
+                "I like this blue one."
+              ],
+              "why": "Use **one** para não repetir o nome."
+            },
+            {
+              "q": "The milk are cold.",
+              "a": [
+                "The milk is cold."
+              ],
+              "why": "Incontável → is."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m7-p6-ex4",
+          "titulo": "2.4 Complete a frase",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "There isn’t ___ cheese.",
+              "a": [
+                "any"
+              ],
+              "why": "Negativa → any."
+            },
+            {
+              "q": "I’d like ___ glass of water.",
+              "a": [
+                "a"
+              ],
+              "why": "glass começa com som de consoante → a."
+            },
+            {
+              "q": "We have a lot ___ vegetables.",
+              "a": [
+                "of"
+              ],
+              "why": "a lot **of**."
+            },
+            {
+              "q": "A ___ of jeans. (um par)",
+              "a": [
+                "pair"
+              ],
+              "why": "a **pair** of jeans."
+            },
+            {
+              "q": "How ___ rice do you eat?",
+              "a": [
+                "much"
+              ],
+              "why": "rice é incontável → much."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "On Saturday, my wife and I went shopping.",
+              "No sábado, minha esposa e eu fizemos compras."
+            ],
+            [
+              "We bought some rice, a lot of vegetables and two bottles of milk.",
+              "Compramos arroz, muitos legumes e duas garrafas de leite."
+            ],
+            [
+              "We didn’t buy any meat because we have chicken.",
+              "Não compramos carne porque temos frango."
+            ],
+            [
+              "Then, my wife tried on a dress, but it was too small.",
+              "Depois, minha esposa provou um vestido, mas era pequeno demais."
+            ],
+            [
+              "She liked that one, and she took it.",
+              "Ela gostou daquele e levou."
+            ],
+            [
+              "We were tired, so we had lunch at a restaurant.",
+              "Estávamos cansados, então almoçamos em um restaurante."
+            ]
+          ],
+          "titulo": "Saturday shopping"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: revisão",
+          "frases": [
+            [
+              "Do you have any milk?",
+              "Você tem leite?"
+            ],
+            [
+              "I’d like a coffee, please.",
+              "Eu gostaria de um café, por favor."
+            ],
+            [
+              "These jeans are too big.",
+              "Esta calça é grande demais."
+            ],
+            [
+              "How much milk do we have?",
+              "Quanto leite temos?"
+            ],
+            [
+              "I’ll take this one.",
+              "Eu levo este."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m7-p6-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m7-s1/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "We don’t have any bread.",
+              "a": [
+                "We don't have any bread.",
+                "We do not have any bread."
+              ],
+              "why": "Negativa → any."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Would you like some coffee?",
+              "a": [
+                "Would you like some coffee?"
+              ],
+              "why": "Would you like + some…?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "These shoes are too small.",
+              "a": [
+                "These shoes are too small."
+              ],
+              "why": "shoes é plural → are."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m7-p6",
+          "prompt": "Escreva uma lista de compras de 6 itens e 4 frases: duas pedindo algo (I’d like…) e duas numa loja de roupas (Can I try…? It’s too…)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "a/an · some · any · much · many · a lot of · medidas (a glass of)",
+            "I’d like… · Can I have…? · Would you like…?",
+            "jeans/pants/shoes no plural · a pair of · this one / ones · too"
+          ]
+        },
+        {
+          "t": "tip",
+          "s": "Esta é a última prática antes do mini-teste da Sessão 4. Refaça o Caderno de erros e releia as revisões das sessões 1, 2 e 3. Lugares de compra e formas de pagamento aparecem só na Sessão 4.",
+          "title": "PULO DO GATO"
+        }
       ]
     },
     {

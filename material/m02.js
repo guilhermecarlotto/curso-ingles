@@ -266,6 +266,434 @@
       ]
     },
     {
+      "id": "m2-p1",
+      "n": 1,
+      "tipo": "pratica",
+      "titulo": "Fixar o plural dos substantivos",
+      "duracao": 40,
+      "resumo": "Plural regular e irregular, pronúncia do -s e concordância com is/are.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m2-p1",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m2-p1-ex1",
+          "titulo": "2.1 Escreva o plural",
+          "ref": "m2-s1/3.1",
+          "items": [
+            {
+              "q": "one dog → two ___",
+              "a": [
+                "dogs"
+              ],
+              "why": "Maioria: + s."
+            },
+            {
+              "q": "one box → two ___",
+              "a": [
+                "boxes"
+              ],
+              "why": "Termina em x: + es."
+            },
+            {
+              "q": "one baby → two ___",
+              "a": [
+                "babies"
+              ],
+              "why": "Consoante + y: y → ies."
+            },
+            {
+              "q": "one boy → two ___",
+              "a": [
+                "boys"
+              ],
+              "why": "Vogal + y: só + s."
+            },
+            {
+              "q": "one knife → two ___",
+              "a": [
+                "knives"
+              ],
+              "why": "-fe: f → ves."
+            },
+            {
+              "q": "one watch → two ___",
+              "a": [
+                "watches"
+              ],
+              "why": "Termina em ch: + es."
+            },
+            {
+              "q": "one day → two ___",
+              "a": [
+                "days"
+              ],
+              "why": "Vogal + y: só + s."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p1-ex2",
+          "titulo": "2.2 Plurais irregulares: escolha",
+          "ref": "m2-s1/3.2",
+          "items": [
+            {
+              "q": "There are three (man / men) in the car.",
+              "opts": [
+                "man",
+                "men"
+              ],
+              "a": "men",
+              "why": "Plural irregular: man → **men**."
+            },
+            {
+              "q": "Two (child / children) are at school.",
+              "opts": [
+                "child",
+                "children"
+              ],
+              "a": "children",
+              "why": "Plural irregular: child → **children**."
+            },
+            {
+              "q": "These (woman / women) are nurses.",
+              "opts": [
+                "woman",
+                "women"
+              ],
+              "a": "women",
+              "why": "Plural irregular: woman → **women**."
+            },
+            {
+              "q": "Five (people / peoples) are here.",
+              "opts": [
+                "people",
+                "peoples"
+              ],
+              "a": "people",
+              "why": "**People** já é o plural de person: nunca “peoples”."
+            },
+            {
+              "q": "Look at the two (fish / fishs).",
+              "opts": [
+                "fish",
+                "fishs"
+              ],
+              "a": "fish",
+              "why": "**Fish** é igual no singular e no plural."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p1-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m2-s1/3.1",
+          "items": [
+            {
+              "q": "I have three childs.",
+              "a": [
+                "I have three children."
+              ],
+              "why": "Child é irregular: children."
+            },
+            {
+              "q": "Two man are in the office.",
+              "a": [
+                "Two men are in the office."
+              ],
+              "why": "Man é irregular: men."
+            },
+            {
+              "q": "The babys are small.",
+              "a": [
+                "The babies are small."
+              ],
+              "why": "Consoante + y: y → ies."
+            },
+            {
+              "q": "She has two watchs.",
+              "a": [
+                "She has two watches."
+              ],
+              "why": "Termina em ch: + es."
+            },
+            {
+              "q": "The people is tired.",
+              "a": [
+                "The people are tired."
+              ],
+              "why": "**People** é plural: o verbo é **are**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p1-ex4",
+          "titulo": "2.4 Qual é o som do -s?",
+          "ref": "m2-s1/3.3",
+          "items": [
+            {
+              "q": "Som do -s em books:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/s/",
+              "why": "Depois de **k** → **/s/**."
+            },
+            {
+              "q": "Som do -s em days:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/z/",
+              "why": "Depois de vogal → **/z/**."
+            },
+            {
+              "q": "Som do -s em buses:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/ɪz/",
+              "why": "Depois de **s** → sílaba a mais: **/ɪz/**."
+            },
+            {
+              "q": "Som do -s em cats:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/s/",
+              "why": "Depois de **t** → **/s/**."
+            },
+            {
+              "q": "Som do -s em boxes:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/ɪz/",
+              "why": "Depois de **x** → sílaba a mais: **/ɪz/**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "In my bag, I have two books and three pens.",
+              "Na minha bolsa, tenho dois livros e três canetas."
+            ],
+            [
+              "I have two keys and a watch.",
+              "Tenho duas chaves e um relógio."
+            ],
+            [
+              "My friends have boxes in their cars.",
+              "Meus amigos têm caixas nos carros."
+            ],
+            [
+              "The women in my office are nice.",
+              "As mulheres do meu escritório são legais."
+            ],
+            [
+              "The men are tired, and the babies are happy.",
+              "Os homens estão cansados e os bebês estão felizes."
+            ],
+            [
+              "Many people are at the park today.",
+              "Muitas pessoas estão no parque hoje."
+            ]
+          ],
+          "titulo": "My bag"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: plurais",
+          "frases": [
+            [
+              "Two books and three pens.",
+              "Dois livros e três canetas."
+            ],
+            [
+              "How many children do you have?",
+              "Quantos filhos você tem?"
+            ],
+            [
+              "I have two keys and a watch.",
+              "Tenho duas chaves e um relógio."
+            ],
+            [
+              "The women are nurses.",
+              "As mulheres são enfermeiras."
+            ],
+            [
+              "The people are tired.",
+              "As pessoas estão cansadas."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m2-p1-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m2-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I have three children.",
+              "a": [
+                "I have three children."
+              ],
+              "why": "Child → children (plural irregular)."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "The babies are happy.",
+              "a": [
+                "The babies are happy."
+              ],
+              "why": "baby → babies; plural pede **are**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Two boxes and two watches.",
+              "a": [
+                "Two boxes and two watches."
+              ],
+              "why": "-x e -ch: + es."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m2-p1",
+          "prompt": "Escreva 5 frases com plurais: 2 sobre o que há na sua bolsa ou mesa, 2 sobre pessoas (men, women, children, people) e 1 pergunta com How many…?"
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Plural: **+ s** · **+ es** (-s, -sh, -ch, -x, -z) · consoante + **y → ies** · **-f/-fe → ves**",
+            "Irregulares: man → men · woman → women · child → children · person → people · fish = fish",
+            "Com plural, o verbo muda: **is → are**. O artigo **a/an** só vai com um item."
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "two childs",
+              "two children"
+            ],
+            [
+              "The people is here.",
+              "The people are here."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m2-s2",
       "n": 2,
       "titulo": "This, that, these, those",
@@ -460,6 +888,849 @@
           ]
         },
         {"t":"errors","items":[["This are my books.","These are my books."],["Yes, this is.","Yes, it is."]],"title":"ERROS COMUNS DE BRASILEIROS"}
+      ]
+    },
+    {
+      "id": "m2-p2",
+      "n": 2,
+      "tipo": "pratica",
+      "titulo": "Fixar this, that, these e those",
+      "duracao": 40,
+      "resumo": "Perto e longe, singular e plural, com is e are.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m2-p2",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m2-p2-ex1",
+          "titulo": "2.1 Complete com this, that, these ou those",
+          "ref": "m2-s2/3.1",
+          "items": [
+            {
+              "q": "(perto, 1 coisa) ___ is my bag.",
+              "a": [
+                "This"
+              ],
+              "why": "Perto + uma coisa → **this**."
+            },
+            {
+              "q": "(longe, 1 coisa) ___ is a big house.",
+              "a": [
+                "That"
+              ],
+              "why": "Longe + uma coisa → **that**."
+            },
+            {
+              "q": "(perto, 2 coisas) ___ are my books.",
+              "a": [
+                "These"
+              ],
+              "why": "Perto + duas ou mais → **these**."
+            },
+            {
+              "q": "(longe, 2 coisas) ___ are your keys.",
+              "a": [
+                "Those"
+              ],
+              "why": "Longe + duas ou mais → **those**."
+            },
+            {
+              "q": "(longe, 2 pessoas) ___ men are my brothers.",
+              "a": [
+                "Those"
+              ],
+              "why": "Longe + plural (men) → **those**."
+            },
+            {
+              "q": "(perto, 1 coisa) ___ clock is new.",
+              "a": [
+                "This"
+              ],
+              "why": "Perto + uma coisa → **this**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p2-ex2",
+          "titulo": "2.2 Escolha is ou are",
+          "ref": "m2-s2/3.1",
+          "items": [
+            {
+              "q": "This (is / are) a pen.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "is",
+              "why": "this + **is**."
+            },
+            {
+              "q": "Those (is / are) bottles.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "those + **are**."
+            },
+            {
+              "q": "These (is / are) my windows.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "these + **are**."
+            },
+            {
+              "q": "That (is / are) my door.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "is",
+              "why": "that + **is**."
+            },
+            {
+              "q": "Those books (is / are) old.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "Those books = plural → **are**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p2-ex3",
+          "titulo": "2.3 Passe para o plural",
+          "ref": "m2-s2/3.1",
+          "items": [
+            {
+              "q": "This is a pen.",
+              "a": [
+                "These are pens."
+              ],
+              "why": "this → these · is → are · pen → pens."
+            },
+            {
+              "q": "That is a window.",
+              "a": [
+                "Those are windows."
+              ],
+              "why": "that → those · is → are · window → windows."
+            },
+            {
+              "q": "This is my key.",
+              "a": [
+                "These are my keys."
+              ],
+              "why": "this → these · is → are · key → keys."
+            },
+            {
+              "q": "That is a bus.",
+              "a": [
+                "Those are buses."
+              ],
+              "why": "that → those · is → are · bus → buses."
+            },
+            {
+              "q": "This is a watch.",
+              "a": [
+                "These are watches."
+              ],
+              "why": "this → these · is → are · watch → watches."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p2-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m2-s2/3.1",
+          "items": [
+            {
+              "q": "This are my books.",
+              "a": [
+                "These are my books."
+              ],
+              "why": "Plural → **these are**."
+            },
+            {
+              "q": "That books are old.",
+              "a": [
+                "Those books are old."
+              ],
+              "why": "Plural → **those**."
+            },
+            {
+              "q": "These is my phone.",
+              "a": [
+                "This is my phone."
+              ],
+              "why": "Uma coisa → **this is**."
+            },
+            {
+              "q": "Those is a bus.",
+              "a": [
+                "That is a bus.",
+                "That's a bus."
+              ],
+              "why": "Uma coisa → **that is**."
+            },
+            {
+              "q": "This watch are new.",
+              "a": [
+                "This watch is new."
+              ],
+              "why": "Uma coisa → **is**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "What is this?",
+              "O que é isto?"
+            ],
+            [
+              "B",
+              "It is a notebook.",
+              "É um caderno."
+            ],
+            [
+              "A",
+              "And what are those?",
+              "E o que são aquelas coisas?"
+            ],
+            [
+              "B",
+              "Those are pictures.",
+              "Aquelas são fotos."
+            ],
+            [
+              "A",
+              "Is that your bottle?",
+              "Aquela é a sua garrafa?"
+            ],
+            [
+              "B",
+              "Yes, it is. And these are my cups.",
+              "Sim, é. E estas são as minhas xícaras."
+            ],
+            [
+              "A",
+              "Excuse me, is this your pen?",
+              "Com licença, esta é a sua caneta?"
+            ],
+            [
+              "B",
+              "No, it isn’t.",
+              "Não, não é."
+            ]
+          ],
+          "titulo": "EXEMPLO · Na sala de aula"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: this e that",
+          "frases": [
+            [
+              "What is this?",
+              "O que é isto?"
+            ],
+            [
+              "These are my keys.",
+              "Estas são as minhas chaves."
+            ],
+            [
+              "That is a clock.",
+              "Aquilo é um relógio."
+            ],
+            [
+              "Those are windows.",
+              "Aquelas são janelas."
+            ],
+            [
+              "Is this your pen?",
+              "Esta é a sua caneta?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m2-p2-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m2-s2/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "This is my notebook.",
+              "a": [
+                "This is my notebook."
+              ],
+              "why": "this + **is**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Those are my keys.",
+              "a": [
+                "Those are my keys."
+              ],
+              "why": "those + **are**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "That is not my bottle.",
+              "a": [
+                "That is not my bottle.",
+                "That isn't my bottle.",
+                "That's not my bottle."
+              ],
+              "why": "Negativa: **not** depois do verbo."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m2-p2",
+          "prompt": "Escreva 5 frases sobre objetos perto e longe de você: 3 com this/these e 2 com that/those. Use pelo menos um plural."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "table",
+          "head": [
+            "Perto",
+            "Longe"
+          ],
+          "rows": [
+            [
+              "this (1 coisa)",
+              "that (1 coisa)"
+            ],
+            [
+              "these (2 ou mais)",
+              "those (2 ou mais)"
+            ]
+          ],
+          "firstCol": true
+        },
+        {
+          "t": "bullets",
+          "items": [
+            "**this / these**: perto · **that / those**: longe",
+            "**this / that + is** · **these / those + are**",
+            "Em inglês, o plural muda tudo: this is a pen → these are pens."
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "This are my books.",
+              "These are my books."
+            ],
+            [
+              "That books are old.",
+              "Those books are old."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m2-p3",
+      "n": 3,
+      "tipo": "pratica",
+      "titulo": "Perguntas e respostas com this e these",
+      "duracao": 40,
+      "resumo": "What is this? Is that…? Are these…? e as respostas curtas.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m2-p3",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m2-p3-ex1",
+          "titulo": "2.1 Complete a pergunta com is ou are",
+          "ref": "m2-s2/3.2",
+          "items": [
+            {
+              "q": "What ___ this? — It is a pen.",
+              "a": [
+                "is"
+              ],
+              "why": "this + **is**."
+            },
+            {
+              "q": "What ___ those? — They are keys.",
+              "a": [
+                "are"
+              ],
+              "why": "those + **are**."
+            },
+            {
+              "q": "___ that your bag? — Yes, it is.",
+              "a": [
+                "Is"
+              ],
+              "why": "that + **Is**."
+            },
+            {
+              "q": "___ these your books? — Yes, they are.",
+              "a": [
+                "Are"
+              ],
+              "why": "these + **Are**."
+            },
+            {
+              "q": "What ___ that? — It is a bus.",
+              "a": [
+                "is"
+              ],
+              "why": "that + **is**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p3-ex2",
+          "titulo": "2.2 Respostas curtas",
+          "ref": "m2-s2/3.2",
+          "items": [
+            {
+              "q": "Is this your cup? Yes, it ___.",
+              "a": [
+                "is"
+              ],
+              "why": "Resposta curta afirmativa: **Yes, it is.**"
+            },
+            {
+              "q": "Are these your keys? No, they ___.",
+              "a": [
+                [
+                  "aren't",
+                  "are not"
+                ]
+              ],
+              "why": "Resposta curta negativa: **No, they aren’t.**"
+            },
+            {
+              "q": "Is that your door? No, it ___.",
+              "a": [
+                [
+                  "isn't",
+                  "is not"
+                ]
+              ],
+              "why": "Resposta curta negativa: **No, it isn’t.**"
+            },
+            {
+              "q": "Are those your children? Yes, they ___.",
+              "a": [
+                "are"
+              ],
+              "why": "Resposta curta afirmativa: **Yes, they are.**"
+            },
+            {
+              "q": "Is this a bus? No, it ___ not.",
+              "a": [
+                "is"
+              ],
+              "why": "Sem contração: **No, it is not.**"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p3-ex3",
+          "titulo": "2.3 Faça a pergunta ou responda",
+          "ref": "m2-s2/3.2",
+          "items": [
+            {
+              "q": "Pergunte o que é aquilo (that).",
+              "a": [
+                "What is that?",
+                "What's that?"
+              ],
+              "why": "What + is + that?"
+            },
+            {
+              "q": "Pergunte o que são aquelas coisas (those).",
+              "a": [
+                "What are those?"
+              ],
+              "why": "What + are + those?"
+            },
+            {
+              "q": "Pergunte se isto (this) é a caneta dele.",
+              "a": [
+                "Is this his pen?"
+              ],
+              "why": "Is + this + …?"
+            },
+            {
+              "q": "Pergunte se estas coisas (these) são as suas chaves.",
+              "a": [
+                "Are these your keys?"
+              ],
+              "why": "Are + these + …?"
+            },
+            {
+              "q": "Responda: What are these? (são chaves)",
+              "a": [
+                "They are keys.",
+                "They're keys."
+              ],
+              "why": "A pergunta usa **these**, mas a resposta usa **they**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p3-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m2-s2/3.2",
+          "items": [
+            {
+              "q": "What is these?",
+              "a": [
+                "What are these?"
+              ],
+              "why": "these + **are**."
+            },
+            {
+              "q": "Is this your bag? Yes, this is.",
+              "a": [
+                "Yes, it is."
+              ],
+              "why": "Na resposta, use **it** (uma coisa)."
+            },
+            {
+              "q": "Are this your keys?",
+              "a": [
+                "Are these your keys?"
+              ],
+              "why": "Plural → **these**."
+            },
+            {
+              "q": "Is those your books?",
+              "a": [
+                "Are those your books?"
+              ],
+              "why": "Plural → **are those**."
+            },
+            {
+              "q": "Are those your bags? No, they isn’t.",
+              "a": [
+                "No, they aren't.",
+                "No, they are not."
+              ],
+              "why": "they + **aren’t**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "This is my desk. It is small.",
+              "Esta é a minha mesa. Ela é pequena."
+            ],
+            [
+              "These are my notebooks, and this is my pen.",
+              "Estes são os meus cadernos e esta é a minha caneta."
+            ],
+            [
+              "That is a window, and those are doors.",
+              "Aquela é uma janela e aquelas são portas."
+            ],
+            [
+              "Is that a clock? Yes, it is.",
+              "Aquilo é um relógio? Sim, é."
+            ],
+            [
+              "Are those pictures? Yes, they are.",
+              "Aquelas são fotos? Sim, são."
+            ],
+            [
+              "Is this your bottle? No, it isn’t. It is a cup.",
+              "Esta é a sua garrafa? Não. É uma xícara."
+            ]
+          ],
+          "titulo": "My desk"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: perguntas",
+          "frases": [
+            [
+              "What are those?",
+              "O que são aquelas coisas?"
+            ],
+            [
+              "They are bottles.",
+              "São garrafas."
+            ],
+            [
+              "Is that a clock?",
+              "Aquilo é um relógio?"
+            ],
+            [
+              "Yes, it is.",
+              "Sim, é."
+            ],
+            [
+              "Are these your keys?",
+              "Estas são as suas chaves?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m2-p3-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m2-s2/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "What is that?",
+              "a": [
+                "What is that?",
+                "What's that?"
+              ],
+              "why": "What + is + that?"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Are these your books?",
+              "a": [
+                "Are these your books?"
+              ],
+              "why": "Plural → **Are these…?**"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "No, it isn’t.",
+              "a": [
+                "No, it isn't.",
+                "No, it is not.",
+                "No, it's not."
+              ],
+              "why": "Resposta curta negativa."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m2-p3",
+          "prompt": "Escreva 3 perguntas com this/that/these/those (What is…? Is/Are…?) e 2 respostas curtas (Yes, it is. / No, they aren’t.)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Pergunta: **What is this? · What are these?** · **Is this…? · Are these…?**",
+            "Resposta: **it** (uma coisa) · **they** (duas ou mais)",
+            "Resposta curta: Yes, it is. · No, they aren’t."
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "What is these?",
+              "What are these?"
+            ],
+            [
+              "Yes, this is.",
+              "Yes, it is."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
       ]
     },
     {
@@ -673,6 +1944,1249 @@
           ]
         },
         {"t":"errors","items":[["Her is my sister.","She is my sister."],["Maria phone","Maria’s phone"]],"title":"ERROS COMUNS DE BRASILEIROS"}
+      ]
+    },
+    {
+      "id": "m2-p4",
+      "n": 4,
+      "tipo": "pratica",
+      "titulo": "Fixar os possessivos",
+      "duracao": 40,
+      "resumo": "my, your, his, her, its, our, their: quem possui decide a palavra.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m2-p4",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m2-p4-ex1",
+          "titulo": "2.1 Complete com o possessivo",
+          "ref": "m2-s3/3.1",
+          "items": [
+            {
+              "q": "I have a car. ___ car is big.",
+              "a": [
+                "My"
+              ],
+              "why": "I → **my**."
+            },
+            {
+              "q": "You have a bag. ___ bag is new.",
+              "a": [
+                "Your"
+              ],
+              "why": "you → **your**."
+            },
+            {
+              "q": "He has a dog. ___ dog is small.",
+              "a": [
+                "His"
+              ],
+              "why": "he → **his**."
+            },
+            {
+              "q": "We have a house. ___ house is old.",
+              "a": [
+                "Our"
+              ],
+              "why": "we → **our**."
+            },
+            {
+              "q": "They have two children. ___ children are nice.",
+              "a": [
+                "Their"
+              ],
+              "why": "they → **their**."
+            },
+            {
+              "q": "It has a door. ___ door is open.",
+              "a": [
+                "Its"
+              ],
+              "why": "it → **its** (sem apóstrofo)."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p4-ex2",
+          "titulo": "2.2 Escolha his, her, our ou their",
+          "ref": "m2-s3/3.1",
+          "items": [
+            {
+              "q": "Tom has a sister. (His / Her) sister is Anna.",
+              "opts": [
+                "His",
+                "Her"
+              ],
+              "a": "His",
+              "why": "O dono é o Tom (ele) → **his**."
+            },
+            {
+              "q": "Anna has a brother. (His / Her) brother is Tom.",
+              "opts": [
+                "His",
+                "Her"
+              ],
+              "a": "Her",
+              "why": "O dona é a Anna (ela) → **her**."
+            },
+            {
+              "q": "Maria has a phone. (His / Her) phone is new.",
+              "opts": [
+                "His",
+                "Her"
+              ],
+              "a": "Her",
+              "why": "Dona: Maria (ela) → **her**."
+            },
+            {
+              "q": "Carlos has a car. (His / Her) car is old.",
+              "opts": [
+                "His",
+                "Her"
+              ],
+              "a": "His",
+              "why": "Dono: Carlos (ele) → **his**."
+            },
+            {
+              "q": "My wife and I have a dog. (Our / Their) dog is big.",
+              "opts": [
+                "Our",
+                "Their"
+              ],
+              "a": "Our",
+              "why": "Nós → **our**."
+            },
+            {
+              "q": "The children have bags. (Our / Their) bags are new.",
+              "opts": [
+                "Our",
+                "Their"
+              ],
+              "a": "Their",
+              "why": "Eles → **their**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p4-ex3",
+          "titulo": "2.3 Its ou it’s?",
+          "ref": "m2-s3/3.1",
+          "items": [
+            {
+              "q": "(Its / It’s) a big house.",
+              "opts": [
+                "Its",
+                "It’s"
+              ],
+              "a": "It’s",
+              "why": "**It’s** = it is."
+            },
+            {
+              "q": "The bus has (its / it’s) door open.",
+              "opts": [
+                "its",
+                "it’s"
+              ],
+              "a": "its",
+              "why": "**its** = dele/dela (posse)."
+            },
+            {
+              "q": "(Its / It’s) my phone.",
+              "opts": [
+                "Its",
+                "It’s"
+              ],
+              "a": "It’s",
+              "why": "**It’s** = it is."
+            },
+            {
+              "q": "The dog is in (its / it’s) house.",
+              "opts": [
+                "its",
+                "it’s"
+              ],
+              "a": "its",
+              "why": "**its** = posse."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p4-ex4",
+          "titulo": "2.4 Escreva em inglês",
+          "ref": "m2-s3/3.1",
+          "items": [
+            {
+              "q": "Meu pai é professor.",
+              "a": [
+                "My father is a teacher.",
+                "My father's a teacher."
+              ],
+              "why": "my + father · profissão com **a**."
+            },
+            {
+              "q": "Minha mãe é enfermeira.",
+              "a": [
+                "My mother is a nurse.",
+                "My mother's a nurse."
+              ],
+              "why": "my + mother."
+            },
+            {
+              "q": "O nome dela é Ana.",
+              "a": [
+                "Her name is Ana."
+              ],
+              "why": "ela → **her**."
+            },
+            {
+              "q": "Os pais dela moram aqui.",
+              "a": [
+                "Her parents live here."
+              ],
+              "why": "ela → **her** · parents (plural) → live."
+            },
+            {
+              "q": "Nossa casa é grande.",
+              "a": [
+                "Our house is big."
+              ],
+              "why": "nós → **our**."
+            },
+            {
+              "q": "Esta é a minha esposa.",
+              "a": [
+                "This is my wife."
+              ],
+              "why": "this is + my + wife."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "My name is Carlos.",
+              "Meu nome é Carlos."
+            ],
+            [
+              "I live with my wife and my son.",
+              "Moro com minha esposa e meu filho."
+            ],
+            [
+              "My wife’s name is Paula. She works at a hospital.",
+              "O nome da minha esposa é Paula. Ela trabalha em um hospital."
+            ],
+            [
+              "Our son is five years old. His name is Sam.",
+              "Nosso filho tem cinco anos. O nome dele é Sam."
+            ],
+            [
+              "My parents live in Campinas. Their house is big.",
+              "Meus pais moram em Campinas. A casa deles é grande."
+            ],
+            [
+              "Their garden is beautiful.",
+              "O jardim deles é lindo."
+            ]
+          ],
+          "titulo": "My family"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: possessivos",
+          "frases": [
+            [
+              "This is my mother.",
+              "Esta é a minha mãe."
+            ],
+            [
+              "His name is Tom.",
+              "O nome dele é Tom."
+            ],
+            [
+              "Her phone is new.",
+              "O celular dela é novo."
+            ],
+            [
+              "Our house is big.",
+              "Nossa casa é grande."
+            ],
+            [
+              "Their children are at school.",
+              "Os filhos deles estão na escola."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m2-p4-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m2-s3/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "My brother has a dog.",
+              "a": [
+                "My brother has a dog."
+              ],
+              "why": "my + brother · he + has."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Her name is Julia.",
+              "a": [
+                "Her name is Julia."
+              ],
+              "why": "Dona = ela → **her**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Their house is big.",
+              "a": [
+                "Their house is big."
+              ],
+              "why": "Donos = eles → **their**."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m2-p4",
+          "prompt": "Escreva 5 frases sobre três pessoas da sua família (my, his, her, our, their): quem é, o nome e uma coisa que a pessoa tem."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "O possessivo vem **antes do substantivo** e depende do **dono**: my · your · his · her · its · our · their",
+            "**its** (posse, sem apóstrofo) ≠ **it’s** (= it is)",
+            "Maria has a dog. **Her** dog is big. (o dono é Maria, ela)"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "This is you bag.",
+              "This is your bag."
+            ],
+            [
+              "Her is my sister.",
+              "She is my sister."
+            ],
+            [
+              "It’s door is open.",
+              "Its door is open."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m2-p5",
+      "n": 5,
+      "tipo": "pratica",
+      "titulo": "Fixar o ’s e a família",
+      "duracao": 40,
+      "resumo": "Possessivo ’s, de quem é e vocabulário da família.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m2-p5",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m2-p5-ex1",
+          "titulo": "2.1 Escolha a forma correta",
+          "ref": "m2-s3/3.2",
+          "items": [
+            {
+              "q": "This is (Maria’s bag / Maria bag).",
+              "opts": [
+                "Maria’s bag",
+                "Maria bag"
+              ],
+              "a": "Maria’s bag",
+              "why": "Dono + **’s** + coisa: Maria’s bag."
+            },
+            {
+              "q": "That is my (brother’s / brothers’) car. (um irmão)",
+              "opts": [
+                "brother’s",
+                "brothers’"
+              ],
+              "a": "brother’s",
+              "why": "Um dono: **’s**."
+            },
+            {
+              "q": "Those are my (parents’ / parent’s) keys. (os dois pais)",
+              "opts": [
+                "parents’",
+                "parent’s"
+              ],
+              "a": "parents’",
+              "why": "Plural com -s: só o apóstrofo."
+            },
+            {
+              "q": "Whose bag is this? — It is (Anna’s / Annas).",
+              "opts": [
+                "Anna’s",
+                "Annas"
+              ],
+              "a": "Anna’s",
+              "why": "Posse: Anna**’s**."
+            },
+            {
+              "q": "My (sister’s / sisters’) name is Julia. (uma irmã)",
+              "opts": [
+                "sister’s",
+                "sisters’"
+              ],
+              "a": "sister’s",
+              "why": "Uma irmã: **’s**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p5-ex2",
+          "titulo": "2.2 Escreva com ’s",
+          "ref": "m2-s3/3.2",
+          "items": [
+            {
+              "q": "O telefone do Tom.",
+              "a": [
+                "Tom’s phone.",
+                "Tom's phone."
+              ],
+              "why": "Dono + ’s + coisa."
+            },
+            {
+              "q": "A casa da minha irmã.",
+              "a": [
+                "My sister’s house.",
+                "My sister's house."
+              ],
+              "why": "my sister + ’s + house."
+            },
+            {
+              "q": "O carro do meu pai.",
+              "a": [
+                "My father’s car.",
+                "My father's car."
+              ],
+              "why": "my father + ’s + car."
+            },
+            {
+              "q": "As chaves dos meus pais.",
+              "a": [
+                "My parents’ keys.",
+                "My parents' keys."
+              ],
+              "why": "Plural em -s: só o apóstrofo."
+            },
+            {
+              "q": "O nome do cachorro.",
+              "a": [
+                "The dog’s name.",
+                "The dog's name."
+              ],
+              "why": "the dog + ’s + name."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p5-ex3",
+          "titulo": "2.3 ’s: posse ou is?",
+          "ref": "m2-s3/3.2",
+          "items": [
+            {
+              "q": "Maria’s a nurse. (’s = ?)",
+              "opts": [
+                "is",
+                "posse"
+              ],
+              "a": "is",
+              "why": "Depois de ’s vem **artigo/adjetivo**: é **is**."
+            },
+            {
+              "q": "Maria’s bag is new. (’s = ?)",
+              "opts": [
+                "is",
+                "posse"
+              ],
+              "a": "posse",
+              "why": "Depois de ’s vem **substantivo**: é **posse**."
+            },
+            {
+              "q": "Tom’s my brother. (’s = ?)",
+              "opts": [
+                "is",
+                "posse"
+              ],
+              "a": "is",
+              "why": "“Tom is my brother.”"
+            },
+            {
+              "q": "Tom’s brother is a teacher. (’s = ?)",
+              "opts": [
+                "is",
+                "posse"
+              ],
+              "a": "posse",
+              "why": "O irmão **do Tom**: posse."
+            },
+            {
+              "q": "She’s at home. (’s = ?)",
+              "opts": [
+                "is",
+                "posse"
+              ],
+              "a": "is",
+              "why": "She’s = **she is**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p5-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m2-s3/3.2",
+          "items": [
+            {
+              "q": "The car of my brother is old.",
+              "a": [
+                "My brother’s car is old.",
+                "My brother's car is old."
+              ],
+              "why": "Em inglês: dono + ’s + coisa."
+            },
+            {
+              "q": "Maria phone is new.",
+              "a": [
+                "Maria’s phone is new.",
+                "Maria's phone is new."
+              ],
+              "why": "Falta o **’s**."
+            },
+            {
+              "q": "This is you bag.",
+              "a": [
+                "This is your bag."
+              ],
+              "why": "Possessivo de you: **your**."
+            },
+            {
+              "q": "Her is my sister.",
+              "a": [
+                "She is my sister.",
+                "She's my sister."
+              ],
+              "why": "Sujeito: **she**."
+            },
+            {
+              "q": "It’s door is open.",
+              "a": [
+                "Its door is open."
+              ],
+              "why": "Posse: **its** (sem apóstrofo)."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Tom is Anna’s brother.",
+              "Tom é irmão da Anna."
+            ],
+            [
+              "Tom’s wife is Julia.",
+              "A esposa do Tom é a Julia."
+            ],
+            [
+              "Julia’s mother is a teacher, and her father is a police officer.",
+              "A mãe da Julia é professora e o pai dela é policial."
+            ],
+            [
+              "Tom and Julia’s son is Sam.",
+              "O filho do Tom e da Julia é o Sam."
+            ],
+            [
+              "Sam’s grandfather is Anna’s father.",
+              "O avô do Sam é o pai da Anna."
+            ],
+            [
+              "Anna’s parents’ house is big.",
+              "A casa dos pais da Anna é grande."
+            ]
+          ],
+          "titulo": "Anna’s family"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: de quem é?",
+          "frases": [
+            [
+              "Whose bag is this?",
+              "De quem é esta bolsa?"
+            ],
+            [
+              "It is Maria’s bag.",
+              "É a bolsa da Maria."
+            ],
+            [
+              "My brother’s car is new.",
+              "O carro do meu irmão é novo."
+            ],
+            [
+              "These are my parents’ keys.",
+              "Estas são as chaves dos meus pais."
+            ],
+            [
+              "She is my sister.",
+              "Ela é minha irmã."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m2-p5-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m2-s3/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Whose phone is this?",
+              "a": [
+                "Whose phone is this?"
+              ],
+              "why": "Whose = de quem."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "It is Tom’s phone.",
+              "a": [
+                "It is Tom's phone.",
+                "It's Tom's phone."
+              ],
+              "why": "Dono + ’s + coisa."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "My parents’ house is big.",
+              "a": [
+                "My parents' house is big."
+              ],
+              "why": "Plural em -s: só o apóstrofo."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m2-p5",
+          "prompt": "Escreva 5 frases sobre a família de um amigo ou de uma personagem de série (use ’s e his/her): quem é quem e o que cada um faz."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Um dono: **dono + ’s** (Maria’s bag) · plural em -s: só **’** (my parents’ house)",
+            "**’s** pode ser posse ou **is**: depois de substantivo é posse; depois de adjetivo ou artigo é **is**",
+            "**Whose bag is this?** = De quem é esta bolsa?"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "The car of my brother",
+              "My brother’s car"
+            ],
+            [
+              "Maria phone",
+              "Maria’s phone"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m2-p6",
+      "n": 6,
+      "tipo": "pratica",
+      "titulo": "Revisão do módulo",
+      "duracao": 40,
+      "resumo": "Plural, this/that, possessivos e ’s: aquecimento para o mini-teste.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m2-p6",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m2-p6-ex1",
+          "titulo": "2.1 Passe para o plural",
+          "ref": "m2-s2/3.1",
+          "items": [
+            {
+              "q": "This is my key.",
+              "a": [
+                "These are my keys."
+              ],
+              "why": "this → these · is → are · key → keys."
+            },
+            {
+              "q": "That is my brother’s watch.",
+              "a": [
+                "Those are my brother’s watches.",
+                "Those are my brother's watches."
+              ],
+              "why": "that → those · is → are · watch → watches."
+            },
+            {
+              "q": "This is her baby.",
+              "a": [
+                "These are her babies."
+              ],
+              "why": "this → these · baby → babies."
+            },
+            {
+              "q": "That is a woman.",
+              "a": [
+                "Those are women."
+              ],
+              "why": "that → those · woman → women (irregular)."
+            },
+            {
+              "q": "This is our child.",
+              "a": [
+                "These are our children."
+              ],
+              "why": "this → these · child → children (irregular)."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p6-ex2",
+          "titulo": "2.2 Escolha a forma correta",
+          "ref": "m2-s3/3.2",
+          "items": [
+            {
+              "q": "These are (my parents’ / my parent’s) keys. (os dois pais)",
+              "opts": [
+                "my parents’",
+                "my parent’s"
+              ],
+              "a": "my parents’",
+              "why": "Plural em -s: só o apóstrofo."
+            },
+            {
+              "q": "(Its / It’s) door is open.",
+              "opts": [
+                "Its",
+                "It’s"
+              ],
+              "a": "Its",
+              "why": "Posse: **its** (sem apóstrofo)."
+            },
+            {
+              "q": "Tom has a sister. (His / Her) sister is a nurse.",
+              "opts": [
+                "His",
+                "Her"
+              ],
+              "a": "His",
+              "why": "O dono é o Tom → **his**."
+            },
+            {
+              "q": "Those (is / are) my children.",
+              "opts": [
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "those + **are**."
+            },
+            {
+              "q": "(This / These) are my keys.",
+              "opts": [
+                "This",
+                "These"
+              ],
+              "a": "These",
+              "why": "Plural → **these**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p6-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m2-s3/3.2",
+          "items": [
+            {
+              "q": "This are my childs.",
+              "a": [
+                "These are my children."
+              ],
+              "why": "these + are · child → children."
+            },
+            {
+              "q": "That is you phone.",
+              "a": [
+                "That is your phone.",
+                "That's your phone."
+              ],
+              "why": "Possessivo de you: **your**."
+            },
+            {
+              "q": "The car of my sister is new.",
+              "a": [
+                "My sister’s car is new.",
+                "My sister's car is new."
+              ],
+              "why": "Dono + ’s + coisa."
+            },
+            {
+              "q": "Her are my parents.",
+              "a": [
+                "They are my parents.",
+                "They're my parents."
+              ],
+              "why": "Sujeito: **they** (plural)."
+            },
+            {
+              "q": "Tom’s sister are a nurse.",
+              "a": [
+                "Tom’s sister is a nurse.",
+                "Tom's sister is a nurse."
+              ],
+              "why": "sister = uma pessoa → **is**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m2-p6-ex4",
+          "titulo": "2.4 Aquecimento: escreva em inglês",
+          "ref": "m2-s2/3.2",
+          "items": [
+            {
+              "q": "Estes são os meus filhos.",
+              "a": [
+                "These are my children."
+              ],
+              "why": "these are + my + children."
+            },
+            {
+              "q": "De quem é aquela bolsa?",
+              "a": [
+                "Whose bag is that?"
+              ],
+              "why": "Whose + bag + is + that?"
+            },
+            {
+              "q": "Aquelas são as chaves dos meus pais.",
+              "a": [
+                "Those are my parents’ keys.",
+                "Those are my parents' keys."
+              ],
+              "why": "those are + dono (plural em -s) + ’ + coisa."
+            },
+            {
+              "q": "A casa deles é pequena.",
+              "a": [
+                "Their house is small."
+              ],
+              "why": "eles → **their**."
+            },
+            {
+              "q": "O que são estas coisas?",
+              "a": [
+                "What are these?"
+              ],
+              "why": "What + are + these?"
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "This is my family’s picture.",
+              "Esta é a foto da minha família."
+            ],
+            [
+              "These are my parents, and those are my brother’s children.",
+              "Estes são os meus pais e aquelas são as crianças do meu irmão."
+            ],
+            [
+              "My father’s watch is old, but my mother’s bag is new.",
+              "O relógio do meu pai é velho, mas a bolsa da minha mãe é nova."
+            ],
+            [
+              "That man is Tom, my brother. His wife is Julia.",
+              "Aquele homem é o Tom, meu irmão. A esposa dele é a Julia."
+            ],
+            [
+              "Their babies are happy.",
+              "Os bebês deles estão felizes."
+            ],
+            [
+              "Whose picture is this? It is our picture.",
+              "De quem é esta foto? É a nossa foto."
+            ]
+          ],
+          "titulo": "Family picture"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: revisão",
+          "frases": [
+            [
+              "These are my children.",
+              "Estes são os meus filhos."
+            ],
+            [
+              "Whose bag is that?",
+              "De quem é aquela bolsa?"
+            ],
+            [
+              "Those are my parents’ keys.",
+              "Aquelas são as chaves dos meus pais."
+            ],
+            [
+              "Their house is small.",
+              "A casa deles é pequena."
+            ],
+            [
+              "What are these?",
+              "O que são estas coisas?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m2-p6-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m2-s2/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Those men are my brothers.",
+              "a": [
+                "Those men are my brothers."
+              ],
+              "why": "those + plural (men) · are."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Her parents’ house is small.",
+              "a": [
+                "Her parents' house is small."
+              ],
+              "why": "Plural em -s: só o apóstrofo."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Whose keys are these?",
+              "a": [
+                "Whose keys are these?"
+              ],
+              "why": "Whose + plural + are + these?"
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m2-p6",
+          "prompt": "Escreva 5 frases sobre uma foto de família ou de amigos: quem são, de quem são as coisas (’s, my, his, her) e uma pergunta com Whose…?"
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Plural: + s · + es · y → ies · irregulares (man → men, child → children, person → people)",
+            "**this / that + is** · **these / those + are**",
+            "Posse: my · your · his · her · its · our · their · dono + **’s**"
+          ]
+        },
+        {
+          "t": "tip",
+          "s": "Esta é a última prática antes do mini-teste da Sessão 4. Refaça o Caderno de erros e releia as revisões das sessões 1, 2 e 3. Cores e números 11–20 aparecem só na Sessão 4.",
+          "title": "PULO DO GATO"
+        }
       ]
     },
     {

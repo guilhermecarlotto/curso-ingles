@@ -58,13 +58,23 @@
         },
         {"t":"h","n":"","title":"O MÓDULO EM UM QUADRO"},
         {
+          "t": "p",
+          "s": "O módulo dura **2 semanas** e tem 10 sessões de 40 minutos: 4 **guiadas** (com conteúdo novo) e 6 de **prática** (sem conteúdo novo; servem para fixar). Siga a ordem abaixo, um dia por sessão."
+        },
+        {
           "t": "table",
-          "head": ["Sessão","Tema","Vídeo","Anki"],
+          "head": ["Ordem","Sessão","Tema","Vídeo / cartões"],
           "rows": [
-            ["2","Pronomes, verbo TO BE e artigos a/an","Lesson 2","cartões 1 a 10"],
-            ["3","Present Simple (I, you, we, they) e frequência","Lesson 3","cartões 11 a 20"],
-            ["4","Present Simple (he, she, it), pronúncia do -s e do TH","Lesson 4","cartões 21 a 30"],
-            ["5","Consolidação, preposições de tempo e mini-teste","Lesson 5","cartões 31 a 40"]
+            ["1","Sessão 2 (guiada)","Pronomes, verbo TO BE e artigos a/an","Lesson 2 · cartões 1 a 10"],
+            ["2","Prática 1","Fixar TO BE e a/an","revisão dos cartões"],
+            ["3","Sessão 3 (guiada)","Present Simple (I, you, we, they) e frequência","Lesson 3 · cartões 11 a 20"],
+            ["4","Prática 2","Fixar do/don’t e perguntas","revisão dos cartões"],
+            ["5","Prática 3","TO BE × DO e frequência","revisão dos cartões"],
+            ["6","Sessão 4 (guiada)","Present Simple (he, she, it), pronúncia do -s e do TH","Lesson 4 · cartões 21 a 30"],
+            ["7","Prática 4","Fixar he/she/it e o -s","revisão dos cartões"],
+            ["8","Prática 5","Perguntas com What, Where, When e How","revisão dos cartões"],
+            ["9","Prática 6","Revisão do módulo (aquecimento do mini-teste)","revisão dos cartões"],
+            ["10","Sessão 5 (guiada)","Consolidação, preposições de tempo e mini-teste","Lesson 5 · cartões 31 a 40"]
           ]
         },
         {
@@ -82,7 +92,7 @@
           "items": [
             "Fale as frases em voz alta: o ouvido aprende junto com o olho.",
             "Use **cartões + revisão programada + Caderno de erros** todos os dias.",
-            "Cada módulo = 4 sessões de 40 min + 1 sessão livre de revisão."
+            "Cada módulo = 2 semanas: 4 sessões guiadas + 6 de prática, de 40 min cada."
           ]
         }
       ]
@@ -441,6 +451,469 @@
       ]
     },
     {
+      "id": "m1-p1",
+      "n": 1,
+      "tipo": "pratica",
+      "titulo": "Fixar TO BE e a/an",
+      "duracao": 40,
+      "resumo": "Exercícios, leitura e ditado para firmar pronomes, TO BE e a/an.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m1-p1",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m1-p1-ex1",
+          "titulo": "2.1 Escolha am, is ou are",
+          "ref": "m1-s2/3.2",
+          "items": [
+            {
+              "q": "My brother (am / is / are) a teacher.",
+              "opts": [
+                "am",
+                "is",
+                "are"
+              ],
+              "a": "is",
+              "why": "My brother = he → **is**."
+            },
+            {
+              "q": "You (am / is / are) late today.",
+              "opts": [
+                "am",
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "Com **you**, use **are**."
+            },
+            {
+              "q": "I (am / is / are) tired.",
+              "opts": [
+                "am",
+                "is",
+                "are"
+              ],
+              "a": "am",
+              "why": "Com **I**, o TO BE é sempre **am**."
+            },
+            {
+              "q": "Carlos and Paula (am / is / are) friends.",
+              "opts": [
+                "am",
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "Carlos and Paula = they (plural) → **are**."
+            },
+            {
+              "q": "It (am / is / are) hot today.",
+              "opts": [
+                "am",
+                "is",
+                "are"
+              ],
+              "a": "is",
+              "why": "Com **it**, use **is**."
+            },
+            {
+              "q": "We (am / is / are) at the office.",
+              "opts": [
+                "am",
+                "is",
+                "are"
+              ],
+              "a": "are",
+              "why": "Com **we**, use **are**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p1-ex2",
+          "titulo": "2.2 Complete com a ou an",
+          "ref": "m1-s2/3.5",
+          "items": [
+            {
+              "q": "He is ___ English student.",
+              "a": [
+                "an"
+              ],
+              "why": "“English” começa com som de vogal → **an**."
+            },
+            {
+              "q": "She is ___ nurse.",
+              "a": [
+                "a"
+              ],
+              "why": "“nurse” começa com som de consoante → **a**."
+            },
+            {
+              "q": "My wife is ___ police officer.",
+              "a": [
+                "a"
+              ],
+              "why": "“police” começa com som de consoante (p) → **a**."
+            },
+            {
+              "q": "I am ___ engineer.",
+              "a": [
+                "an"
+              ],
+              "why": "“engineer” começa com som de vogal → **an**."
+            },
+            {
+              "q": "My friend is ___ teacher at a school.",
+              "a": [
+                "a"
+              ],
+              "why": "“teacher” começa com som de consoante → **a**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p1-ex3",
+          "titulo": "2.3 Passe para a negativa e para a pergunta",
+          "ref": "m1-s2/3.3",
+          "items": [
+            {
+              "q": "He is a nurse.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "He isn't a nurse.",
+                  "He is not a nurse.",
+                  "He's not a nurse."
+                ],
+                [
+                  "Is he a nurse?"
+                ]
+              ],
+              "why": "Negativa: **not** depois do verbo. Pergunta: o verbo vai antes do sujeito (Is he…?)."
+            },
+            {
+              "q": "We are busy today.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "We aren't busy today.",
+                  "We are not busy today.",
+                  "We're not busy today."
+                ],
+                [
+                  "Are we busy today?"
+                ]
+              ],
+              "why": "We aren’t… · Are we…?"
+            },
+            {
+              "q": "I am late.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "I am not late.",
+                  "I'm not late."
+                ],
+                [
+                  "Am I late?"
+                ]
+              ],
+              "why": "Com **I** não existe “amn’t”: use **I am not** / **I’m not**. Pergunta: **Am I…?**"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p1-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m1-s2/3.6",
+          "items": [
+            {
+              "q": "She have 25 years.",
+              "a": [
+                "She is 25 years old.",
+                "She's 25 years old.",
+                "She is 25.",
+                "She's 25."
+              ],
+              "why": "Idade usa TO BE, não “have”."
+            },
+            {
+              "q": "They is from Brazil.",
+              "a": [
+                "They are from Brazil.",
+                "They're from Brazil."
+              ],
+              "why": "Com **they**, o TO BE é **are**."
+            },
+            {
+              "q": "I am teacher.",
+              "a": [
+                "I am a teacher.",
+                "I'm a teacher."
+              ],
+              "why": "O artigo é obrigatório antes de profissão: a teacher."
+            },
+            {
+              "q": "Are you tired? Yes, I’m.",
+              "a": [
+                "Yes, I am.",
+                "Are you tired? Yes, I am."
+              ],
+              "why": "Na resposta curta afirmativa não se contrai: **Yes, I am.**",
+              "strict": true
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Anna is a nurse.",
+              "Anna é enfermeira."
+            ],
+            [
+              "She is 28 years old and she is from Chicago.",
+              "Ela tem 28 anos e é de Chicago."
+            ],
+            [
+              "Her brother Tom is a teacher.",
+              "O irmão dela, Tom, é professor."
+            ],
+            [
+              "He is 31 years old.",
+              "Ele tem 31 anos."
+            ],
+            [
+              "Anna and Tom are friends with Alex.",
+              "Anna e Tom são amigos do Alex."
+            ],
+            [
+              "Alex is from Brazil, and he is a police officer.",
+              "Alex é do Brasil e é policial."
+            ],
+            [
+              "Today they are at the park.",
+              "Hoje eles estão no parque."
+            ],
+            [
+              "It is hot, and they are tired.",
+              "Está quente e eles estão cansados."
+            ]
+          ],
+          "glossario": [
+            [
+              "friends",
+              "amigos"
+            ],
+            [
+              "park",
+              "parque"
+            ]
+          ],
+          "titulo": "Anna and Tom"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: TO BE",
+          "frases": [
+            [
+              "I am a student.",
+              "Eu sou estudante."
+            ],
+            [
+              "We are friends.",
+              "Nós somos amigos."
+            ],
+            [
+              "Is he a teacher?",
+              "Ele é professor?"
+            ],
+            [
+              "They are from Chicago.",
+              "Eles são de Chicago."
+            ],
+            [
+              "She is not tired today.",
+              "Ela não está cansada hoje."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m1-p1-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m1-s2/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "My name is Anna.",
+              "a": [
+                "My name is Anna."
+              ],
+              "why": "My name = “it” → **is**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Are you from Brazil?",
+              "a": [
+                "Are you from Brazil?"
+              ],
+              "why": "Pergunta com TO BE: **Are + you + from…?**"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "They are not at home.",
+              "a": [
+                "They are not at home.",
+                "They aren't at home.",
+                "They're not at home."
+              ],
+              "why": "Negativa do TO BE: **not** depois do verbo."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m1-p1",
+          "prompt": "Escreva 5 frases sobre três pessoas da sua família ou do trabalho: nome, idade e profissão (He is… / She is…). Inclua 1 negativa (isn’t)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "table",
+          "head": [
+            "Pronome",
+            "TO BE",
+            "Contração"
+          ],
+          "rows": [
+            [
+              "I",
+              "am",
+              "I’m"
+            ],
+            [
+              "you / we / they",
+              "are",
+              "you’re · we’re · they’re"
+            ],
+            [
+              "he / she / it",
+              "is",
+              "he’s · she’s · it’s"
+            ]
+          ],
+          "firstCol": true
+        },
+        {
+          "t": "bullets",
+          "items": [
+            "Idade: **I am 30 years old** (nunca “I have 30 years”)",
+            "Profissão: **a** + profissão (a nurse) · **an** antes de som de vogal (an engineer)"
+          ]
+        }
+      ]
+    },
+    {
       "id": "m1-s3",
       "n": 3,
       "titulo": "Present Simple: I, you, we, they",
@@ -716,6 +1189,857 @@
       ]
     },
     {
+      "id": "m1-p2",
+      "n": 2,
+      "tipo": "pratica",
+      "titulo": "Fixar do/don’t e perguntas",
+      "duracao": 40,
+      "resumo": "Negativas, perguntas e respostas curtas com I, you, we e they.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m1-p2",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m1-p2-ex1",
+          "titulo": "2.1 Complete com do ou don’t",
+          "ref": "m1-s3/3.2",
+          "items": [
+            {
+              "q": "___ you work on Sundays? No, I ___.",
+              "a": [
+                "Do",
+                [
+                  "don't",
+                  "do not"
+                ]
+              ],
+              "why": "Pergunta com **Do**; resposta curta negativa: **No, I don’t.**"
+            },
+            {
+              "q": "We ___ watch TV in the afternoon. (não assistimos)",
+              "a": [
+                [
+                  "don't",
+                  "do not"
+                ]
+              ],
+              "why": "Negativa com we: **don’t** + verbo."
+            },
+            {
+              "q": "They ___ live in São Paulo. (não moram)",
+              "a": [
+                [
+                  "don't",
+                  "do not"
+                ]
+              ],
+              "why": "Negativa com they: **don’t** + verbo."
+            },
+            {
+              "q": "___ you study English every day? Yes, I ___.",
+              "a": [
+                "Do",
+                "do"
+              ],
+              "why": "Pergunta com **Do**; resposta curta afirmativa repete o **do**."
+            },
+            {
+              "q": "I ___ like rain. (não gosto)",
+              "a": [
+                [
+                  "don't",
+                  "do not"
+                ]
+              ],
+              "why": "Negativa com I: **don’t** + verbo."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p2-ex2",
+          "titulo": "2.2 Passe para a negativa e para a pergunta",
+          "ref": "m1-s3/3.2",
+          "items": [
+            {
+              "q": "You work at night.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "You don't work at night.",
+                  "You do not work at night."
+                ],
+                [
+                  "Do you work at night?"
+                ]
+              ],
+              "why": "Negativa: **don’t** + verbo. Pergunta: **Do** + sujeito + verbo."
+            },
+            {
+              "q": "They run in the park.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "They don't run in the park.",
+                  "They do not run in the park."
+                ],
+                [
+                  "Do they run in the park?"
+                ]
+              ],
+              "why": "They don’t run… · Do they run…?"
+            },
+            {
+              "q": "We study English every day.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "We don't study English every day.",
+                  "We do not study English every day."
+                ],
+                [
+                  "Do we study English every day?"
+                ]
+              ],
+              "why": "We don’t study… · Do we study…?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p2-ex3",
+          "titulo": "2.3 Faça a pergunta para cada resposta",
+          "ref": "m1-s3/3.5",
+          "items": [
+            {
+              "q": "I live in Campinas. (Where…?)",
+              "a": [
+                "Where do you live?"
+              ],
+              "why": "Where + do + sujeito + verbo."
+            },
+            {
+              "q": "I study English in the evening. (When…?)",
+              "a": [
+                "When do you study English?"
+              ],
+              "why": "When + do + sujeito + verbo."
+            },
+            {
+              "q": "I get up at 7 a.m. (What time…?)",
+              "a": [
+                "What time do you get up?"
+              ],
+              "why": "What time + do + sujeito + verbo."
+            },
+            {
+              "q": "We go to the gym by car. (How…?)",
+              "a": [
+                "How do you go to the gym?"
+              ],
+              "why": "How + do + sujeito + verbo."
+            },
+            {
+              "q": "I have lunch at 12 o’clock. (What time…?)",
+              "a": [
+                "What time do you have lunch?"
+              ],
+              "why": "What time + do + sujeito + verbo."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p2-ex4",
+          "titulo": "2.4 Respostas curtas",
+          "ref": "m1-s3/3.2",
+          "items": [
+            {
+              "q": "Do you like coffee? Yes, I ___.",
+              "a": [
+                "do"
+              ],
+              "why": "Resposta curta afirmativa: **Yes, I do.**"
+            },
+            {
+              "q": "Do they work on Saturdays? No, they ___.",
+              "a": [
+                [
+                  "don't",
+                  "do not"
+                ]
+              ],
+              "why": "Resposta curta negativa: **No, they don’t.**"
+            },
+            {
+              "q": "Do you live in Brasília? No, I ___.",
+              "a": [
+                [
+                  "don't",
+                  "do not"
+                ]
+              ],
+              "why": "Resposta curta negativa: **No, I don’t.**"
+            },
+            {
+              "q": "Do you and your wife live here? Yes, we ___.",
+              "a": [
+                "do"
+              ],
+              "why": "Resposta curta afirmativa: **Yes, we do.**"
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "I wake up at 6 a.m.",
+              "Eu acordo às 6h."
+            ],
+            [
+              "I have breakfast at home.",
+              "Tomo café da manhã em casa."
+            ],
+            [
+              "I go to work by car.",
+              "Vou para o trabalho de carro."
+            ],
+            [
+              "I don’t have lunch at the office.",
+              "Não almoço no escritório."
+            ],
+            [
+              "In the evening, I study English.",
+              "À noite, eu estudo inglês."
+            ],
+            [
+              "I don’t watch TV at night.",
+              "Não assisto TV à noite."
+            ],
+            [
+              "On weekends, we run in the park.",
+              "Nos fins de semana, corremos no parque."
+            ]
+          ],
+          "glossario": [
+            [
+              "by car",
+              "de carro"
+            ]
+          ],
+          "titulo": "My routine"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: rotina",
+          "frases": [
+            [
+              "Do you work on Sundays?",
+              "Você trabalha aos domingos?"
+            ],
+            [
+              "I don’t work on Sundays.",
+              "Eu não trabalho aos domingos."
+            ],
+            [
+              "What time do you wake up?",
+              "A que horas você acorda?"
+            ],
+            [
+              "I wake up at 6 a.m.",
+              "Eu acordo às 6h."
+            ],
+            [
+              "Where do you live?",
+              "Onde você mora?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m1-p2-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m1-s3/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I don’t work on Sundays.",
+              "a": [
+                "I don't work on Sundays.",
+                "I do not work on Sundays."
+              ],
+              "why": "Negativa com I: **don’t** + verbo."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Do you live in Campinas?",
+              "a": [
+                "Do you live in Campinas?"
+              ],
+              "why": "Pergunta: **Do + you + verbo?**"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "What time do you wake up?",
+              "a": [
+                "What time do you wake up?"
+              ],
+              "why": "**What time + do + you + verbo?**"
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m1-p2",
+          "prompt": "Escreva 5 frases sobre a sua rotina (I…): 3 afirmativas, 1 negativa com don’t e 1 pergunta com Do you…?"
+        }
+      ],
+      "revisao": [
+        {
+          "t": "table",
+          "head": [
+            "Tipo",
+            "Estrutura",
+            "Exemplo"
+          ],
+          "rows": [
+            [
+              "Negativa",
+              "sujeito + don’t + verbo",
+              "I don’t work on Sundays."
+            ],
+            [
+              "Pergunta",
+              "Do + sujeito + verbo?",
+              "Do you work on Sundays?"
+            ],
+            [
+              "Resposta curta",
+              "Yes, I do. · No, I don’t.",
+              ""
+            ]
+          ],
+          "firstCol": true
+        },
+        {
+          "t": "bullets",
+          "items": [
+            "Pergunta com palavra interrogativa: **What / Where / When / What time / How + do + sujeito + verbo?**"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m1-p3",
+      "n": 3,
+      "tipo": "pratica",
+      "titulo": "TO BE ou DO? e frequência",
+      "duracao": 40,
+      "resumo": "Escolher entre TO BE e DO e colocar as palavras de frequência no lugar certo.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m1-p3",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m1-p3-ex1",
+          "titulo": "2.1 TO BE ou DO? Escolha",
+          "ref": "m1-s3/3.3",
+          "items": [
+            {
+              "q": "(Are / Do) you like coffee?",
+              "opts": [
+                "Are",
+                "Do"
+              ],
+              "a": "Do",
+              "why": "“like” é outro verbo → **Do**."
+            },
+            {
+              "q": "(Are / Do) they late?",
+              "opts": [
+                "Are",
+                "Do"
+              ],
+              "a": "Are",
+              "why": "Depois do sujeito vem um adjetivo (late) → TO BE."
+            },
+            {
+              "q": "(Are / Do) you live in Campinas?",
+              "opts": [
+                "Are",
+                "Do"
+              ],
+              "a": "Do",
+              "why": "“live” é outro verbo → **Do**."
+            },
+            {
+              "q": "I (am not / don’t) tired.",
+              "opts": [
+                "am not",
+                "don’t"
+              ],
+              "a": "am not",
+              "why": "“tired” é um adjetivo → TO BE: **I am not tired**."
+            },
+            {
+              "q": "We (aren’t / don’t) work on Sundays.",
+              "opts": [
+                "aren’t",
+                "don’t"
+              ],
+              "a": "don’t",
+              "why": "“work” é outro verbo → **don’t**."
+            },
+            {
+              "q": "(Are / Do) you a police officer?",
+              "opts": [
+                "Are",
+                "Do"
+              ],
+              "a": "Are",
+              "why": "Profissão → TO BE."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p3-ex2",
+          "titulo": "2.2 Coloque a palavra de frequência no lugar certo",
+          "ref": "m1-s3/3.4",
+          "items": [
+            {
+              "q": "We study English on Saturdays. (sometimes)",
+              "a": [
+                "We sometimes study English on Saturdays.",
+                "Sometimes we study English on Saturdays."
+              ],
+              "why": "Com verbo comum, a palavra de frequência vai **antes do verbo**."
+            },
+            {
+              "q": "She is at home on Sundays. (always)",
+              "a": [
+                "She is always at home on Sundays.",
+                "She's always at home on Sundays."
+              ],
+              "why": "Com TO BE, a palavra de frequência vai **depois do TO BE**."
+            },
+            {
+              "q": "They watch TV in the morning. (never)",
+              "a": [
+                "They never watch TV in the morning."
+              ],
+              "why": "Antes do verbo comum: They never watch…"
+            },
+            {
+              "q": "I am tired on Mondays. (often)",
+              "a": [
+                "I am often tired on Mondays.",
+                "I'm often tired on Mondays."
+              ],
+              "why": "Depois do TO BE: I am often tired."
+            },
+            {
+              "q": "You get up at 6 a.m. (usually)",
+              "a": [
+                "You usually get up at 6 a.m.",
+                "Usually you get up at 6 a.m."
+              ],
+              "why": "Antes do verbo comum: You usually get up…"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p3-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m1-s3/3.3",
+          "items": [
+            {
+              "q": "I am always go to the gym.",
+              "a": [
+                "I always go to the gym."
+              ],
+              "why": "Não misture TO BE com outro verbo: **I always go**."
+            },
+            {
+              "q": "Do you tired?",
+              "a": [
+                "Are you tired?"
+              ],
+              "why": "“tired” é adjetivo → TO BE: **Are you tired?**"
+            },
+            {
+              "q": "I don’t tired.",
+              "a": [
+                "I am not tired.",
+                "I'm not tired."
+              ],
+              "why": "Com adjetivo, use TO BE: **I am not tired**."
+            },
+            {
+              "q": "We are often study at night.",
+              "a": [
+                "We often study at night."
+              ],
+              "why": "“study” é outro verbo: **We often study**, sem TO BE."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p3-ex4",
+          "titulo": "2.4 Escreva em inglês",
+          "ref": "m1-s3/3.4",
+          "items": [
+            {
+              "q": "Eu sempre almoço em casa.",
+              "a": [
+                "I always have lunch at home."
+              ],
+              "why": "Antes do verbo comum: **I always have** lunch."
+            },
+            {
+              "q": "Nós nunca trabalhamos aos domingos.",
+              "a": [
+                "We never work on Sundays."
+              ],
+              "why": "**We never work** + on Sundays."
+            },
+            {
+              "q": "Você está cansado hoje?",
+              "a": [
+                "Are you tired today?"
+              ],
+              "why": "“cansado” é adjetivo → TO BE: **Are you tired today?**"
+            },
+            {
+              "q": "Eu não assisto TV de manhã.",
+              "a": [
+                "I don't watch TV in the morning.",
+                "I do not watch TV in the morning."
+              ],
+              "why": "Negativa com I: **don’t** + verbo."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "On weekends, we usually wake up at 8 a.m.",
+              "Nos fins de semana, geralmente acordamos às 8h."
+            ],
+            [
+              "We never go to work.",
+              "Nunca vamos para o trabalho."
+            ],
+            [
+              "We often run in the park in the morning.",
+              "Costumamos correr no parque de manhã."
+            ],
+            [
+              "We always have lunch at home.",
+              "Sempre almoçamos em casa."
+            ],
+            [
+              "Sometimes we watch movies in the afternoon.",
+              "Às vezes assistimos a filmes à tarde."
+            ],
+            [
+              "We are always tired on Sundays, but we are happy.",
+              "Estamos sempre cansados aos domingos, mas estamos felizes."
+            ]
+          ],
+          "glossario": [
+            [
+              "happy",
+              "feliz"
+            ]
+          ],
+          "titulo": "Our weekend"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: frequência",
+          "frases": [
+            [
+              "I always wake up at 6.",
+              "Eu sempre acordo às 6."
+            ],
+            [
+              "We never work on Sundays.",
+              "Nós nunca trabalhamos aos domingos."
+            ],
+            [
+              "Are you tired today?",
+              "Você está cansado hoje?"
+            ],
+            [
+              "Do you often go to the gym?",
+              "Você vai com frequência à academia?"
+            ],
+            [
+              "She is never late.",
+              "Ela nunca se atrasa."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m1-p3-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m1-s3/3.4",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "We never work on Sundays.",
+              "a": [
+                "We never work on Sundays."
+              ],
+              "why": "Com verbo comum, a palavra de frequência vem **antes do verbo**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I am always tired on Mondays.",
+              "a": [
+                "I am always tired on Mondays.",
+                "I'm always tired on Mondays."
+              ],
+              "why": "Com TO BE, a palavra de frequência vem **depois do TO BE**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Do you usually have breakfast at home?",
+              "a": [
+                "Do you usually have breakfast at home?"
+              ],
+              "why": "**Do + you + usually + verbo?**"
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m1-p3",
+          "prompt": "Escreva 5 frases sobre os seus hábitos, usando uma palavra de frequência em cada uma (always, usually, often, sometimes e never)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "table",
+          "head": [
+            "Pergunta",
+            "Use",
+            "Exemplo"
+          ],
+          "rows": [
+            [
+              "Depois do sujeito vem adjetivo, lugar, profissão ou idade?",
+              "TO BE",
+              "Are you tired?"
+            ],
+            [
+              "Vem outro verbo?",
+              "DO",
+              "Do you run?"
+            ]
+          ],
+          "firstCol": true
+        },
+        {
+          "t": "bullets",
+          "items": [
+            "Frequência: **antes do verbo comum** (I always run) · **depois do TO BE** (I am always tired)"
+          ]
+        }
+      ]
+    },
+    {
       "id": "m1-s4",
       "n": 4,
       "titulo": "Present Simple: he, she, it",
@@ -985,6 +2309,1320 @@
       ]
     },
     {
+      "id": "m1-p4",
+      "n": 4,
+      "tipo": "pratica",
+      "titulo": "Fixar he, she, it e o -s",
+      "duracao": 40,
+      "resumo": "Verbos na 3ª pessoa, does/doesn’t e o som do -s final.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m1-p4",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m1-p4-ex1",
+          "titulo": "2.1 Escreva o verbo na 3ª pessoa (he/she/it)",
+          "ref": "m1-s4/3.1",
+          "items": [
+            {
+              "q": "live → ___",
+              "a": [
+                "lives"
+              ],
+              "why": "Maioria: + s."
+            },
+            {
+              "q": "get → ___",
+              "a": [
+                "gets"
+              ],
+              "why": "Maioria: + s."
+            },
+            {
+              "q": "wash → ___",
+              "a": [
+                "washes"
+              ],
+              "why": "Termina em sh: + es."
+            },
+            {
+              "q": "like → ___",
+              "a": [
+                "likes"
+              ],
+              "why": "Maioria: + s."
+            },
+            {
+              "q": "have → ___",
+              "a": [
+                "has"
+              ],
+              "why": "Irregular: have → has."
+            },
+            {
+              "q": "go → ___",
+              "a": [
+                "goes"
+              ],
+              "why": "Termina em o: + es."
+            },
+            {
+              "q": "study → ___",
+              "a": [
+                "studies"
+              ],
+              "why": "Consoante + y: y → ies."
+            },
+            {
+              "q": "run → ___",
+              "a": [
+                "runs"
+              ],
+              "why": "Maioria: + s."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p4-ex2",
+          "titulo": "2.2 Complete com o verbo correto",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "Tom ___ (live) in Chicago.",
+              "a": [
+                "lives"
+              ],
+              "why": "Tom = he → verbo + s."
+            },
+            {
+              "q": "My sister ___ (not / work) on Mondays.",
+              "a": [
+                [
+                  "doesn't work",
+                  "does not work"
+                ]
+              ],
+              "why": "Negativa com she: **doesn’t** + verbo sem -s."
+            },
+            {
+              "q": "___ your brother ___ (study) English?",
+              "a": [
+                "Does",
+                "study"
+              ],
+              "why": "Pergunta: **Does** + sujeito + verbo **sem** -s."
+            },
+            {
+              "q": "She ___ (watch) movies on Sundays.",
+              "a": [
+                "watches"
+              ],
+              "why": "watch termina em ch → watch**es**."
+            },
+            {
+              "q": "The nurse ___ (go) to the hospital by car.",
+              "a": [
+                "goes"
+              ],
+              "why": "go termina em o → go**es**."
+            },
+            {
+              "q": "He ___ (have) breakfast at 7 a.m.",
+              "a": [
+                "has"
+              ],
+              "why": "Irregular: have → has."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p4-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "She don’t like coffee.",
+              "a": [
+                "She doesn't like coffee.",
+                "She does not like coffee."
+              ],
+              "why": "Com she, o auxiliar é **doesn’t**."
+            },
+            {
+              "q": "Does she goes to the gym?",
+              "a": [
+                "Does she go to the gym?"
+              ],
+              "why": "Se há does, o verbo fica sem -s."
+            },
+            {
+              "q": "My brother work at a bank.",
+              "a": [
+                "My brother works at a bank."
+              ],
+              "why": "My brother = he → work**s**."
+            },
+            {
+              "q": "He haves a car.",
+              "a": [
+                "He has a car."
+              ],
+              "why": "Irregular: have → **has**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p4-ex4",
+          "titulo": "2.4 Qual é o som do -s?",
+          "ref": "m1-s4/3.3",
+          "items": [
+            {
+              "q": "Som do -s em works:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/s/",
+              "why": "Depois de **k** (som seco) → **/s/**."
+            },
+            {
+              "q": "Som do -s em lives:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/z/",
+              "why": "Depois de vogal e da maioria das consoantes → **/z/**."
+            },
+            {
+              "q": "Som do -s em watches:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/ɪz/",
+              "why": "Depois de **ch** → sílaba a mais: **/ɪz/**."
+            },
+            {
+              "q": "Som do -s em plays:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/z/",
+              "why": "Depois de vogal → **/z/**."
+            },
+            {
+              "q": "Som do -s em washes:",
+              "opts": [
+                "/s/",
+                "/z/",
+                "/ɪz/"
+              ],
+              "a": "/ɪz/",
+              "why": "Depois de **sh** → sílaba a mais: **/ɪz/**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Tom works at a bank.",
+              "Tom trabalha em um banco."
+            ],
+            [
+              "He wakes up at 7 a.m. and he has breakfast at home.",
+              "Ele acorda às 7h e toma café da manhã em casa."
+            ],
+            [
+              "He goes to work by car.",
+              "Ele vai para o trabalho de carro."
+            ],
+            [
+              "He has lunch at the office.",
+              "Ele almoça no escritório."
+            ],
+            [
+              "In the evening, he studies English.",
+              "À noite, ele estuda inglês."
+            ],
+            [
+              "His wife Sara works at a hospital.",
+              "A esposa dele, Sara, trabalha em um hospital."
+            ],
+            [
+              "She doesn’t work on Sundays.",
+              "Ela não trabalha aos domingos."
+            ],
+            [
+              "On Sundays, they watch movies and run in the park.",
+              "Aos domingos, eles assistem a filmes e correm no parque."
+            ]
+          ],
+          "titulo": "Tom’s day"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: he, she, it",
+          "frases": [
+            [
+              "He works at a bank.",
+              "Ele trabalha em um banco."
+            ],
+            [
+              "She doesn’t work on Sundays.",
+              "Ela não trabalha aos domingos."
+            ],
+            [
+              "Does he live in Campinas?",
+              "Ele mora em Campinas?"
+            ],
+            [
+              "She watches movies at night.",
+              "Ela assiste a filmes à noite."
+            ],
+            [
+              "My brother studies English.",
+              "Meu irmão estuda inglês."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m1-p4-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She works at a hospital.",
+              "a": [
+                "She works at a hospital."
+              ],
+              "why": "she + verbo **+ s**: works."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Does he live in Campinas?",
+              "a": [
+                "Does he live in Campinas?"
+              ],
+              "why": "Com does, o verbo fica sem -s: **live**."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "He doesn’t watch TV at night.",
+              "a": [
+                "He doesn't watch TV at night.",
+                "He does not watch TV at night."
+              ],
+              "why": "Negativa com he: **doesn’t** + verbo sem -s."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m1-p4",
+          "prompt": "Escreva 5 frases sobre a rotina de uma pessoa que você conhece (he ou she): 3 afirmativas, 1 negativa com doesn’t e 1 pergunta com Does…?"
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "he / she / it + verbo **+ s**: works, lives",
+            "Negativa: **doesn’t + verbo** (sem -s) · pergunta: **Does + sujeito + verbo?**",
+            "**+ es** (watches) · **ies** (studies) · have → **has**"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Som do -s",
+            "Exemplo"
+          ],
+          "rows": [
+            [
+              "/s/",
+              "works · cooks"
+            ],
+            [
+              "/z/",
+              "lives · plays"
+            ],
+            [
+              "/ɪz/",
+              "watches · washes"
+            ]
+          ],
+          "firstCol": true
+        }
+      ]
+    },
+    {
+      "id": "m1-p5",
+      "n": 5,
+      "tipo": "pratica",
+      "titulo": "Perguntas com What, Where, When e How",
+      "duracao": 40,
+      "resumo": "Fazer e responder perguntas de informação com do e does.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m1-p5",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m1-p5-ex1",
+          "titulo": "2.1 Escolha a palavra interrogativa",
+          "ref": "m1-s3/3.5",
+          "items": [
+            {
+              "q": "(Where / When) do you live? — In Campinas.",
+              "opts": [
+                "Where",
+                "When"
+              ],
+              "a": "Where",
+              "why": "A resposta é um lugar → **Where**."
+            },
+            {
+              "q": "(What time / Where) do you have lunch? — At 12 o’clock.",
+              "opts": [
+                "What time",
+                "Where"
+              ],
+              "a": "What time",
+              "why": "A resposta é uma hora → **What time**."
+            },
+            {
+              "q": "(How / What) do you go to work? — By car.",
+              "opts": [
+                "How",
+                "What"
+              ],
+              "a": "How",
+              "why": "A resposta é o meio de transporte → **How**."
+            },
+            {
+              "q": "(When / What) do you do? — I am a nurse.",
+              "opts": [
+                "When",
+                "What"
+              ],
+              "a": "What",
+              "why": "“O que você faz?” (profissão) → **What do you do?**"
+            },
+            {
+              "q": "(When / How) do you study English? — In the evening.",
+              "opts": [
+                "When",
+                "How"
+              ],
+              "a": "When",
+              "why": "A resposta é um momento → **When**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p5-ex2",
+          "titulo": "2.2 Faça a pergunta para cada resposta",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "She lives in Curitiba. (Where…?)",
+              "a": [
+                "Where does she live?"
+              ],
+              "why": "Where + **does** + she + verbo sem -s."
+            },
+            {
+              "q": "He wakes up at 6 a.m. (What time…?)",
+              "a": [
+                "What time does he wake up?"
+              ],
+              "why": "What time + **does** + he + verbo sem -s."
+            },
+            {
+              "q": "They go to work by car. (How…?)",
+              "a": [
+                "How do they go to work?"
+              ],
+              "why": "Com they, o auxiliar é **do**."
+            },
+            {
+              "q": "My wife works at a hospital. (Where…?)",
+              "a": [
+                "Where does your wife work?",
+                "Where does she work?"
+              ],
+              "why": "Where + **does** + sujeito + verbo sem -s."
+            },
+            {
+              "q": "He studies English in the evening. (When…?)",
+              "a": [
+                "When does he study English?"
+              ],
+              "why": "When + **does** + he + verbo sem -s."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p5-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "Where you live?",
+              "a": [
+                "Where do you live?"
+              ],
+              "why": "A pergunta precisa do auxiliar: **Where do you live?**"
+            },
+            {
+              "q": "What time he wakes up?",
+              "a": [
+                "What time does he wake up?"
+              ],
+              "why": "What time + **does** + he + verbo sem -s."
+            },
+            {
+              "q": "How does she goes to work?",
+              "a": [
+                "How does she go to work?"
+              ],
+              "why": "Se há does, o verbo fica sem -s: **go**."
+            },
+            {
+              "q": "Where do your brother work?",
+              "a": [
+                "Where does your brother work?"
+              ],
+              "why": "My brother = he → **does**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p5-ex4",
+          "titulo": "2.4 Respostas curtas",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "Does she work on Sundays? No, she ___.",
+              "a": [
+                [
+                  "doesn't",
+                  "does not"
+                ]
+              ],
+              "why": "Resposta curta negativa: **No, she doesn’t.**"
+            },
+            {
+              "q": "Do they live in Brasília? Yes, they ___.",
+              "a": [
+                "do"
+              ],
+              "why": "Resposta curta afirmativa: **Yes, they do.**"
+            },
+            {
+              "q": "Does he have a car? Yes, he ___.",
+              "a": [
+                "does"
+              ],
+              "why": "Resposta curta afirmativa: **Yes, he does.**"
+            },
+            {
+              "q": "Are you tired? No, I ___ not.",
+              "a": [
+                "am"
+              ],
+              "why": "Com TO BE: **No, I am not.**"
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Hi! Do you work here?",
+              "Oi! Você trabalha aqui?"
+            ],
+            [
+              "B",
+              "Yes, I do. I work at the bank.",
+              "Sim. Eu trabalho no banco."
+            ],
+            [
+              "A",
+              "Where do you live?",
+              "Onde você mora?"
+            ],
+            [
+              "B",
+              "I live in Campinas.",
+              "Eu moro em Campinas."
+            ],
+            [
+              "A",
+              "How do you go to work?",
+              "Como você vai para o trabalho?"
+            ],
+            [
+              "B",
+              "I go by car.",
+              "Eu vou de carro."
+            ],
+            [
+              "A",
+              "What time do you get up?",
+              "A que horas você levanta?"
+            ],
+            [
+              "B",
+              "I usually get up at 6 a.m.",
+              "Geralmente levanto às 6h."
+            ],
+            [
+              "A",
+              "Does your wife work too?",
+              "Sua esposa trabalha também?"
+            ],
+            [
+              "B",
+              "Yes, she does. She works at a hospital.",
+              "Sim. Ela trabalha em um hospital."
+            ]
+          ],
+          "titulo": "EXEMPLO · At the office"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: perguntas",
+          "frases": [
+            [
+              "Where do you live?",
+              "Onde você mora?"
+            ],
+            [
+              "What time does he wake up?",
+              "A que horas ele acorda?"
+            ],
+            [
+              "How do you go to work?",
+              "Como você vai para o trabalho?"
+            ],
+            [
+              "Does she work on Sundays?",
+              "Ela trabalha aos domingos?"
+            ],
+            [
+              "When do you study English?",
+              "Quando você estuda inglês?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m1-p5-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Where does she work?",
+              "a": [
+                "Where does she work?"
+              ],
+              "why": "Where + **does** + she + verbo sem -s."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "What time do you have lunch?",
+              "a": [
+                "What time do you have lunch?"
+              ],
+              "why": "**What time + do + you + verbo?**"
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "How does he go to work?",
+              "a": [
+                "How does he go to work?"
+              ],
+              "why": "How + **does** + he + verbo sem -s."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m1-p5",
+          "prompt": "Escreva 5 perguntas que você faria a um colega novo (uma com What, Where, When, What time e How). Depois responda 2 delas por escrito."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "table",
+          "head": [
+            "Palavra",
+            "Português",
+            "Exemplo"
+          ],
+          "rows": [
+            [
+              "What",
+              "o quê / qual",
+              "What do you do?"
+            ],
+            [
+              "Where",
+              "onde",
+              "Where does she live?"
+            ],
+            [
+              "When",
+              "quando",
+              "When do you study?"
+            ],
+            [
+              "What time",
+              "a que horas",
+              "What time does he wake up?"
+            ],
+            [
+              "How",
+              "como",
+              "How do you go to work?"
+            ]
+          ],
+          "firstCol": true
+        },
+        {
+          "t": "bullets",
+          "items": [
+            "Palavra interrogativa + **do** (I, you, we, they) ou **does** (he, she, it) + sujeito + verbo **sem -s**"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m1-p6",
+      "n": 6,
+      "tipo": "pratica",
+      "titulo": "Revisão do módulo",
+      "duracao": 40,
+      "resumo": "TO BE, do/does, he/she/it e perguntas: aquecimento para o mini-teste.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m1-p6",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m1-p6-ex1",
+          "titulo": "2.1 Escolha a forma correta",
+          "ref": "m1-s3/3.3",
+          "items": [
+            {
+              "q": "(Is / Does) she work on Sundays?",
+              "opts": [
+                "Is",
+                "Does"
+              ],
+              "a": "Does",
+              "why": "“work” é outro verbo; com she, a pergunta usa **Does**."
+            },
+            {
+              "q": "He (have / has) two sisters.",
+              "opts": [
+                "have",
+                "has"
+              ],
+              "a": "has",
+              "why": "he + **has**."
+            },
+            {
+              "q": "They (don’t / aren’t) like rain.",
+              "opts": [
+                "don’t",
+                "aren’t"
+              ],
+              "a": "don’t",
+              "why": "“like” é outro verbo → **don’t**."
+            },
+            {
+              "q": "She (doesn’t / isn’t) a nurse.",
+              "opts": [
+                "doesn’t",
+                "isn’t"
+              ],
+              "a": "isn’t",
+              "why": "Profissão → TO BE: **isn’t**."
+            },
+            {
+              "q": "(Do / Does) your parents live in Campinas?",
+              "opts": [
+                "Do",
+                "Does"
+              ],
+              "a": "Do",
+              "why": "your parents = they → **Do**."
+            },
+            {
+              "q": "I (always am / am always) busy.",
+              "opts": [
+                "always am",
+                "am always"
+              ],
+              "a": "am always",
+              "why": "Com TO BE, a palavra de frequência vai **depois** dele."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p6-ex2",
+          "titulo": "2.2 Complete com o verbo correto",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "Carlos ___ (work) at a bank.",
+              "a": [
+                "works"
+              ],
+              "why": "Carlos = he → verbo + s."
+            },
+            {
+              "q": "My wife ___ (not / like) coffee.",
+              "a": [
+                [
+                  "doesn't like",
+                  "does not like"
+                ]
+              ],
+              "why": "Negativa com she: **doesn’t** + verbo sem -s."
+            },
+            {
+              "q": "___ you ___ (live) in Brasília?",
+              "a": [
+                "Do",
+                "live"
+              ],
+              "why": "Pergunta com you: **Do** + sujeito + verbo."
+            },
+            {
+              "q": "She ___ (study) English at night.",
+              "a": [
+                "studies"
+              ],
+              "why": "Consoante + y: y → ies."
+            },
+            {
+              "q": "We ___ (be) at home today.",
+              "a": [
+                "are"
+              ],
+              "why": "TO BE com we: **are**."
+            },
+            {
+              "q": "He ___ (go) to the gym in the morning.",
+              "a": [
+                "goes"
+              ],
+              "why": "go termina em o: + es."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p6-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m1-s4/3.2",
+          "items": [
+            {
+              "q": "Does she works at night?",
+              "a": [
+                "Does she work at night?"
+              ],
+              "why": "Se há does, o verbo fica sem -s."
+            },
+            {
+              "q": "I am not like coffee.",
+              "a": [
+                "I don't like coffee.",
+                "I do not like coffee."
+              ],
+              "why": "“like” é outro verbo → **don’t**."
+            },
+            {
+              "q": "My brother have a car.",
+              "a": [
+                "My brother has a car."
+              ],
+              "why": "he + **has**."
+            },
+            {
+              "q": "Where you work?",
+              "a": [
+                "Where do you work?"
+              ],
+              "why": "Pergunta: palavra interrogativa + **do** + sujeito + verbo."
+            },
+            {
+              "q": "He studys English.",
+              "a": [
+                "He studies English."
+              ],
+              "why": "Consoante + y: y → ies."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m1-p6-ex4",
+          "titulo": "2.4 Aquecimento: escreva em inglês",
+          "ref": "m1-s3/3.5",
+          "items": [
+            {
+              "q": "Meu marido não trabalha à noite.",
+              "a": [
+                "My husband doesn't work at night.",
+                "My husband does not work at night."
+              ],
+              "why": "he + **doesn’t** + verbo sem -s."
+            },
+            {
+              "q": "Você geralmente almoça em casa?",
+              "a": [
+                "Do you usually have lunch at home?"
+              ],
+              "why": "Do + you + **usually** + verbo?"
+            },
+            {
+              "q": "Nós sempre estudamos de manhã.",
+              "a": [
+                "We always study in the morning."
+              ],
+              "why": "Palavra de frequência antes do verbo comum."
+            },
+            {
+              "q": "Onde ela mora?",
+              "a": [
+                "Where does she live?"
+              ],
+              "why": "Where + **does** + she + verbo sem -s."
+            },
+            {
+              "q": "Eles não são policiais.",
+              "a": [
+                "They aren't police officers.",
+                "They are not police officers.",
+                "They're not police officers."
+              ],
+              "why": "Profissão → TO BE na negativa."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "I am a nurse, and I work at a hospital.",
+              "Sou enfermeira e trabalho em um hospital."
+            ],
+            [
+              "I usually wake up at 6 a.m.",
+              "Geralmente acordo às 6h."
+            ],
+            [
+              "My husband doesn’t work at night. He works in the morning.",
+              "Meu marido não trabalha à noite. Ele trabalha de manhã."
+            ],
+            [
+              "He has breakfast with our son.",
+              "Ele toma café da manhã com o nosso filho."
+            ],
+            [
+              "We always have lunch at home, and we never watch TV in the afternoon.",
+              "Sempre almoçamos em casa e nunca assistimos TV à tarde."
+            ],
+            [
+              "In the evening, we are tired, but we are happy.",
+              "À noite, estamos cansados, mas felizes."
+            ]
+          ],
+          "titulo": "A normal day"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: revisão",
+          "frases": [
+            [
+              "Does she live in Campinas?",
+              "Ela mora em Campinas?"
+            ],
+            [
+              "He doesn’t work at night.",
+              "Ele não trabalha à noite."
+            ],
+            [
+              "Where do you live?",
+              "Onde você mora?"
+            ],
+            [
+              "She is a nurse, and she works at a hospital.",
+              "Ela é enfermeira e trabalha em um hospital."
+            ],
+            [
+              "We are always tired in the evening.",
+              "Estamos sempre cansados à noite."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m1-p6-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m1-s3/3.3",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "My husband doesn’t work at night.",
+              "a": [
+                "My husband doesn't work at night.",
+                "My husband does not work at night."
+              ],
+              "why": "he + **doesn’t** + verbo sem -s."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Does your wife live here?",
+              "a": [
+                "Does your wife live here?"
+              ],
+              "why": "your wife = she → **Does** + verbo sem -s."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I usually have lunch at home.",
+              "a": [
+                "I usually have lunch at home."
+              ],
+              "why": "Antes do verbo comum: I usually have."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m1-p6",
+          "prompt": "Escreva 5 frases sobre o seu dia e o de outra pessoa (I… / he… / she…), com uma negativa, uma pergunta e uma palavra de frequência."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "table",
+          "head": [
+            "Situação",
+            "Use",
+            "Exemplo"
+          ],
+          "rows": [
+            [
+              "adjetivo, lugar, profissão, idade",
+              "TO BE",
+              "She is a nurse."
+            ],
+            [
+              "outro verbo (I, you, we, they)",
+              "do / don’t",
+              "Do you work? · I don’t work."
+            ],
+            [
+              "outro verbo (he, she, it)",
+              "does / doesn’t + verbo sem -s",
+              "Does he work? · He doesn’t work."
+            ]
+          ],
+          "firstCol": true
+        },
+        {
+          "t": "tip",
+          "s": "Esta é a última prática antes do mini-teste da Sessão 5. Refaça o Caderno de erros e releia as revisões das sessões 2, 3 e 4.",
+          "title": "PULO DO GATO"
+        }
+      ]
+    },
+    {
       "id": "m1-s5",
       "n": 5,
       "titulo": "Consolidação e mini-teste",
@@ -1017,7 +3655,7 @@
           "id": "vocab-m1-s5",
           "items": [
             [31,"Monday","MÂN-dêi","segunda-feira"],
-            [30,"Tuesday","TÚZ-dêi","terça-feira"],
+            [32,"Tuesday","TÚZ-dêi","terça-feira"],
             [33,"Wednesday","UÉNZ-dêi","quarta-feira"],
             [34,"Thursday","THÂRZ-dêi (TH sem vibração)","quinta-feira"],
             [35,"Friday","FRÁI-dêi","sexta-feira"],
@@ -1167,6 +3805,6 @@
       ]
     }
   ],
-  "gloss": "i=eu;you=você / vocês;he=ele;she=ela;it=ele / ela (coisa);we=nós;they=eles / elas;am=ser / estar (com I);is=ser / estar (he, she, it);are=ser / estar (you, we, they);be=ser / estar;i'm=eu sou / estou;you're=você é / está;he's=ele é / está;she's=ela é / está;it's=é / está (coisa);we're=nós somos / estamos;they're=eles são / estão;isn't=não é / não está;aren't=não são / não estão;not=não;a=um / uma;an=um / uma (antes de vogal);the=o / a;my=meu / minha;your=seu / sua;his=dele;her=dela;their=deles;name=nome;old=velho / (idade);year=ano;years=anos;police=polícia;officer=oficial / agente;teacher=professor(a);nurse=enfermeiro(a);student=estudante;english=inglês;brazilian=brasileiro;tired=cansado;busy=ocupado;cold=frio;hot=quente;late=atrasado;today=hoje;tomorrow=amanhã;yesterday=ontem;colleague=colega;colleagues=colegas;office=escritório;at=em / às (horas, night);in=em / no / na (partes do dia);on=em / no (dias);from=de (origem);to=para / a;with=com;by=de (meio);for=para;of=de;and=e;but=mas;or=ou;too=também;so=então;where=onde;what=o quê / qual;when=quando;how=como;who=quem;why=por quê;time=hora / tempo;do=auxiliar de pergunta / fazer;does=auxiliar (he, she, it);don't=não (auxiliar);doesn't=não (auxiliar, he/she/it);yes=sim;no=não;friend=amigo(a);hi=oi;hello=olá;nice=prazer / legal;meet=conhecer / encontrar;here=aqui;work=trabalhar / trabalho;live=morar / viver;lives=mora;wake=acordar;up=(acordar / levantar);get=pegar / ficar;gets=pega / fica;have=ter / tomar;has=tem / toma;breakfast=café da manhã;lunch=almoço;come=vir;back=de volta;home=casa;go=ir;goes=vai;run=correr;runs=corre;watch=assistir;watches=assiste;study=estudar;studies=estuda;sleep=dormir;sleeps=dorme;play=jogar / brincar;plays=joga;rain=chover / chuva;rains=chove;like=gostar;wait=esperar;always=sempre;usually=geralmente;often=com frequência;sometimes=às vezes;never=nunca;every=todo / toda;day=dia;week=semana;weekend=fim de semana;weekends=fins de semana;morning=manhã;afternoon=tarde;evening=fim do dia / noite;night=noite;hour=hora;o'clock=horas (em ponto);a.m.=da manhã;monday=segunda-feira;tuesday=terça-feira;wednesday=quarta-feira;thursday=quinta-feira;friday=sexta-feira;saturday=sábado;sunday=domingo;mondays=às segundas;saturdays=aos sábados;sundays=aos domingos;weak=fraco;strong=forte;park=parque;gym=academia;hospital=hospital;bank=banco;car=carro;movies=filmes;wife=esposa;husband=marido;son=filho;brother=irmão;coffee=café;tv=TV;apartment=apartamento;new=novo;lot=muito;then=então / depois;think=pensar;three=três;tree=árvore;sink=pia;this=este / isto;that=aquele / isso;mother=mãe;one=um;person=pessoa;thing=coisa;sentence=frase;much=muito;also=também;every day=todo dia;some=alguns;many=muitos;there=lá / ali;very=muito;good=bom;bad=ruim;big=grande;small=pequeno;house=casa;school=escola;city=cidade;brazil=Brasil;if=se;will=(futuro);can=poder / conseguir;from=de;about=sobre;after=depois de;before=antes de;until=até;just=só / apenas",
+  "gloss": "i=eu;you=você / vocês;he=ele;she=ela;it=ele / ela (coisa);we=nós;they=eles / elas;am=ser / estar (com I);is=ser / estar (he, she, it);are=ser / estar (you, we, they);be=ser / estar;i'm=eu sou / estou;you're=você é / está;he's=ele é / está;she's=ela é / está;it's=é / está (coisa);we're=nós somos / estamos;they're=eles são / estão;isn't=não é / não está;aren't=não são / não estão;not=não;a=um / uma;an=um / uma (antes de vogal);the=o / a;my=meu / minha;your=seu / sua;his=dele;her=dela;their=deles;name=nome;old=velho / (idade);year=ano;years=anos;police=polícia;officer=oficial / agente;teacher=professor(a);nurse=enfermeiro(a);student=estudante;english=inglês;brazilian=brasileiro;tired=cansado;busy=ocupado;cold=frio;hot=quente;late=atrasado;today=hoje;tomorrow=amanhã;yesterday=ontem;colleague=colega;colleagues=colegas;office=escritório;at=em / às (horas, night);in=em / no / na (partes do dia);on=em / no (dias);from=de (origem);to=para / a;with=com;by=de (meio);for=para;of=de;and=e;but=mas;or=ou;too=também;so=então;where=onde;what=o quê / qual;when=quando;how=como;who=quem;why=por quê;time=hora / tempo;do=auxiliar de pergunta / fazer;does=auxiliar (he, she, it);don't=não (auxiliar);doesn't=não (auxiliar, he/she/it);yes=sim;no=não;friend=amigo(a);hi=oi;hello=olá;nice=prazer / legal;meet=conhecer / encontrar;here=aqui;work=trabalhar / trabalho;live=morar / viver;lives=mora;wake=acordar;up=(acordar / levantar);get=pegar / ficar;gets=pega / fica;have=ter / tomar;has=tem / toma;breakfast=café da manhã;lunch=almoço;come=vir;back=de volta;home=casa;go=ir;goes=vai;run=correr;runs=corre;watch=assistir;watches=assiste;study=estudar;studies=estuda;sleep=dormir;sleeps=dorme;play=jogar / brincar;plays=joga;rain=chover / chuva;rains=chove;like=gostar;wait=esperar;always=sempre;usually=geralmente;often=com frequência;sometimes=às vezes;never=nunca;every=todo / toda;day=dia;week=semana;weekend=fim de semana;weekends=fins de semana;morning=manhã;afternoon=tarde;evening=fim do dia / noite;night=noite;hour=hora;o'clock=horas (em ponto);a.m.=da manhã;monday=segunda-feira;tuesday=terça-feira;wednesday=quarta-feira;thursday=quinta-feira;friday=sexta-feira;saturday=sábado;sunday=domingo;mondays=às segundas;saturdays=aos sábados;sundays=aos domingos;weak=fraco;strong=forte;park=parque;gym=academia;hospital=hospital;bank=banco;car=carro;movies=filmes;wife=esposa;husband=marido;son=filho;brother=irmão;coffee=café;tv=TV;apartment=apartamento;new=novo;lot=muito;then=então / depois;think=pensar;three=três;tree=árvore;sink=pia;this=este / isto;that=aquele / isso;mother=mãe;one=um;person=pessoa;thing=coisa;sentence=frase;much=muito;also=também;every day=todo dia;some=alguns;many=muitos;there=lá / ali;very=muito;good=bom;bad=ruim;big=grande;small=pequeno;house=casa;school=escola;city=cidade;brazil=Brasil;if=se;will=(futuro);can=poder / conseguir;from=de;about=sobre;after=depois de;before=antes de;until=até;just=só / apenas;engineer=engenheiro(a);sister=irmã;wash=lavar;washes=lava;happy=feliz;clock=relógio",
   "faseId": "f1"
 });

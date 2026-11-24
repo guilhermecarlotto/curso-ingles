@@ -235,6 +235,440 @@
       ]
     },
     {
+      "id": "m6-p1",
+      "n": 1,
+      "tipo": "pratica",
+      "titulo": "Fixar os irregulares I",
+      "duracao": 40,
+      "resumo": "go, have, do, see, eat, buy, make, take, get e come no passado.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m6-p1",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m6-p1-ex1",
+          "titulo": "2.1 Escreva o passado",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "go → ___",
+              "a": [
+                "went"
+              ],
+              "why": "go → **went**."
+            },
+            {
+              "q": "have → ___",
+              "a": [
+                "had"
+              ],
+              "why": "have → **had**."
+            },
+            {
+              "q": "see → ___",
+              "a": [
+                "saw"
+              ],
+              "why": "see → **saw**."
+            },
+            {
+              "q": "eat → ___",
+              "a": [
+                "ate"
+              ],
+              "why": "eat → **ate**."
+            },
+            {
+              "q": "buy → ___",
+              "a": [
+                "bought"
+              ],
+              "why": "buy → **bought**."
+            },
+            {
+              "q": "make → ___",
+              "a": [
+                "made"
+              ],
+              "why": "make → **made**."
+            },
+            {
+              "q": "take → ___",
+              "a": [
+                "took"
+              ],
+              "why": "take → **took**."
+            },
+            {
+              "q": "come → ___",
+              "a": [
+                "came"
+              ],
+              "why": "come → **came**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p1-ex2",
+          "titulo": "2.2 Complete no passado",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "Yesterday I ___ (go) to the beach.",
+              "a": [
+                "went"
+              ],
+              "why": "go → went."
+            },
+            {
+              "q": "We ___ (have) lunch together.",
+              "a": [
+                "had"
+              ],
+              "why": "have → had."
+            },
+            {
+              "q": "She ___ (buy) a new phone.",
+              "a": [
+                "bought"
+              ],
+              "why": "buy → bought."
+            },
+            {
+              "q": "They ___ (see) a good movie.",
+              "a": [
+                "saw"
+              ],
+              "why": "see → saw."
+            },
+            {
+              "q": "He ___ (eat) pizza last night.",
+              "a": [
+                "ate"
+              ],
+              "why": "eat → ate."
+            },
+            {
+              "q": "I ___ (get) home at six.",
+              "a": [
+                "got"
+              ],
+              "why": "get → got."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p1-ex3",
+          "titulo": "2.3 Negativa e pergunta",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "I went to the beach.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "I didn't go to the beach.",
+                  "I did not go to the beach."
+                ],
+                [
+                  "Did you go to the beach?"
+                ]
+              ],
+              "why": "Com didn’t/did, verbo básico: **go**."
+            },
+            {
+              "q": "She bought a phone.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "She didn't buy a phone.",
+                  "She did not buy a phone."
+                ],
+                [
+                  "Did she buy a phone?"
+                ]
+              ],
+              "why": "Com didn’t/did, verbo básico: **buy**."
+            },
+            {
+              "q": "They saw a movie.",
+              "sub": [
+                "Negativa",
+                "Pergunta"
+              ],
+              "a": [
+                [
+                  "They didn't see a movie.",
+                  "They did not see a movie."
+                ],
+                [
+                  "Did they see a movie?"
+                ]
+              ],
+              "why": "Com didn’t/did, verbo básico: **see**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p1-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "I goed to the beach.",
+              "a": [
+                "I went to the beach."
+              ],
+              "why": "go é irregular: **went**."
+            },
+            {
+              "q": "She eated pizza.",
+              "a": [
+                "She ate pizza."
+              ],
+              "why": "eat é irregular: **ate**."
+            },
+            {
+              "q": "I didn’t went there.",
+              "a": [
+                "I didn't go there.",
+                "I did not go there."
+              ],
+              "why": "Com didn’t, verbo básico: **go**."
+            },
+            {
+              "q": "Did you bought it?",
+              "a": [
+                "Did you buy it?"
+              ],
+              "why": "Com did, verbo básico: **buy**."
+            },
+            {
+              "q": "We maked a cake.",
+              "a": [
+                "We made a cake."
+              ],
+              "why": "make é irregular: **made**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Last Saturday, my family and I went to the beach.",
+              "No sábado passado, minha família e eu fomos à praia."
+            ],
+            [
+              "We took a bus.",
+              "Pegamos um ônibus."
+            ],
+            [
+              "We had lunch together, and we ate fish.",
+              "Almoçamos juntos e comemos peixe."
+            ],
+            [
+              "I bought a hat for my son.",
+              "Comprei um chapéu para meu filho."
+            ],
+            [
+              "My wife made a cake, and we saw many people at the beach.",
+              "Minha esposa fez um bolo e vimos muita gente na praia."
+            ],
+            [
+              "We got home at night.",
+              "Chegamos em casa à noite."
+            ]
+          ],
+          "titulo": "A day at the beach"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: irregulares I",
+          "frases": [
+            [
+              "I went to the beach.",
+              "Eu fui à praia."
+            ],
+            [
+              "We had lunch together.",
+              "Almoçamos juntos."
+            ],
+            [
+              "She bought a new phone.",
+              "Ela comprou um celular novo."
+            ],
+            [
+              "They saw a good movie.",
+              "Eles viram um bom filme."
+            ],
+            [
+              "Did you eat pizza?",
+              "Você comeu pizza?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m6-p1-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I went to the beach.",
+              "a": [
+                "I went to the beach."
+              ],
+              "why": "go → went."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Did you buy a car?",
+              "a": [
+                "Did you buy a car?"
+              ],
+              "why": "Did + you + verbo básico (buy)."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She didn’t go to work.",
+              "a": [
+                "She didn't go to work.",
+                "She did not go to work."
+              ],
+              "why": "didn’t + verbo básico (go)."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m6-p1",
+          "prompt": "Escreva 5 frases sobre o que você fez ontem usando go, have, eat, buy, take ou get no passado."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Irregulares I: go → went · have → had · do → did · see → saw · eat → ate · buy → bought · make → made · take → took · get → got · come → came",
+            "Só a afirmativa usa a forma irregular; na negativa e na pergunta: **did/didn’t + verbo básico**"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I goed to the beach.",
+              "I went to the beach."
+            ],
+            [
+              "I didn’t went there.",
+              "I didn’t go there."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m6-s2",
       "n": 2,
       "titulo": "Verbos irregulares II",
@@ -452,6 +886,872 @@
       ]
     },
     {
+      "id": "m6-p2",
+      "n": 2,
+      "tipo": "pratica",
+      "titulo": "Fixar os irregulares II",
+      "duracao": 40,
+      "resumo": "give, say, write, read, meet, sleep, drink, leave, speak e know no passado.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m6-p2",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m6-p2-ex1",
+          "titulo": "2.1 Escreva o passado",
+          "ref": "m6-s2/3.1",
+          "items": [
+            {
+              "q": "give → ___",
+              "a": [
+                "gave"
+              ],
+              "why": "give → **gave**."
+            },
+            {
+              "q": "write → ___",
+              "a": [
+                "wrote"
+              ],
+              "why": "write → **wrote**."
+            },
+            {
+              "q": "meet → ___",
+              "a": [
+                "met"
+              ],
+              "why": "meet → **met**."
+            },
+            {
+              "q": "sleep → ___",
+              "a": [
+                "slept"
+              ],
+              "why": "sleep → **slept**."
+            },
+            {
+              "q": "drink → ___",
+              "a": [
+                "drank"
+              ],
+              "why": "drink → **drank**."
+            },
+            {
+              "q": "leave → ___",
+              "a": [
+                "left"
+              ],
+              "why": "leave → **left**."
+            },
+            {
+              "q": "speak → ___",
+              "a": [
+                "spoke"
+              ],
+              "why": "speak → **spoke**."
+            },
+            {
+              "q": "know → ___",
+              "a": [
+                "knew"
+              ],
+              "why": "know → **knew**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p2-ex2",
+          "titulo": "2.2 Complete no passado",
+          "ref": "m6-s2/3.1",
+          "items": [
+            {
+              "q": "He ___ (give) me a book.",
+              "a": [
+                "gave"
+              ],
+              "why": "give → gave."
+            },
+            {
+              "q": "I ___ (write) an email yesterday.",
+              "a": [
+                "wrote"
+              ],
+              "why": "write → wrote."
+            },
+            {
+              "q": "She ___ (meet) Ana at the restaurant.",
+              "a": [
+                "met"
+              ],
+              "why": "meet → met."
+            },
+            {
+              "q": "They ___ (sleep) well.",
+              "a": [
+                "slept"
+              ],
+              "why": "sleep → slept."
+            },
+            {
+              "q": "We ___ (leave) at five.",
+              "a": [
+                "left"
+              ],
+              "why": "leave → left."
+            },
+            {
+              "q": "I ___ (speak) to Tom.",
+              "a": [
+                "spoke"
+              ],
+              "why": "speak → spoke."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p2-ex3",
+          "titulo": "2.3 Escolha a forma certa",
+          "ref": "m6-s2/3.1",
+          "items": [
+            {
+              "q": "She (drinked / drank) coffee.",
+              "opts": [
+                "drinked",
+                "drank"
+              ],
+              "a": "drank",
+              "why": "drink → **drank**."
+            },
+            {
+              "q": "I (writed / wrote) an email.",
+              "opts": [
+                "writed",
+                "wrote"
+              ],
+              "a": "wrote",
+              "why": "write → **wrote**."
+            },
+            {
+              "q": "We (knowed / knew) the answer.",
+              "opts": [
+                "knowed",
+                "knew"
+              ],
+              "a": "knew",
+              "why": "know → **knew**."
+            },
+            {
+              "q": "He (gave / gived) me a gift.",
+              "opts": [
+                "gave",
+                "gived"
+              ],
+              "a": "gave",
+              "why": "give → **gave**."
+            },
+            {
+              "q": "They (sleeped / slept) well.",
+              "opts": [
+                "sleeped",
+                "slept"
+              ],
+              "a": "slept",
+              "why": "sleep → **slept**."
+            },
+            {
+              "q": "O passado de read se fala:",
+              "opts": [
+                "RÍD",
+                "RÉD"
+              ],
+              "a": "RÉD",
+              "why": "Escreve igual, mas no passado se fala **RÉD**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p2-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m6-s2/3.2",
+          "items": [
+            {
+              "q": "Did you spoke to him?",
+              "a": [
+                "Did you speak to him?"
+              ],
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "He didn’t knew.",
+              "a": [
+                "He didn't know.",
+                "He did not know."
+              ],
+              "why": "Com didn’t, verbo básico."
+            },
+            {
+              "q": "She say hello yesterday.",
+              "a": [
+                "She said hello yesterday."
+              ],
+              "why": "Ontem → passado: **said**."
+            },
+            {
+              "q": "I didn’t wrote the email.",
+              "a": [
+                "I didn't write the email.",
+                "I didn't write the e-mail.",
+                "I did not write the email."
+              ],
+              "why": "Com didn’t, verbo básico."
+            },
+            {
+              "q": "What did she wrote?",
+              "a": [
+                "What did she write?"
+              ],
+              "why": "Com did, verbo básico."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Last Friday, I met my friend Pete at the restaurant.",
+              "Na sexta passada, encontrei meu amigo Pete no restaurante."
+            ],
+            [
+              "We drank coffee and spoke for an hour.",
+              "Tomamos café e conversamos por uma hora."
+            ],
+            [
+              "He gave me a book, and I read it at night.",
+              "Ele me deu um livro e eu o li à noite."
+            ],
+            [
+              "I wrote an email to my sister.",
+              "Escrevi um e-mail para minha irmã."
+            ],
+            [
+              "I slept well, and I left home late on Saturday.",
+              "Dormi bem e saí de casa tarde no sábado."
+            ],
+            [
+              "She said hello, and I said hello too.",
+              "Ela disse olá, e eu também disse olá."
+            ]
+          ],
+          "titulo": "Coffee with Pete"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: irregulares II",
+          "frases": [
+            [
+              "He gave me a book.",
+              "Ele me deu um livro."
+            ],
+            [
+              "I wrote an email.",
+              "Eu escrevi um e-mail."
+            ],
+            [
+              "She met Ana yesterday.",
+              "Ela encontrou a Ana ontem."
+            ],
+            [
+              "They slept well.",
+              "Eles dormiram bem."
+            ],
+            [
+              "I spoke to Tom.",
+              "Falei com o Tom."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m6-p2-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m6-s2/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "He gave me a gift.",
+              "a": [
+                "He gave me a gift."
+              ],
+              "why": "give → gave."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I wrote an email.",
+              "a": [
+                "I wrote an email.",
+                "I wrote an e-mail."
+              ],
+              "why": "write → wrote."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "We didn’t sleep well.",
+              "a": [
+                "We didn't sleep well.",
+                "We did not sleep well."
+              ],
+              "why": "didn’t + verbo básico (sleep)."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m6-p2",
+          "prompt": "Escreva 5 frases sobre um encontro com um amigo: onde vocês se encontraram (met), o que beberam (drank), o que disseram (said/spoke) e quando saíram (left)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Irregulares II: give → gave · say → said · write → wrote · read → read (fala RÉD) · meet → met · sleep → slept · drink → drank · leave → left · speak → spoke · know → knew",
+            "Negativa e pergunta: **did/didn’t + verbo básico** (I didn’t write · Did you speak?)"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I writed an email.",
+              "I wrote an email."
+            ],
+            [
+              "He didn’t knew.",
+              "He didn’t know."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m6-p3",
+      "n": 3,
+      "tipo": "pratica",
+      "titulo": "Fixar os irregulares em frases",
+      "duracao": 40,
+      "resumo": "Afirmativa, negativa, pergunta e perguntas com Wh- usando irregulares.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m6-p3",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m6-p3-ex1",
+          "titulo": "2.1 Escolha a forma certa",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "I (went / go) to the beach yesterday.",
+              "opts": [
+                "went",
+                "go"
+              ],
+              "a": "went",
+              "why": "Ontem → passado: **went**."
+            },
+            {
+              "q": "Did you (have / had) lunch?",
+              "opts": [
+                "have",
+                "had"
+              ],
+              "a": "have",
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "She didn’t (see / saw) the movie.",
+              "opts": [
+                "see",
+                "saw"
+              ],
+              "a": "see",
+              "why": "Com didn’t, verbo básico."
+            },
+            {
+              "q": "We (ate / eat) pizza last night.",
+              "opts": [
+                "ate",
+                "eat"
+              ],
+              "a": "ate",
+              "why": "Ontem à noite → passado: **ate**."
+            },
+            {
+              "q": "Did he (give / gave) you a book?",
+              "opts": [
+                "give",
+                "gave"
+              ],
+              "a": "give",
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "They didn’t (leave / left) early.",
+              "opts": [
+                "leave",
+                "left"
+              ],
+              "a": "leave",
+              "why": "Com didn’t, verbo básico."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p3-ex2",
+          "titulo": "2.2 Faça a pergunta",
+          "ref": "m6-s1/3.2",
+          "items": [
+            {
+              "q": "I went to Rio. (Where…?)",
+              "a": [
+                "Where did you go?"
+              ],
+              "why": "Where + did + you + go?"
+            },
+            {
+              "q": "I bought a jacket. (What…?)",
+              "a": [
+                "What did you buy?"
+              ],
+              "why": "What + did + you + buy?"
+            },
+            {
+              "q": "She met Ana. (Who…?)",
+              "a": [
+                "Who did she meet?"
+              ],
+              "why": "Who + did + she + meet?"
+            },
+            {
+              "q": "They left at five. (When…?)",
+              "a": [
+                "When did they leave?"
+              ],
+              "why": "When + did + they + leave?"
+            },
+            {
+              "q": "He wrote an email. (What…?)",
+              "a": [
+                "What did he write?"
+              ],
+              "why": "What + did + he + write?"
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p3-ex3",
+          "titulo": "2.3 Escreva em inglês",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "Nós fizemos um bolo.",
+              "a": [
+                "We made a cake."
+              ],
+              "why": "make → made."
+            },
+            {
+              "q": "Ele não bebeu água.",
+              "a": [
+                "He didn't drink water.",
+                "He did not drink water."
+              ],
+              "why": "didn’t + drink."
+            },
+            {
+              "q": "Você falou com o Tom?",
+              "a": [
+                "Did you speak to Tom?"
+              ],
+              "why": "Did + you + speak?"
+            },
+            {
+              "q": "Eles viram um filme bom.",
+              "a": [
+                "They saw a good movie."
+              ],
+              "why": "see → saw."
+            },
+            {
+              "q": "Eu não escrevi o e-mail.",
+              "a": [
+                "I didn't write the email.",
+                "I didn't write the e-mail.",
+                "I did not write the email."
+              ],
+              "why": "didn’t + write."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p3-ex4",
+          "titulo": "2.4 Passe para o passado",
+          "ref": "m6-s2/3.1",
+          "items": [
+            {
+              "q": "I go to work by bus.",
+              "a": [
+                "I went to work by bus."
+              ],
+              "why": "go → went."
+            },
+            {
+              "q": "She eats pizza.",
+              "a": [
+                "She ate pizza."
+              ],
+              "why": "eat → ate."
+            },
+            {
+              "q": "We make dinner.",
+              "a": [
+                "We made dinner."
+              ],
+              "why": "make → made."
+            },
+            {
+              "q": "They drink coffee.",
+              "a": [
+                "They drank coffee."
+              ],
+              "why": "drink → drank."
+            },
+            {
+              "q": "He writes an email.",
+              "a": [
+                "He wrote an email."
+              ],
+              "why": "write → wrote."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "example",
+          "lines": [
+            [
+              "A",
+              "Where did you go on Sunday?",
+              "Aonde você foi no domingo?"
+            ],
+            [
+              "B",
+              "I went to my parents’ house.",
+              "Fui à casa dos meus pais."
+            ],
+            [
+              "A",
+              "What did you eat?",
+              "O que você comeu?"
+            ],
+            [
+              "B",
+              "We ate pizza, and my mother made a cake.",
+              "Comemos pizza e minha mãe fez um bolo."
+            ],
+            [
+              "A",
+              "Did you see your brother?",
+              "Você viu seu irmão?"
+            ],
+            [
+              "B",
+              "Yes, I did. He gave me a book.",
+              "Sim. Ele me deu um livro."
+            ],
+            [
+              "A",
+              "How did you get home?",
+              "Como você chegou em casa?"
+            ],
+            [
+              "B",
+              "I took a taxi.",
+              "Peguei um táxi."
+            ]
+          ],
+          "titulo": "EXEMPLO · No domingo"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: perguntas no passado",
+          "frases": [
+            [
+              "Where did you go?",
+              "Aonde você foi?"
+            ],
+            [
+              "I went to Rio.",
+              "Fui ao Rio."
+            ],
+            [
+              "What did you buy?",
+              "O que você comprou?"
+            ],
+            [
+              "I bought a jacket.",
+              "Comprei uma jaqueta."
+            ],
+            [
+              "Did you see John?",
+              "Você viu o John?"
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m6-p3-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Where did you go?",
+              "a": [
+                "Where did you go?"
+              ],
+              "why": "Where + did + you + verbo básico."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She didn’t eat pizza.",
+              "a": [
+                "She didn't eat pizza.",
+                "She did not eat pizza."
+              ],
+              "why": "didn’t + verbo básico (eat)."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "They made a cake.",
+              "a": [
+                "They made a cake."
+              ],
+              "why": "make → made."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m6-p3",
+          "prompt": "Escreva 6 frases sobre o seu último fim de semana usando 4 verbos irregulares, 1 negativa e 1 pergunta para um amigo."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Afirmativa: forma irregular (I went) · negativa: didn’t + básico (I didn’t go) · pergunta: Did + sujeito + básico? (Did you go?)",
+            "Wh-: Where did you go? · What did you buy? · Who did she meet? · When did they leave?"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "Did you bought it?",
+              "Did you buy it?"
+            ],
+            [
+              "What did she wrote?",
+              "What did she write?"
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
       "id": "m6-s3",
       "n": 3,
       "titulo": "Contar uma história: conectores",
@@ -659,6 +1959,1218 @@
         },
         {"t":"bullets","items":["**because** + causa · **so** + resultado","Vírgula depois de First, Then, After that, Finally"]},
         {"t":"errors","items":[["I was tired because so I slept.","I was tired, so I slept."]],"title":"ERROS COMUNS DE BRASILEIROS"}
+      ]
+    },
+    {
+      "id": "m6-p4",
+      "n": 4,
+      "tipo": "pratica",
+      "titulo": "Fixar as palavras de sequência",
+      "duracao": 40,
+      "resumo": "first, then, after that, later e finally para contar uma história em ordem.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m6-p4",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m6-p4-ex1",
+          "titulo": "2.1 Escolha a palavra",
+          "ref": "m6-s3/3.1",
+          "items": [
+            {
+              "q": "___, I woke up. Then, I had breakfast.",
+              "opts": [
+                "First",
+                "Finally"
+              ],
+              "a": "First",
+              "why": "O primeiro fato começa com **First**."
+            },
+            {
+              "q": "I had breakfast. ___, I went to work.",
+              "opts": [
+                "After that",
+                "First"
+              ],
+              "a": "After that",
+              "why": "Depois de um fato → **After that**."
+            },
+            {
+              "q": "I called my mother. ___, I went to bed.",
+              "opts": [
+                "Finally",
+                "First"
+              ],
+              "a": "Finally",
+              "why": "O último fato → **Finally**."
+            },
+            {
+              "q": "I woke up at six. ___, I took a shower.",
+              "opts": [
+                "Then",
+                "Finally"
+              ],
+              "a": "Then",
+              "why": "Em seguida → **Then**."
+            },
+            {
+              "q": "___, I called my friend. (mais tarde)",
+              "opts": [
+                "Later",
+                "First"
+              ],
+              "a": "Later",
+              "why": "Mais tarde → **Later**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p4-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m6-s3/3.1",
+          "items": [
+            {
+              "q": "Primeiro, eu acordei.",
+              "a": [
+                "First, I woke up.",
+                "First I woke up."
+              ],
+              "why": "First + vírgula + frase."
+            },
+            {
+              "q": "Depois, tomei café da manhã.",
+              "a": [
+                "Then, I had breakfast.",
+                "Then I had breakfast."
+              ],
+              "why": "Then + vírgula + frase."
+            },
+            {
+              "q": "Depois disso, fui trabalhar.",
+              "a": [
+                "After that, I went to work.",
+                "After that I went to work."
+              ],
+              "why": "After that + vírgula + frase."
+            },
+            {
+              "q": "Mais tarde, liguei para minha mãe.",
+              "a": [
+                "Later, I called my mother.",
+                "Later I called my mother."
+              ],
+              "why": "Later + vírgula + frase."
+            },
+            {
+              "q": "Por fim, fui dormir.",
+              "a": [
+                "Finally, I went to bed.",
+                "Finally I went to bed."
+              ],
+              "why": "Finally + vírgula + frase."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p4-ex3",
+          "titulo": "2.3 Complete a história",
+          "ref": "m6-s3/3.1",
+          "items": [
+            {
+              "q": "First, I ___ (wake up) at six.",
+              "a": [
+                "woke up"
+              ],
+              "why": "wake up → woke up."
+            },
+            {
+              "q": "Then, I ___ (have) breakfast.",
+              "a": [
+                "had"
+              ],
+              "why": "have → had."
+            },
+            {
+              "q": "After that, I ___ (go) to work.",
+              "a": [
+                "went"
+              ],
+              "why": "go → went."
+            },
+            {
+              "q": "Later, I ___ (call) my mother.",
+              "a": [
+                "called"
+              ],
+              "why": "call + ed."
+            },
+            {
+              "q": "Finally, I ___ (go) to bed.",
+              "a": [
+                "went"
+              ],
+              "why": "go → went."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p4-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m6-s3/3.1",
+          "items": [
+            {
+              "q": "First, I wake up.",
+              "a": [
+                "First, I woke up.",
+                "First I woke up."
+              ],
+              "why": "Contando o passado: **woke up**."
+            },
+            {
+              "q": "Then I eated breakfast.",
+              "a": [
+                "Then, I ate breakfast.",
+                "Then I ate breakfast."
+              ],
+              "why": "eat → **ate**."
+            },
+            {
+              "q": "Finally, I go to bed late yesterday.",
+              "a": [
+                "Finally, I went to bed late yesterday.",
+                "Finally I went to bed late yesterday."
+              ],
+              "why": "Ontem → passado: **went**."
+            },
+            {
+              "q": "Later, I called to my mother.",
+              "a": [
+                "Later, I called my mother.",
+                "Later I called my mother."
+              ],
+              "why": "call + pessoa, sem **to**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Yesterday was a long day.",
+              "Ontem foi um dia longo."
+            ],
+            [
+              "First, I woke up at six and took a shower.",
+              "Primeiro, acordei às seis e tomei banho."
+            ],
+            [
+              "Then, I had breakfast and went to work.",
+              "Depois, tomei café da manhã e fui trabalhar."
+            ],
+            [
+              "After that, I worked all day.",
+              "Depois disso, trabalhei o dia todo."
+            ],
+            [
+              "Later, I called my mother, and we talked for an hour.",
+              "Mais tarde, liguei para minha mãe e conversamos por uma hora."
+            ],
+            [
+              "Finally, I went to bed.",
+              "Por fim, fui dormir."
+            ]
+          ],
+          "titulo": "A long day"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: em ordem",
+          "frases": [
+            [
+              "First, I woke up.",
+              "Primeiro, eu acordei."
+            ],
+            [
+              "Then, I had breakfast.",
+              "Depois, tomei café da manhã."
+            ],
+            [
+              "After that, I went to work.",
+              "Depois disso, fui trabalhar."
+            ],
+            [
+              "Later, I called my mother.",
+              "Mais tarde, liguei para minha mãe."
+            ],
+            [
+              "Finally, I went to bed.",
+              "Por fim, fui dormir."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m6-p4-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m6-s3/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "First, I took a shower.",
+              "a": [
+                "First, I took a shower.",
+                "First I took a shower."
+              ],
+              "why": "First + vírgula."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Then, I went to work.",
+              "a": [
+                "Then, I went to work.",
+                "Then I went to work."
+              ],
+              "why": "Then + vírgula."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "Finally, I went to bed.",
+              "a": [
+                "Finally, I went to bed.",
+                "Finally I went to bed."
+              ],
+              "why": "Finally + vírgula."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m6-p4",
+          "prompt": "Conte o seu dia de ontem em 6 frases com first, then, after that, later e finally."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**First** (primeiro) · **then** (depois) · **after that** (depois disso) · **later** (mais tarde) · **finally** (por fim)",
+            "Vírgula depois da palavra de sequência: First, I woke up.",
+            "Conte no passado: I woke up · I had breakfast · I went to work"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "First I wake up, then I ate.",
+              "First, I woke up. Then, I ate."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m6-p5",
+      "n": 5,
+      "tipo": "pratica",
+      "titulo": "Fixar and, but, because, so e or",
+      "duracao": 40,
+      "resumo": "Ligar ideias: acrescentar, contrastar, dar a causa, o resultado e escolher.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m6-p5",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m6-p5-ex1",
+          "titulo": "2.1 Complete com and, but, because, so ou or",
+          "ref": "m6-s3/3.2",
+          "items": [
+            {
+              "q": "I was tired, ___ I went to bed.",
+              "a": [
+                "so"
+              ],
+              "why": "Resultado → **so**."
+            },
+            {
+              "q": "I stayed home ___ it rained.",
+              "a": [
+                "because"
+              ],
+              "why": "Causa → **because**."
+            },
+            {
+              "q": "I like tea, ___ I don’t like coffee.",
+              "a": [
+                "but"
+              ],
+              "why": "Contraste → **but**."
+            },
+            {
+              "q": "I cooked ___ I cleaned the house.",
+              "a": [
+                "and"
+              ],
+              "why": "Acrescenta → **and**."
+            },
+            {
+              "q": "Do you want tea ___ coffee?",
+              "a": [
+                "or"
+              ],
+              "why": "Alternativa → **or**."
+            },
+            {
+              "q": "It rained, ___ I stayed home.",
+              "a": [
+                "so"
+              ],
+              "why": "Resultado → **so**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p5-ex2",
+          "titulo": "2.2 Because ou so?",
+          "ref": "m6-s3/3.2",
+          "items": [
+            {
+              "q": "I was sick, (because / so) I stayed home.",
+              "opts": [
+                "because",
+                "so"
+              ],
+              "a": "so",
+              "why": "“Fiquei em casa” é o resultado → **so**."
+            },
+            {
+              "q": "I stayed home (because / so) I was sick.",
+              "opts": [
+                "because",
+                "so"
+              ],
+              "a": "because",
+              "why": "“Estava doente” é a causa → **because**."
+            },
+            {
+              "q": "She was happy (because / so) she got a gift.",
+              "opts": [
+                "because",
+                "so"
+              ],
+              "a": "because",
+              "why": "Causa da alegria → **because**."
+            },
+            {
+              "q": "He was tired, (because / so) he slept.",
+              "opts": [
+                "because",
+                "so"
+              ],
+              "a": "so",
+              "why": "Resultado → **so**."
+            },
+            {
+              "q": "They didn’t go (because / so) it rained.",
+              "opts": [
+                "because",
+                "so"
+              ],
+              "a": "because",
+              "why": "Causa → **because**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p5-ex3",
+          "titulo": "2.3 Junte as frases",
+          "ref": "m6-s3/3.2",
+          "items": [
+            {
+              "q": "Junte com but: I was tired. I studied.",
+              "a": [
+                "I was tired, but I studied.",
+                "I was tired but I studied."
+              ],
+              "why": "but = contraste."
+            },
+            {
+              "q": "Junte com because: I stayed home. It rained.",
+              "a": [
+                "I stayed home because it rained."
+              ],
+              "why": "because + causa."
+            },
+            {
+              "q": "Junte com so: It rained. I stayed home.",
+              "a": [
+                "It rained, so I stayed home.",
+                "It rained so I stayed home."
+              ],
+              "why": "so + resultado."
+            },
+            {
+              "q": "Junte com and: I cooked. I cleaned the house.",
+              "a": [
+                "I cooked and I cleaned the house.",
+                "I cooked and cleaned the house."
+              ],
+              "why": "and = acrescenta."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p5-ex4",
+          "titulo": "2.4 Corrija as frases",
+          "ref": "m6-s3/3.2",
+          "items": [
+            {
+              "q": "I was tired because so I slept.",
+              "a": [
+                "I was tired, so I slept.",
+                "I was tired so I slept."
+              ],
+              "why": "Use só **so**."
+            },
+            {
+              "q": "I like coffee, and but I don’t like tea.",
+              "a": [
+                "I like coffee, but I don't like tea.",
+                "I like coffee but I don't like tea."
+              ],
+              "why": "Use só **but**."
+            },
+            {
+              "q": "I stayed home, because I was sick, so.",
+              "a": [
+                "I stayed home because I was sick."
+              ],
+              "why": "Use só **because**, no meio da frase."
+            },
+            {
+              "q": "Tea and coffee? (um ou outro)",
+              "a": [
+                "Tea or coffee?"
+              ],
+              "why": "Alternativa → **or**."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "It rained on Sunday, so we stayed home.",
+              "Choveu no domingo, então ficamos em casa."
+            ],
+            [
+              "I cooked lunch, and my wife made a cake.",
+              "Eu preparei o almoço e minha esposa fez um bolo."
+            ],
+            [
+              "My son wanted to play soccer, but it was wet.",
+              "Meu filho queria jogar futebol, mas estava molhado."
+            ],
+            [
+              "He was sad because he didn’t play.",
+              "Ele ficou triste porque não jogou."
+            ],
+            [
+              "We watched a movie, and we ate cake.",
+              "Assistimos a um filme e comemos bolo."
+            ],
+            [
+              "Tea or coffee? I drank tea because I was tired.",
+              "Chá ou café? Tomei chá porque estava cansado."
+            ]
+          ],
+          "titulo": "A rainy Sunday"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: conectores",
+          "frases": [
+            [
+              "I was tired, so I went to bed.",
+              "Eu estava cansado, então fui dormir."
+            ],
+            [
+              "I stayed home because it rained.",
+              "Fiquei em casa porque choveu."
+            ],
+            [
+              "I like tea, but I don’t like coffee.",
+              "Gosto de chá, mas não gosto de café."
+            ],
+            [
+              "Tea or coffee?",
+              "Chá ou café?"
+            ],
+            [
+              "It rained, so I stayed home.",
+              "Choveu, então fiquei em casa."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m6-p5-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m6-s3/3.2",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I stayed home because I was sick.",
+              "a": [
+                "I stayed home because I was sick."
+              ],
+              "why": "because + causa."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "It rained, so we stayed home.",
+              "a": [
+                "It rained, so we stayed home.",
+                "It rained so we stayed home."
+              ],
+              "why": "so + resultado."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I like tea, but I don’t like coffee.",
+              "a": [
+                "I like tea, but I don't like coffee.",
+                "I like tea but I don't like coffee."
+              ],
+              "why": "but = contraste."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m6-p5",
+          "prompt": "Escreva 5 frases sobre ontem usando and, but, because, so e or (uma de cada)."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "**and** acrescenta · **but** contraste · **because** causa · **so** resultado · **or** alternativa",
+            "“I was tired, **so** I slept” = “I slept **because** I was tired”",
+            "Não use **so** e **because** juntos"
+          ]
+        },
+        {
+          "t": "errors",
+          "items": [
+            [
+              "I was tired because so I slept.",
+              "I was tired, so I slept."
+            ],
+            [
+              "I like coffee, and but I don’t like tea.",
+              "I like coffee, but I don’t like tea."
+            ]
+          ],
+          "title": "ERROS COMUNS DE BRASILEIROS"
+        }
+      ]
+    },
+    {
+      "id": "m6-p6",
+      "n": 6,
+      "tipo": "pratica",
+      "titulo": "Revisão do módulo",
+      "duracao": 40,
+      "resumo": "Irregulares, perguntas no passado e conectores: aquecimento para o mini-teste.",
+      "blocos": [
+        {
+          "t": "roteiro",
+          "id": "rot-m6-p6",
+          "rows": [
+            [
+              10,
+              "1. Cartões e revisão",
+              "Revisões do dia e resumo das sessões anteriores.",
+              "etapa-1"
+            ],
+            [
+              15,
+              "2. Exercícios",
+              "Exercícios sobre o que você já estudou.",
+              "etapa-2"
+            ],
+            [
+              10,
+              "3. Ouvir e ler",
+              "Ouvir, repetir e ler em voz alta.",
+              "etapa-3"
+            ],
+            [
+              5,
+              "4. Escrever",
+              "Ditado e frases suas.",
+              "etapa-4"
+            ]
+          ],
+          "titulo": "40 MIN"
+        },
+        {
+          "t": "callout",
+          "kind": "info",
+          "icone": "🔁",
+          "titulo": "Sessão de prática",
+          "s": "Esta sessão não traz conteúdo novo: ela serve para fixar o que você acabou de estudar. Se errar, leia o “porquê” de cada correção e refaça."
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-1",
+          "n": 1,
+          "titulo": "Cartões e revisão",
+          "min": 10,
+          "desc": "Aqueça a memória: revisões do dia e o resumo do que você já viu. Nesta sessão não há cartões novos."
+        },
+        {
+          "t": "srs",
+          "id": "srs"
+        },
+        {
+          "t": "revref",
+          "id": "revref"
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-2",
+          "n": 2,
+          "titulo": "Exercícios",
+          "min": 15,
+          "desc": "Exercícios sobre o que você já estudou. Tente sem consultar; o erro explicado vale mais que o acerto."
+        },
+        {
+          "t": "ex",
+          "id": "m6-p6-ex1",
+          "titulo": "2.1 Escolha a forma correta",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "She (wrote / writed) an email.",
+              "opts": [
+                "wrote",
+                "writed"
+              ],
+              "a": "wrote",
+              "why": "write → **wrote**."
+            },
+            {
+              "q": "Did you (see / saw) the movie?",
+              "opts": [
+                "see",
+                "saw"
+              ],
+              "a": "see",
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "First, I woke up. (Then / Because), I had breakfast.",
+              "opts": [
+                "Then",
+                "Because"
+              ],
+              "a": "Then",
+              "why": "Sequência → **Then**."
+            },
+            {
+              "q": "I was tired, (so / because) I slept.",
+              "opts": [
+                "so",
+                "because"
+              ],
+              "a": "so",
+              "why": "Resultado → **so**."
+            },
+            {
+              "q": "He didn’t (eat / ate) pizza.",
+              "opts": [
+                "eat",
+                "ate"
+              ],
+              "a": "eat",
+              "why": "Com didn’t, verbo básico."
+            },
+            {
+              "q": "I like tea, (but / and) I don’t like coffee.",
+              "opts": [
+                "but",
+                "and"
+              ],
+              "a": "but",
+              "why": "Contraste → **but**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p6-ex2",
+          "titulo": "2.2 Escreva em inglês",
+          "ref": "m6-s2/3.2",
+          "items": [
+            {
+              "q": "Você viu o filme?",
+              "a": [
+                "Did you see the movie?"
+              ],
+              "why": "Did + you + verbo básico?"
+            },
+            {
+              "q": "Eu li o e-mail, mas não escrevi para ela.",
+              "a": [
+                "I read the email, but I didn't write to her.",
+                "I read the e-mail, but I didn't write to her.",
+                "I read the email but I didn't write to her."
+              ],
+              "why": "read (passado) · but · didn’t + write."
+            },
+            {
+              "q": "Mais tarde, nós comemos pizza.",
+              "a": [
+                "Later, we ate pizza.",
+                "Later we ate pizza."
+              ],
+              "why": "Later + ate."
+            },
+            {
+              "q": "Eles saíram às cinco, então chegaram tarde.",
+              "a": [
+                "They left at five, so they got there late.",
+                "They left at five so they got there late."
+              ],
+              "why": "left · so · got."
+            },
+            {
+              "q": "Ela não bebeu café porque estava cansada.",
+              "a": [
+                "She didn't drink coffee because she was tired.",
+                "She did not drink coffee because she was tired."
+              ],
+              "why": "didn’t + drink · because + was."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p6-ex3",
+          "titulo": "2.3 Corrija as frases",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "She goed to the park.",
+              "a": [
+                "She went to the park."
+              ],
+              "why": "go → **went**."
+            },
+            {
+              "q": "Did he gave you a book?",
+              "a": [
+                "Did he give you a book?"
+              ],
+              "why": "Com did, verbo básico."
+            },
+            {
+              "q": "We eated lunch at noon.",
+              "a": [
+                "We ate lunch at noon."
+              ],
+              "why": "eat → **ate**."
+            },
+            {
+              "q": "I didn’t knew the answer.",
+              "a": [
+                "I didn't know the answer.",
+                "I did not know the answer."
+              ],
+              "why": "Com didn’t, verbo básico."
+            },
+            {
+              "q": "Finally, I go to bed.",
+              "a": [
+                "Finally, I went to bed.",
+                "Finally I went to bed."
+              ],
+              "why": "Contando o passado: **went**."
+            }
+          ]
+        },
+        {
+          "t": "ex",
+          "id": "m6-p6-ex4",
+          "titulo": "2.4 Complete no passado",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "Last night I ___ (see) a good movie.",
+              "a": [
+                "saw"
+              ],
+              "why": "see → saw."
+            },
+            {
+              "q": "We ___ (not / eat) pizza.",
+              "a": [
+                [
+                  "didn't eat",
+                  "did not eat"
+                ]
+              ],
+              "why": "didn’t + verbo básico."
+            },
+            {
+              "q": "___ you ___ (buy) a gift?",
+              "a": [
+                "Did",
+                "buy"
+              ],
+              "why": "Did + you + verbo básico?"
+            },
+            {
+              "q": "She ___ (give) me a book.",
+              "a": [
+                "gave"
+              ],
+              "why": "give → gave."
+            },
+            {
+              "q": "They ___ (leave) at five.",
+              "a": [
+                "left"
+              ],
+              "why": "leave → left."
+            }
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-3",
+          "n": 3,
+          "titulo": "Ouvir e ler",
+          "min": 10,
+          "desc": "Ouça, repita e leia em voz alta. Só aparecem palavras e estruturas que você já conhece."
+        },
+        {
+          "t": "h",
+          "n": "3.1",
+          "title": "OUVIR E LER"
+        },
+        {
+          "t": "reading",
+          "boxed": true,
+          "sents": [
+            [
+              "Last month, my wife and I took a trip to Rio.",
+              "No mês passado, minha esposa e eu fizemos uma viagem ao Rio."
+            ],
+            [
+              "First, we took a bus because the flight was expensive.",
+              "Primeiro, pegamos um ônibus porque o voo era caro."
+            ],
+            [
+              "We slept in a small hotel and ate fish at the restaurant.",
+              "Dormimos em um hotel pequeno e comemos peixe no restaurante."
+            ],
+            [
+              "Then, we went to the beach, but it rained.",
+              "Depois, fomos à praia, mas choveu."
+            ],
+            [
+              "We saw a good movie, so we were happy.",
+              "Vimos um bom filme, então ficamos felizes."
+            ],
+            [
+              "Finally, we came back home and slept all day.",
+              "Por fim, voltamos para casa e dormimos o dia todo."
+            ]
+          ],
+          "titulo": "My trip"
+        },
+        {
+          "t": "listen",
+          "titulo": "Ouça e repita: revisão",
+          "frases": [
+            [
+              "She wrote an email.",
+              "Ela escreveu um e-mail."
+            ],
+            [
+              "Did you see the movie?",
+              "Você viu o filme?"
+            ],
+            [
+              "Later, we ate pizza.",
+              "Mais tarde, comemos pizza."
+            ],
+            [
+              "I was tired, so I slept.",
+              "Eu estava cansado, então dormi."
+            ],
+            [
+              "He didn’t drink coffee.",
+              "Ele não bebeu café."
+            ]
+          ]
+        },
+        {
+          "t": "etapa",
+          "id": "etapa-4",
+          "n": 4,
+          "titulo": "Escrever",
+          "min": 5,
+          "desc": "Escreva com as suas palavras e, se quiser, peça a correção ao Claude."
+        },
+        {
+          "t": "h",
+          "n": "4.1",
+          "title": "DITADO E PRODUÇÃO"
+        },
+        {
+          "t": "ex",
+          "id": "m6-p6-ditado",
+          "titulo": "4.1 Ouça e escreva (ditado)",
+          "intro": "Clique em 🔊, ouça e escreva a frase. Use 🐢 para ouvir mais devagar. Contrações valem (I’m = I am).",
+          "ref": "m6-s1/3.1",
+          "items": [
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "She gave me a book.",
+              "a": [
+                "She gave me a book."
+              ],
+              "why": "give → gave."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "I didn’t know the answer.",
+              "a": [
+                "I didn't know the answer.",
+                "I did not know the answer."
+              ],
+              "why": "didn’t + verbo básico."
+            },
+            {
+              "q": "Escreva a frase que você ouviu:",
+              "say": "First, I woke up, then I had breakfast.",
+              "a": [
+                "First, I woke up, then I had breakfast.",
+                "First I woke up, then I had breakfast.",
+                "First, I woke up. Then, I had breakfast."
+              ],
+              "why": "Palavras de sequência + passado."
+            }
+          ]
+        },
+        {
+          "t": "prod",
+          "id": "prod-m6-p6",
+          "prompt": "Conte um dia especial ou uma viagem em 6 frases: first/then/finally, 3 verbos irregulares e um because ou so."
+        }
+      ],
+      "revisao": [
+        {
+          "t": "bullets",
+          "items": [
+            "Irregulares: went · had · did · saw · ate · bought · made · took · got · came · gave · said · wrote · read · met · slept · drank · left · spoke · knew",
+            "Negativa e pergunta: did/didn’t + verbo básico",
+            "Sequência: first · then · after that · later · finally · conectores: and · but · because · so · or"
+          ]
+        },
+        {
+          "t": "tip",
+          "s": "Esta é a última prática antes do mini-teste da Sessão 4. Refaça o Caderno de erros e releia as revisões das sessões 1, 2 e 3. Meses e datas aparecem só na Sessão 4.",
+          "title": "PULO DO GATO"
+        }
       ]
     },
     {

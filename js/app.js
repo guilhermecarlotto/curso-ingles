@@ -44,7 +44,8 @@
     for (let i = 0; i < C.ORDER.length; i++) { const id = C.ORDER[(start + i) % C.ORDER.length]; if (!S.done[id]) return id; }
     return null;
   }
-  const sesLabel = s => (s.n != null && s.n !== '' ? `Sessão ${s.n} · ` : '') + s.titulo;
+  const isPrat = s => s && s.tipo === 'pratica';
+  const sesLabel = s => (isPrat(s) ? `Prática ${s.n} · ` : s.n != null && s.n !== '' ? `Sessão ${s.n} · ` : '') + s.titulo;
 
   /* ── "onde parei": guarda a seção da sessão que estava na tela, para retomar de lá ── */
   const posOf = sid => { const p = S.pos && S.pos[sid]; return p && p.sec && C.SES[sid] && !S.done[sid] ? p : null; };
@@ -158,7 +159,7 @@
     if (m.blocos && m.blocos.length) h += C.blocksHTML(m.blocos, { s: null, m });
     h += `<div class="sectitle">Sessões</div>` + (m.sessoes || []).map(s => {
       const stt = sesState(s.id), ss = sesStats(s.id);
-      return `<a class="lrow" href="#/a/${esc(s.id)}"><span class="nb" style="background:var(--p-${cc})">${s.n != null && s.n !== '' ? esc(s.n) : '•'}</span><span class="tt"><b>${md(s.titulo)}</b><span>${esc(s.resumo || '')}${s.duracao ? ' · ' + s.duracao + ' min' : ''}</span></span><span class="st">${stt === 'done' ? '✅ concluída' : stt === 'doing' ? `◐ ${ss.total ? ss.pct + '%' : 'em andamento'}` : '○ não iniciada'}</span></a>`;
+      return `<a class="lrow" href="#/a/${esc(s.id)}"><span class="nb" style="background:var(--p-${cc})">${isPrat(s) ? 'P' + esc(s.n) : s.n != null && s.n !== '' ? esc(s.n) : '•'}</span><span class="tt"><b>${md(s.titulo)}</b><span>${esc(s.resumo || '')}${s.duracao ? ' · ' + s.duracao + ' min' : ''}</span></span><span class="st">${stt === 'done' ? '✅ concluída' : stt === 'doing' ? `◐ ${ss.total ? ss.pct + '%' : 'em andamento'}` : '○ não iniciada'}</span></a>`;
     }).join('');
     h += `<div class="lnav"><a class="btn" href="#/revisao/${esc(m.id)}">📖 Revisão do módulo</a><a class="btn" href="#/cartoes">🃏 Estudar cartões</a><button class="btn ghost" data-act="ankimod" data-k="${esc(m.id)}" title="Opcional: só se você quiser usar o Anki">⬇ Exportar para o Anki (opcional)</button><a class="btn" href="#/relatorio/${esc(m.id)}">📤 Relatório deste módulo</a></div>`;
     return h;
@@ -168,7 +169,7 @@
     const x = C.SES[sid]; if (!x) return notFound();
     const { s, m } = x, i = mods().indexOf(m), cc = modCol(m, i), ss = sesStats(sid), idx = C.ORDER.indexOf(sid), prev = C.ORDER[idx - 1], next = C.ORDER[idx + 1];
     const heads = (s.blocos || []).filter(b => b.t === 'etapa');
-    let h = `<div class="lesson"><div class="crumbs"><a href="#/">Início</a> › <a href="#/m/${esc(m.id)}">${md(m.titulo)}</a> › ${esc(sesLabel(s))}</div><div class="lhead" style="background:var(--p-${cc})"><span class="tag" style="background:var(--c-${cc})">${s.n != null && s.n !== '' ? 'Sessão ' + esc(s.n) : 'Aula'}${s.duracao ? ' · ' + s.duracao + ' min' : ''}</span><h1>${md(s.titulo)}</h1>${s.resumo ? `<p>${md(s.resumo)}</p>` : ''}${ss.total ? `<div class="pbar" style="margin-top:8px"><i style="width:${ss.pct}%;background:var(--c-${cc})"></i></div><div class="small muted" style="margin-top:3px">${ss.done}/${ss.total} exercícios feitos</div>` : ''}${heads.length ? `<div class="toc">${heads.map(b => `<a href="#/a/${esc(sid)}/${esc(b.id || 'etapa-' + b.n)}"><b>${esc(b.n)}</b> ${esc(plainT(b.titulo))}</a>`).join('')}</div>` : ''}${EN.conv ? `<div class="act" style="margin-top:10px"><button type="button" class="btn sm" data-chat="ses" data-k="${esc(sid)}" title="Copia um prompt pronto para colar numa conversa nova do ChatGPT e treinar este tema falando">💬 Treinar conversa com o ChatGPT (copiar prompt)</button></div>` : ''}</div>`;
+    let h = `<div class="lesson"><div class="crumbs"><a href="#/">Início</a> › <a href="#/m/${esc(m.id)}">${md(m.titulo)}</a> › ${esc(sesLabel(s))}</div><div class="lhead" style="background:var(--p-${cc})"><span class="tag" style="background:var(--c-${cc})">${isPrat(s) ? 'Prática ' + esc(s.n) : s.n != null && s.n !== '' ? 'Sessão ' + esc(s.n) : 'Aula'}${s.duracao ? ' · ' + s.duracao + ' min' : ''}</span><h1>${md(s.titulo)}</h1>${s.resumo ? `<p>${md(s.resumo)}</p>` : ''}${ss.total ? `<div class="pbar" style="margin-top:8px"><i style="width:${ss.pct}%;background:var(--c-${cc})"></i></div><div class="small muted" style="margin-top:3px">${ss.done}/${ss.total} exercícios feitos</div>` : ''}${heads.length ? `<div class="toc">${heads.map(b => `<a href="#/a/${esc(sid)}/${esc(b.id || 'etapa-' + b.n)}"><b>${esc(b.n)}</b> ${esc(plainT(b.titulo))}</a>`).join('')}</div>` : ''}${EN.conv ? `<div class="act" style="margin-top:10px"><button type="button" class="btn sm" data-chat="ses" data-k="${esc(sid)}" title="Copia um prompt pronto para colar numa conversa nova do ChatGPT e treinar este tema falando">💬 Treinar conversa com o ChatGPT (copiar prompt)</button></div>` : ''}</div>`;
     h += resumeHTML(sid);
     h += C.blocksHTML(s.blocos || [], { s, m });
     h += finishHTML(sid, next);
@@ -202,7 +203,7 @@
   function dueReviews() {
     const out = [];
     Object.keys(S.done).forEach(sid => {
-      if (!C.SES[sid]) return;
+      if (!C.SES[sid] || isPrat(C.SES[sid].s)) return; /* sessões de prática não agendam D+1/D+7/D+30 */
       const d = daysSince(S.done[sid]), due = MARKS.filter(m => d >= m && !S.rev[sid + ':' + m]);
       if (due.length) out.push({ sid, mark: due[due.length - 1], marks: due, d });
     });
@@ -226,7 +227,7 @@
     const due = dueReviews();
     let h = `<h1 class="pgtitle">📖 Revisão programada</h1><p class="muted">Cada sessão concluída volta em <b>D+1</b>, <b>D+7</b> e <b>D+30</b> (curva do esquecimento). Abra o material sintético, releia em voz alta e marque como revisado.</p><div class="sectitle">Para revisar agora <span class="sp muted">${due.length}</span></div>`;
     h += due.length ? due.map(dueRow).join('') : '<div class="card center" style="padding:26px"><div style="font-size:36px">✅</div><p class="muted" style="margin:0">Nenhuma revisão pendente. Conclua sessões para agendar as próximas.</p></div>';
-    h += '<div class="sectitle">Material de revisão por módulo</div>' + mods().map((m, i) => `<div class="card" style="margin:10px 0"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span style="font-size:22px">${esc(m.icone || '📘')}</span><b style="flex:1;min-width:160px">${md(m.titulo)}</b><a class="btn sm" href="#/revisao/${esc(m.id)}">Módulo inteiro</a></div><div class="mods" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px">${(m.sessoes || []).map(s => `<a class="btn sm ghost" href="#/revisao/${esc(s.id)}">${S.done[s.id] ? '✓ ' : ''}${esc(s.n != null && s.n !== '' ? 'S' + s.n : 'Início')}</a>`).join('')}</div></div>`).join('');
+    h += '<div class="sectitle">Material de revisão por módulo</div>' + mods().map((m, i) => `<div class="card" style="margin:10px 0"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span style="font-size:22px">${esc(m.icone || '📘')}</span><b style="flex:1;min-width:160px">${md(m.titulo)}</b><a class="btn sm" href="#/revisao/${esc(m.id)}">Módulo inteiro</a></div><div class="mods" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px">${(m.sessoes || []).map(s => `<a class="btn sm ghost" href="#/revisao/${esc(s.id)}">${S.done[s.id] ? '✓ ' : ''}${esc(isPrat(s) ? 'P' + s.n : s.n != null && s.n !== '' ? 'S' + s.n : 'Início')}</a>`).join('')}</div></div>`).join('');
     return h;
   }
 
@@ -278,7 +279,8 @@
     }).join('');
     h += '<div class="sectitle">Perfil e objetivos</div>' + T(['Item', 'Definição'], P.perfil || [], { firstCol: true });
     h += '<div class="sectitle">Método</div><ul class="bl">' + (P.metodo || []).map(([a, b]) => `<li><b>${esc(a)}:</b> ${md(b)}</li>`).join('') + '</ul>';
-    h += '<div class="sectitle">A sessão de 40 minutos</div><p class="muted">Todas as sessões seguem os mesmos 5 blocos: primeiro revisar, depois aprender, depois usar.</p>' + T(['Bloco', 'Min', 'O que fazer'], P.sessao || [], { firstCol: true });
+    h += '<div class="sectitle">A sessão de 40 minutos</div><p class="muted">As sessões guiadas seguem sempre os mesmos 5 blocos: primeiro revisar, depois aprender, depois usar.</p>' + T(['Bloco', 'Min', 'O que fazer'], P.sessao || [], { firstCol: true });
+    if (P.pratica) h += `<div class="sectitle">A sessão de prática</div><p class="muted">${md(P.pratica.intro || '')}</p>` + T(['Bloco', 'Min', 'O que fazer'], P.pratica.blocos || [], { firstCol: true });
     h += '<p><b>Pílulas</b> (momentos livres, sem compromisso de tempo):</p><ul class="bl">' + (P.pilulas || []).map(x => `<li>${md(x)}</li>`).join('') + '</ul>';
     h += `<div class="sectitle">Ciclo do módulo</div><p class="muted">${md((P.ciclo && P.ciclo.intro) || '')}</p><ol class="bl">${((P.ciclo && P.ciclo.passos) || []).map(x => `<li>${md(x)}</li>`).join('')}</ol>`;
     h += '<div class="sectitle">Recursos gratuitos</div><div class="tw"><table><tr><th>Recurso</th><th>Fases</th><th>Uso no plano</th></tr>' + (P.recursos || []).map(([n, u, f, uso]) => `<tr><td class="fc">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>` : esc(n)}</td><td>${esc(f)}</td><td>${md(uso)}</td></tr>`).join('') + '</table></div>';

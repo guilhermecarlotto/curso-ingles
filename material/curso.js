@@ -6,7 +6,7 @@ window.CURSO = {
     "titulo": "My English School",
     "subtitulo": "do A1 ao A2",
     "versao": "v2 · Módulos 1–9",
-    "descricao": "Do zero ao A2 em 9 módulos curtos (≈ 1 semana cada), sessões de 40 minutos e revisão espaçada com cartões próprios (sem precisar do Anki).",
+    "descricao": "Do zero ao A2 em 9 módulos de 2 semanas (≈ 18 semanas, 5 sessões de 40 minutos por semana), com sessões guiadas, sessões de prática e revisão espaçada com cartões próprios (sem precisar do Anki).",
     "anki": {
       "deck": "Inglês",
       "tag": "curso",
@@ -18,8 +18,8 @@ window.CURSO = {
     "objetivo": "Chegar ao nível **A2** (QECR): entender e usar frases do cotidiano sobre você, a família, a rotina, o trabalho, compras e lugares, e manter conversas simples e diretas.",
     "perfil": [
       ["Ponto de partida","Iniciante absoluto (A1)."],
-      ["Meta","Nível A2 do QECR, em 9 módulos (Fase 1 · A1: módulos 1–4; Fase 2 · A2: módulos 5–9)."],
-      ["Rotina","40 minutos por dia, 5 dias por semana, com 1 sessão livre para revisar."],
+      ["Meta","Nível A2 do QECR, em 9 módulos de 2 semanas (Fase 1 · A1: módulos 1–4; Fase 2 · A2: módulos 5–9). Concluir o curso leva cerca de 18 semanas (4 a 5 meses)."],
+      ["Rotina","40 minutos por dia, 5 dias por semana: 10 sessões por módulo (4 guiadas e 6 de prática)."],
       [
         "Vocabulário ativo",
         "360 palavras e expressões trabalhadas com os cartões do curso (40 por módulo), além de centenas de palavras de apoio em frases e leituras."
@@ -40,17 +40,26 @@ window.CURSO = {
       [10,"Input","Seções 4.x: ouvir e ler em voz alta e vídeo indicado."],
       [3,"Produção","Escrever frases suas com o que aprendeu."]
     ],
+    "pratica": {
+      "intro": "As sessões de prática (rótulo “Prática”) não trazem conteúdo novo: servem para fixar o que você acabou de ver. Duram 40 minutos e têm 4 blocos.",
+      "blocos": [
+        ["Cartões e revisão",10,"Revisão dos cartões vencidos (sem cartões novos) e um resumo do que você viu nas sessões anteriores."],
+        ["Exercícios",15,"Exercícios sobre os assuntos já estudados, com correção e explicação do erro."],
+        ["Ouvir e ler",10,"Ouvir e ler textos e frases curtas em voz alta, com palavras já conhecidas."],
+        ["Escrever",5,"Escrever frases suas e fazer um ditado curto."]
+      ]
+    },
     "pilulas": [
       "**Pulo do gato:** dicas de um minuto para destravar erros típicos de brasileiros.",
       "**Erros comuns:** frases erradas ao lado da forma certa.",
       "**Ouça e repita:** frases com áudio e destaque da palavra que está sendo falada."
     ],
     "ciclo": {
-      "intro": "Cada módulo dura mais ou menos uma semana: 4 sessões guiadas de 40 minutos e 1 sessão livre.",
+      "intro": "Cada módulo dura 2 semanas: 10 sessões de 40 minutos, sendo 4 guiadas (conteúdo novo) e 6 de prática (sem conteúdo novo: cartões, revisão, exercícios, leitura, áudio e escrita sobre o que você já viu).",
       "passos": [
-        "Sessões 1 a 3: conteúdo novo (gramática, vocabulário e exercícios).",
-        "Sessão 4: consolidação, mini-teste (sem gabarito no app) e relatório.",
-        "Sessão livre: Revisão programada e Caderno de erros, no seu ritmo.",
+        "Sessões guiadas: conteúdo novo (gramática, vocabulário e exercícios).",
+        "Sessões de prática: aparecem entre as guiadas, fixam o que acabou de ser visto e não trazem assunto novo.",
+        "Última sessão guiada: consolidação, mini-teste (sem gabarito no app) e relatório.",
         "Ao terminar, envie o relatório para a IA corrigir o mini-teste e ajustar o próximo módulo."
       ]
     },
@@ -116,6 +125,6 @@ window.CURSO = {
         "Não é necessário: o curso tem cartões próprios. Se preferir o Anki, exporte o arquivo de cada módulo."
       ]
     ],
-    "nota": "As Fases 3 e 4 ainda não têm conteúdo neste material: o foco desta versão é levar você até o A2. O vocabulário trabalhado ativamente é de 360 itens (muitos são frases-chave); chegar a 1.200 palavras ativas exige a próxima fase."
+    "nota": "Tempo realista: o curso completo soma cerca de 60 horas de estudo guiado (90 sessões de 40 minutos, em 18 semanas). Isso leva a um A2 inicial. Um A2 sólido costuma pedir de 100 a 200 horas de contato com o idioma, então use o tempo livre para ouvir, ler e assistir em inglês (vídeos da VOA, séries com legenda em inglês). As Fases 3 e 4 ainda não têm conteúdo neste material. O vocabulário trabalhado ativamente é de 360 itens (muitos são frases-chave); chegar a 1.200 palavras ativas exige a próxima fase."
   }
 };
